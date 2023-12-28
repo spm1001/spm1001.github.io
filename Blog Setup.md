@@ -2,15 +2,18 @@
 
 Useful resources are the [Github Pages setup](https://pages.github.com) and the Quarto [Github Pages guide](https://quarto.org/docs/publishing/github-pages.html)
 
-And for `git` setup, if doing on a new machine
+And for `git` setup, if doing on a new machine:
+
 1. Trying to use `git` should trigger install on MacOS
 2. Go and get Git Credential Manager from [here](https://github.com/git-ecosystem/git-credential-manager) - that's a nice, non-Java version that has a MacOS pkg file
 3. `git config --global user.name "spm1001"`
 4. `git config --global user.email "spm1001@users.noreply.github.com"`
 
-For the blog itself
+For the blog itself:
+
 1. Make a new repo called `username.github.io` - pick a `.gitignore` template (e.g. the Python one) but don't create a `Readme.md` yet
-2. Navigate to an empty directory and run the following
+2. Navigate to an empty directory and run the following:
+
 ```
 git clone https://github.com/spm1001/spm1001.github.io
 cd spm1001.github.io
@@ -34,7 +37,9 @@ git checkout main
 # Publish once manually
 quarto publish gh-pages
 ```
+
 3. Then create the Github Action per the instructions on the Quarto page. It's just creating a file in `.github/workflows` called `publish.yml` with the following contents. The magic with the curly brackets automatically populates with a secret when a Github machine runs it.
+
 ```
 on:
   workflow_dispatch:
