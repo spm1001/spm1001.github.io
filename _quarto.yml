@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Spm1001.github.io"
+  title: "spm1001.github.io"
   navbar:
     right:
       - about.qmd
@@ -12,8 +12,8 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
 
-
-
+execute:
+  freeze: auto

@@ -1,5 +1,5 @@
 ---
-title: "Spm1001.github.io"
+title: "spm1001.github.io"
 listing:
   contents: posts
   sort: "date desc"
