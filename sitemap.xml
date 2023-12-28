@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/spm1001/spm1001.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2023-12-28T18:09:30.564Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/spm1001/spm1001.github.io/index.html</loc>
-    <lastmod>2023-12-28T18:09:30.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/spm1001/spm1001.github.io/about.html</loc>
-    <lastmod>2023-12-28T18:09:29.232Z</lastmod>
+    <loc>https://github.com/spm1001/spm1001.github.io/Blog Setup.html</loc>
+    <lastmod>2023-12-28T18:33:38.872Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-12-28T18:09:30.256Z</lastmod>
+    <lastmod>2023-12-28T18:33:38.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/about.html</loc>
+    <lastmod>2023-12-28T18:33:37.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/index.html</loc>
+    <lastmod>2023-12-28T18:33:38.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2023-12-28T18:33:38.624Z</lastmod>
   </url>
 </urlset>
