@@ -2,18 +2,23 @@ project:
   type: website
 
 website:
-  title: "spm1001.github.io"
+  title: "Small Thoughts"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/spm1001
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sameermodha/
 format:
   html:
-    theme: flatly
+    theme: cosmo
     css: styles.css
+    code-overflow: wrap
+    code-tools:
+      source: true
+      toggle: true
+      caption: none
 
 execute:
   freeze: auto
