@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2015-10-13">
+<meta name="description" content="Early ruminations on the ‘openness’ of AMP">
 
-<title>Small Thoughts - About</title>
+<title>Small Thoughts - AMP, efficiency and openness</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,23 +59,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -121,17 +124,17 @@ cookieconsent.run({
   
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Small Thoughts</span>
     </a>
   </div>
@@ -142,7 +145,7 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -156,7 +159,7 @@ cookieconsent.run({
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -171,40 +174,78 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#atoms-apiece" id="toc-atoms-apiece" class="nav-link active" data-scroll-target="#atoms-apiece">Atoms apiece?</a></li>
+  <li><a href="#is-amp-open" id="toc-is-amp-open" class="nav-link" data-scroll-target="#is-amp-open">Is AMP ‘open’?</a></li>
+  <li><a href="#control-in-the-name-of-speed" id="toc-control-in-the-name-of-speed" class="nav-link" data-scroll-target="#control-in-the-name-of-speed">Control in the name of speed</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">About</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Quarto Source</button></div></div>
-</div>
-<div class="quarto-title-meta">
+<div class="quarto-title-block"><div><h1 class="title">AMP, efficiency and openness</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Quarto Source</button></div></div>
+  <div class="quarto-categories">
+    <div class="quarto-category">AMP</div>
   </div>
-</header><main class="content" id="quarto-document-content">
-<p>About this blog</p>
+  </div>
+
+<div>
+  <div class="description">
+    Early ruminations on the ‘openness’ of AMP
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 13, 2015</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">As usual on this blog views are my own and not any current or previous employer’s. Quite pleased looking back at this though - a pretty early pov on AMP and the risks alongside the efficiencies.</span></div></div>
+<p>One of the best things about BlackBerry in its heyday was that it worked hard to make the best of a rubbish mobile connection. It gave the user an illusion of speed and control, and got on with sending and receiving stuff in the background when it could. In effect the device did the waiting for you.</p>
+<p>Flash forward a decade or so and we see Facebook and Google doing the same thing with Instant Articles and AMP respectively.</p>
+<section id="atoms-apiece" class="level2">
+<h2 class="anchored" data-anchor-id="atoms-apiece">Atoms apiece?</h2>
+<p>Instant Articles is much commented on so there’s not much I can add here, but the main thing to remember is that we are now seeing a separation of the discovery layer from the hosting of the content; separation of the headline and snippet, from the full article. It’s as if the front page of the website has been ripped off, torn up and put somewhere else, the somewhere being a feed of some kind.</p>
+<p>All the Buzzfeed articles for example, live on a website called, strangely enough, buzzfeed.com, but that is a matter of sublime indifference because almost no-one goes there to start with. That’s just the place where the stuff is <em>hosted</em>. The place where people <em>see</em> all the headlines is Facebook, and Instant Articles is Facebook’s Blackberry-like attempt to smooth the transition between the two because frankly, they are better at doing speedy mobile stuff than almost anyone else.</p>
+<p>Except maybe Google, which brings me to AMP. Took me a while to get my head round this, and understand what it actually is. For one thing, it is called Accelerated Mobile Pages, but of course, these days that’s just like saying Accelerated Pages. Yes browser time might only be a fifth of the time we spend on our mobile devices but that’s still an awful lot of time.</p>
+</section>
+<section id="is-amp-open" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="is-amp-open">Is AMP ‘open’?</h2>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Can’t help thinking of Rubin’s disingenuous tweet about how ‘open’ Android was. Obviously he’s done worse since things since then, but the smugness and deceit of <a href="https://techcrunch.com/2010/10/19/andy-rubin-twitter">that tweet</a> still sticks in my craw</span></div></div>
+<p>The other thing that confused me was all the stuff about how ‘open’ it was. Obviously, from a positioning point of view this spin is designed to engage to Publishers worried about Facebook’s stranglehold on mobile attention in general and Instant Articles in particular. Note the wide range of launch partners they’ve signed up includes some of the online publishers who are most thoughtful about the technologies they use, such as the BBC and the Guardian. (If you don’t believe me look at the <a href="http://www.nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html">stats</a> the NYT did recently on page load times of different websites, and just read anything on the <a href="http://www.bbc.co.uk/blogs/internet">BBC Internet Blog</a>.)</p>
+<p>In essence AMP is just some nice libraries and standards, which, if used and followed, make your site much more zippy than it would be if you tried to do it without Google’s help. This is partly through Google’s offer of free cacheing of the Publisher’s AMPed stuff to deliver it more quickly, and partly by relaying a lot of what Google has learned about how to engineer for speed. Which is a lot. AMP provides a bunch of turbo-charged, Google-written libraries to do common things like display images, animations, videos and, oh look, advertising.</p>
+<p>Ah.</p>
+</section>
+<section id="control-in-the-name-of-speed" class="level2">
+<h2 class="anchored" data-anchor-id="control-in-the-name-of-speed">Control in the name of speed</h2>
+<p>If you look <a href="https://github.com/ampproject/amphtml/blob/master/builtins/amp-ad.md">here</a> you can see the AMP library for serving ads. Still in its infancy, it uses tricks to tame all our greedy tracking code, but maybe this is where AMP becomes slightly less open. I could be being paranoid, but as you’ll see if you follow the link, it is starting with a very select group of Ad Networks: AOL, Amazon, the somewhat less well-known AdReactor and, er, Google in both AdSense and DoubleClick flavours.</p>
+<p>Admittedly, if the adblocking debates have taught us anything it is that we advertisers have corrupted the mobile Eden with our javascript serpents, lusting after Knowledge, but do we want Google to play God here? “On thy belly shalt though go, and dust shalt though eat all the days of thy life, and I will put enmity between thee and consumer and between thy code and her identity. And it shall bruise thy head, and though shalt buy only my audience targeting signals.”</p>
 
 
 <!-- -->
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -225,6 +266,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -483,24 +531,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "About"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> profile.jpg</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">about:</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  template: jolla</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  links:</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: twitter</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">      text: Twitter</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://twitter.com</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: linkedin</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">      text: LinkedIn</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://linkedin.com</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: github</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">      text: Github</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://github.com</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>About this blog</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "AMP, efficiency and openness"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2015-10-13"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [AMP]</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"> "Early ruminations on the 'openness' of AMP"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span> </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">As usual on this blog views are my own and not any current or previous employer's. Quite pleased looking back at this though - a pretty early pov on AMP and the risks alongside the efficiencies.</span><span class="co">]</span>{.aside}</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>One of the best things about BlackBerry in its heyday was that it worked hard to make the best of a rubbish mobile connection. It gave the user an illusion of speed and control, and got on with sending and receiving stuff in the background when it could. In effect the device did the waiting for you. </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Flash forward a decade or so and we see Facebook and Google doing the same thing with Instant Articles and AMP respectively. </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## Atoms apiece?</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Instant Articles is much commented on so there's not much I can add here, but the main thing to remember is that we are now seeing a separation of the discovery layer from the hosting of the content; separation of the headline and snippet, from the full article. It's as if the front page of the website has been ripped off, torn up and put somewhere else, the somewhere being a feed of some kind.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>All the Buzzfeed articles for example, live on a website called, strangely enough, buzzfeed.com, but that is a matter of sublime indifference because almost no-one goes there to start with. That's just the place where the stuff is *hosted*. The place where people *see* all the headlines is Facebook, and Instant Articles is Facebook's Blackberry-like attempt to smooth the transition between the two because frankly, they are better at doing speedy mobile stuff than almost anyone else. </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>Except maybe Google, which brings me to AMP. Took me a while to get my head round this, and understand what it actually is. For one thing, it is called Accelerated Mobile Pages, but of course, these days that's just like saying Accelerated Pages. Yes browser time might only be a fifth of the time we spend on our mobile devices but that's still an awful lot of time.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## Is AMP 'open'?</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Can't help thinking of Rubin's disingenuous tweet about how 'open' Android was. Obviously he's done worse since things since then, but the smugness and deceit of [that tweet](https://techcrunch.com/2010/10/19/andy-rubin-twitter) still sticks in my craw</span><span class="co">]</span>{.aside}</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>The other thing that confused me was all the stuff about how 'open' it was. Obviously, from a positioning point of view this spin is designed to engage to Publishers worried about Facebook's stranglehold on mobile attention in general and Instant Articles in particular. Note the wide range of launch partners they've signed up includes some of the online publishers who are most thoughtful about the technologies they use, such as the BBC and the Guardian. (If you don't believe me look at the <span class="co">[</span><span class="ot">stats</span><span class="co">](http://www.nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html)</span> the NYT did recently on page load times of different websites, and just read anything on the <span class="co">[</span><span class="ot">BBC Internet Blog</span><span class="co">](http://www.bbc.co.uk/blogs/internet)</span>.)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>In essence AMP is just some nice libraries and standards, which, if used and followed, make your site much more zippy than it would be if you tried to do it without Google's help. This is partly through Google's offer of free cacheing of the Publisher's AMPed stuff to deliver it more quickly, and partly by relaying a lot of what Google has learned about how to engineer for speed. Which is a lot. AMP provides a bunch of turbo-charged, Google-written libraries to do common things like display images, animations, videos and, oh look, advertising. </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Ah. </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">## Control in the name of speed</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>If you look <span class="co">[</span><span class="ot">here</span><span class="co">](https://github.com/ampproject/amphtml/blob/master/builtins/amp-ad.md)</span> you can see the AMP library for serving ads. Still in its infancy, it uses tricks to tame all our greedy tracking code, but maybe this is where AMP becomes slightly less open. I could be being paranoid, but as you'll see if you follow the link, it is starting with a very select group of Ad Networks: AOL, Amazon, the somewhat less well-known AdReactor and, er, Google in both AdSense and DoubleClick flavours.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>Admittedly, if the adblocking debates have taught us anything it is that we advertisers have corrupted the mobile Eden with our javascript serpents, lusting after Knowledge, but do we want Google to play God here? "On thy belly shalt though go, and dust shalt though eat all the days of thy life, and I will put enmity between thee and consumer and between thy code and her identity. And it shall bruise thy head, and though shalt buy only my audience targeting signals."</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
