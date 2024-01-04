@@ -10,6 +10,10 @@ website:
         href: https://github.com/spm1001
       - icon: linkedin
         href: https://www.linkedin.com/in/sameermodha/
+      - icon: rss
+        href: blog.xml
+  google-analytics: G-HKL2T85FW9
+  cookie-consent: true
 format:
   html:
     theme: cosmo
@@ -18,7 +22,7 @@ format:
     code-tools:
       source: true
       toggle: true
-      caption: none
+      caption: Quarto Source
 
 execute:
   freeze: auto
