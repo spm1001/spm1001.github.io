@@ -6,7 +6,7 @@ description:
   "Heavy, heavy-hearted users"
 --- 
 
-[I no longer use Evernote or Omnifocus. I'm probbaly a bit less worried about this now.]{.aside}
+[I no longer use Evernote or Omnifocus. I'm probably a bit less worried about this now.]{.aside}
 
 
 I am a heavy user of both Evernote and Omnifocus. They are on all my bits of glass. I use them hundreds of times a week. They are deeply integrated into my life, my workflow and other apps.
