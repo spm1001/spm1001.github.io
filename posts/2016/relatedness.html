@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2016-05-15">
-<meta name="description" content="Heavy, heavy-hearted users">
+<meta name="description" content="How much should you bundle targeting signals, and how?">
 
-<title>Small Thoughts - A Needle in my Bread</title>
+<title>Small Thoughts - Why relatedness matters</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -175,22 +175,28 @@ cookieconsent.run({
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#similar-people-similar-things" id="toc-similar-people-similar-things" class="nav-link active" data-scroll-target="#similar-people-similar-things">Similar people, similar things</a></li>
+  <li><a href="#facebook-clusters-related-signals" id="toc-facebook-clusters-related-signals" class="nav-link" data-scroll-target="#facebook-clusters-related-signals">Facebook clusters related signals</a></li>
+  <li><a href="#google-leaves-it-to-the-user" id="toc-google-leaves-it-to-the-user" class="nav-link" data-scroll-target="#google-leaves-it-to-the-user">Google leaves it to the user</a></li>
+  <li><a href="#intent-keyword" id="toc-intent-keyword" class="nav-link" data-scroll-target="#intent-keyword">Intent ≠ Keyword</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">A Needle in my Bread</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Quarto Source</button></div></div>
-  <div class="quarto-categories">
-    <div class="quarto-category">Complaints</div>
-  </div>
-  </div>
+<div class="quarto-title-block"><div><h1 class="title">Why relatedness matters</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Quarto Source</button></div></div>
+</div>
 
 <div>
   <div class="description">
-    Heavy, heavy-hearted users
+    How much should you bundle targeting signals, and how?
   </div>
 </div>
 
@@ -211,18 +217,36 @@ cookieconsent.run({
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">I no longer use Evernote or Omnifocus. I’m probably a bit less worried about this now.</span></div></div>
-<p>I am a heavy user of both Evernote and Omnifocus. They are on all my bits of glass. I use them hundreds of times a week. They are deeply integrated into my life, my workflow and other apps.</p>
-<p>And I loathe them both.</p>
-<p>Of course I use them because they both do valuable things for me.</p>
-<p>Evernote lets me have all my reading and note taking in one place. It is the only ‘read later’ app I know that can accept email attachments and sync them. Except that the background sync never works, it crashes on me whenever I try to do something complex, and the screen layouts are thoughtless. I would move in a clock tick, but there’s nothing I can move to.</p>
-<p>Omnifocus is the same. Cross-device syncing works well, it is loosely GTD which suits me, and I can get things out of my head and into the app in seconds. But processing things in my task inbox is a nightmare. I have to tag everything with Context and Location before they get tidied away. The views are Quixotic to the point of making me want to smash a windmill. And for some unknown reason Projects keep showing up in lists that should only have tasks. And don’t try and do anything remotely difficult in the mobile apps.</p>
-<p>FWP of course. My point is that I would move if I could, but some of the features that matter to me aren’t done well anywhere else.To steal from Christopher Logue’s unbelievably out of print <a href="http://www.amazon.co.uk/Kings-Account-Books-Homers-Iliad/dp/0571161413">Kings</a>, they are ‘a needle in my bread’. I try new apps all the time, but keep coming back to these two like a dog to its own vomit. (Which I thought was (Beckett)[https://en.m.wikipedia.org/wiki/Proust_(Beckett_essay)], but is, I assume, Beckett referencing Proverbs.)</p>
-<p>I wonder if their user research is giving them any clue that this is happening? How could you design telemetry to capture heavy and heavy-hearted users?</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Quite pleased with this - spotting in 2016 that keywords needed clustering into higher order intents. Mildly amusing that in the days of Performance Max we still have search ‘experts’ complaining about the death of the keyword.</span></div></div>
+<section id="similar-people-similar-things" class="level2">
+<h2 class="anchored" data-anchor-id="similar-people-similar-things">Similar people, similar things</h2>
+<p>A lot of the online data we’re working with these days depends on making links between things that are similar. Similar products, similar people, similar needs.</p>
+<p>Amazon says ‘this book is like these other books because the same people browse or buy them’. Facebook says ‘these people are like these other people because they share the same interests’. Google says ‘these searches are like these other searches because people found the same results page helpful’.</p>
+<p>One important practical difference though, is in how resemblance is managed by the platform.</p>
+</section>
+<section id="facebook-clusters-related-signals" class="level2">
+<h2 class="anchored" data-anchor-id="facebook-clusters-related-signals">Facebook clusters related signals</h2>
+<p>In Facebook land, the grouping of likes and pages into interests, and their ascription to people, is handled by them. They have put algorithms (and some sensible questions that they ask when you’re setting up a Page) to work to enable you to target people on the basis of their interest in say, charitable giving, without having to worry whether someone’s ‘like’ of the Kitty Heaven page is actually endorsement of a massage parlour rather than a cat charity.</p>
+<p>Furthermore, this is done across countries using the same list of headings. I can target people on their Facebook interest in ‘Charity and causes’ - which is real by the way - and I don’t need to worry how to define charities in Brazil versus Spain.</p>
+</section>
+<section id="google-leaves-it-to-the-user" class="level2">
+<h2 class="anchored" data-anchor-id="google-leaves-it-to-the-user">Google leaves it to the user</h2>
+<p>In Google’s case however, for search advertising, management of resemblance is done manually by the advertiser. Search marketers have to decide word-by-word what counts as important vocabulary for the brands and campaigns in question, so they can bid on those words. If I want to cover lots of countries, I need to manage large lists of words for each language in turn.</p>
+<p>This is not very scalable, and adds a lot of complexity to managing search compared to managing Facebook campaigns, but at the same time affords a lot of control. In some ways there is a parallel with how Google approaches Android - giving the user the ability to mess with things, even to the point where they mess them up.</p>
+<p>By contrast, Facebook is much more Apple-esque here, giving buyers of media on its properties a higher-order set of consructs to work with, but excluding users from fine-grained control.</p>
+</section>
+<section id="intent-keyword" class="level2">
+<h2 class="anchored" data-anchor-id="intent-keyword">Intent ≠ Keyword</h2>
+<p>In the world of user-facing technology Google’s stance is understandable, but one wonders how long this will carry on in a search context. After all, agencies make their money on search by managing lists of words and transacting them on the Google’s platform. A lot of legwork goes into managing these lists especially across languages and country borders, but with the ever present drive for growth, and the ever shrinking scope of places to get it from, it wouldn’t surprise me if Google had ambitions to expand along the search value chain.</p>
+<p>What if, for example, they had an automated, higher-order grouping of words around key brands and topics. Rather than making me buy all the words separately {cat charity, feline foundation, cat protection league, caridad del gato} I could just buy {cat charity} and Google would just take care of it.</p>
+<p>They already see all the words all the advertisers buy, as well as, of course, all the related things that people search for and find as a result, and for a machine learning company, one can’t imagine it would be all that difficult to produce a Facebook-like set of unified buying primitives that worked across countries and langauges.</p>
+<p>Arguably they have already done it. In some ways the Knowledge Vault that Google <a href="http://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf">wrote about in this paper</a> in 2014 is exactly this sort of high level “structured repository of knowledge that is language independent”.</p>
+<p>To the best of my knowledge it isn’t possible to do search marketing against this construct, but one wonders how long that will remain the case.</p>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -510,29 +534,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "A Needle in my Bread"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Why relatedness matters"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2016-05-15"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [Complaints]</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> []</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  "Heavy, heavy-hearted users"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  "How much should you bundle targeting signals, and how?"</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span> </span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">I no longer use Evernote or Omnifocus. I'm probably a bit less worried about this now.</span><span class="co">]</span>{.aside}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Quite pleased with this - spotting in 2016 that keywords needed clustering into higher order intents. Mildly amusing that in the days of Performance Max we still have search 'experts' complaining about the death of the keyword.</span><span class="co">]</span>{.aside}</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>I am a heavy user of both Evernote and Omnifocus. They are on all my bits of glass. I use them hundreds of times a week. They are deeply integrated into my life, my workflow and other apps.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>And I loathe them both.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Of course I use them because they both do valuable things for me.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>Evernote lets me have all my reading and note taking in one place. It is the only 'read later' app I know that can accept email attachments and sync them. Except that the background sync never works, it crashes on me whenever I try to do something complex, and the screen layouts are thoughtless. I would move in a clock tick, but there's nothing I can move to. </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>Omnifocus is the same. Cross-device syncing works well, it is loosely GTD which suits me, and I can get things out of my head and into the app in seconds. But processing things in my task inbox is a nightmare. I have to tag everything with Context and Location before they get tidied away. The views are Quixotic to the point of making me want to smash a windmill. And for some unknown reason Projects keep showing up in lists that should only have tasks. And don't try and do anything remotely difficult in the mobile apps.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Similar people, similar things</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>A lot of the online data we’re working with these days depends on making links between things that are similar. Similar products, similar people, similar needs.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>Amazon says ‘this book is like these other books because the same people browse or buy them’. Facebook says ‘these people are like these other people because they share the same interests’. Google says ‘these searches are like these other searches because people found the same results page helpful’.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>One important practical difference though, is in how resemblance is managed by the platform.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Facebook clusters related signals</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>In Facebook land, the grouping of likes and pages into interests, and their ascription to people, is handled by them. They have put algorithms (and some sensible questions that they ask when you’re setting up a Page) to work to enable you to target people on the basis of their interest in say, charitable giving, without having to worry whether someone’s ‘like’ of the Kitty Heaven page is actually endorsement of a massage parlour rather than a cat charity. </span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>FWP of course. My point is that I would move if I could, but some of the features that matter to me aren't done well anywhere else.To steal from Christopher Logue's unbelievably out of print <span class="co">[</span><span class="ot">Kings</span><span class="co">](http://www.amazon.co.uk/Kings-Account-Books-Homers-Iliad/dp/0571161413)</span>, they are 'a needle in my bread'. I try new apps all the time, but keep coming back to these two like a dog to its own vomit. (Which I thought was (Beckett)<span class="co">[</span><span class="ot">https://en.m.wikipedia.org/wiki/Proust_(Beckett_essay)</span><span class="co">]</span>, but is, I assume, Beckett referencing Proverbs.)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Furthermore, this is done across countries using the same list of headings. I can target people on their Facebook interest in ‘Charity and causes’ - which is real by the way - and I don’t need to worry how to define charities in Brazil versus Spain. </span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>I wonder if their user research is giving them any clue that this is happening? How could you design telemetry to capture heavy and heavy-hearted users?</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Google leaves it to the user</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>In Google’s case however, for search advertising, management of resemblance is done manually by the advertiser. Search marketers have to decide word-by-word what counts as important vocabulary for the brands and campaigns in question, so they can bid on those words. If I want to cover lots of countries, I need to manage large lists of words for each language in turn. </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>This is not very scalable, and adds a lot of complexity to managing search compared to managing Facebook campaigns, but at the same time affords a lot of control. In some ways there is a parallel with how Google approaches Android - giving the user the ability to mess with things, even to the point where they mess them up. </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>By contrast, Facebook is much more Apple-esque here, giving buyers of media on its properties a higher-order set of consructs to work with, but excluding users from fine-grained control.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">## Intent ≠ Keyword</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>In the world of user-facing technology Google’s stance is understandable, but one wonders how long this will carry on in a search context. After all, agencies make their money on search by managing lists of words and transacting them on the Google’s platform. A lot of legwork goes into managing these lists especially across languages and country borders, but with the ever present drive for growth, and the ever shrinking scope of places to get it from, it wouldn’t surprise me if Google had ambitions to expand along the search value chain. </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>What if, for example, they had an automated, higher-order grouping of words around key brands and topics. Rather than making me buy all the words separately {cat charity, feline foundation, cat protection league, caridad del gato} I could just buy {cat charity} and Google would just take care of it.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>They already see all the words all the advertisers buy, as well as, of course, all the related things that people search for and find as a result, and for a machine learning company, one can’t imagine it would be all that difficult to produce a Facebook-like set of unified buying primitives that worked across countries and langauges.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Arguably they have already done it. In some ways the Knowledge Vault that Google <span class="co">[</span><span class="ot">wrote about in this paper</span><span class="co">](http://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)</span> in 2014 is exactly this sort of high level “structured repository of knowledge that is language independent”. </span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>To the best of my knowledge it isn’t possible to do search marketing against this construct, but one wonders how long that will remain the case.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

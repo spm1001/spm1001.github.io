@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/spm1001/spm1001.github.io/Blog Setup.html</loc>
-    <lastmod>2024-01-04T13:50:10.560Z</lastmod>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2024/text.html</loc>
+    <lastmod>2024-01-18T10:50:14.700Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/spm1001/spm1001.github.io/posts/2016/dishwashers.html</loc>
-    <lastmod>2024-01-04T13:50:09.856Z</lastmod>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2024/slides.html</loc>
+    <lastmod>2024-01-18T10:50:13.760Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2016/relatedness.html</loc>
+    <lastmod>2024-01-18T10:50:12.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2016/vegetarian.html</loc>
+    <lastmod>2024-01-18T10:50:11.580Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/posts/2015/efficiency.html</loc>
-    <lastmod>2024-01-04T13:50:08.944Z</lastmod>
+    <lastmod>2024-01-18T10:50:10.088Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/about.html</loc>
-    <lastmod>2024-01-04T13:50:07.616Z</lastmod>
+    <lastmod>2024-01-18T10:50:08.424Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/index.html</loc>
-    <lastmod>2024-01-04T13:50:08.416Z</lastmod>
+    <lastmod>2024-01-18T10:50:09.556Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/posts/2015/needle.html</loc>
-    <lastmod>2024-01-04T13:50:09.324Z</lastmod>
+    <lastmod>2024-01-18T10:50:10.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2016/adblock.html</loc>
+    <lastmod>2024-01-18T10:50:12.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/spm1001/spm1001.github.io/posts/2016/dishwashers.html</loc>
+    <lastmod>2024-01-18T10:50:13.412Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/spm1001/spm1001.github.io/posts/2024/welcome.html</loc>
-    <lastmod>2024-01-04T13:50:10.268Z</lastmod>
+    <lastmod>2024-01-18T10:50:14.428Z</lastmod>
   </url>
 </urlset>

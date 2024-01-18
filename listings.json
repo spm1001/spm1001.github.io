@@ -2,8 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024/slides.html",
+      "/posts/2024/text.html",
       "/posts/2024/welcome.html",
       "/posts/2015/needle.html",
+      "/posts/2016/vegetarian.html",
+      "/posts/2016/adblock.html",
+      "/posts/2016/relatedness.html",
       "/posts/2016/dishwashers.html",
       "/posts/2015/efficiency.html"
     ]
