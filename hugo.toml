@@ -1,0 +1,4 @@
+baseURL = 'https://spm1001.planetmodha.com'
+languageCode = 'en-gb'
+title = 'spm1001'
+theme = 'hugo-theme-stack'
