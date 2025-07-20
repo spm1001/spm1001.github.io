@@ -6,7 +6,7 @@ description:
   "How much should you bundle targeting signals, and how?"
 --- 
 
-[Quite pleased with this - spotting in 2016 that keywords needed clustering into higher order intents. Mildly amusing that in the days of Performance Max we still have search 'experts' complaining about the death of the keyword.]{.aside}
+> _2025 hindsight: Quite pleased with this - spotting in 2016 that keywords needed clustering into higher order intents, and that buying intents rather than words was where the product needed to go. Mildly amusing that in the days of Performance Max we still have search 'experts' complaining about the death of the keyword. Google presumably wants to get rid of them all - better to have the machines choosing the words than people. (Although better for whom most of all is a fun question...)_
 
 
 ## Similar people, similar things

@@ -2,7 +2,7 @@
 title: "WPP Fellowship Twentieth Anniversary Dinner"
 date: 2015-09-15
 ---
-> _2025 Hindsight: [Jon Steel](https://www.amazon.co.uk/Perfect-Pitch-Selling-Winning-Business/dp/0471789763) kindly asked me to do the speech at the 20th anniversary of the WPP Fellowship. The scheme is no longer operating but for many years it was a great way into the marketing services industry, especially for those who, like me, wouldn't have the confidence to get in the normal way, through one of the creative agency grad schemes._
+> _2025 Hindsight: [Jon Steel](https://www.amazon.co.uk/Perfect-Pitch-Selling-Winning-Business/dp/0471789763) kindly asked me to do the speech at the 20th anniversary of the WPP Fellowship. The scheme is no longer operating but for many years it was a great way into the marketing services industry, especially for those who, like me, wouldn't have the confidence, connections of chutzpah to get in the normal way, through one of the creative-agency grad schemes._
 
 For those of you who don’t know me - I’m Sameer Modha. I joined the Fellowship in 1995 in its first year and, as I’ve spent most of the subsequent 20 years in the Group, Jon kindly asked me to say a few words on behalf of us all.
 

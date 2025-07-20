@@ -6,7 +6,7 @@ description:
   "No-one cares about dishwasher content online, but some people pretend to"
 --- 
 
-[Seems a bit laboured now, as I look back on it, but I remain genuinely delighted every time I re-fill my dishwasher.]{.aside}
+> _2025 Hindsight: Seems a bit laboured now, as I look back on it, but I remain genuinely enchanted, every time I reload my dishwasher, by those 70s engineers. And man, Black Hat SEO got much worse than it was then..._
 
 ## A glory of 1970s tech
 There’s something peaceful in replenishing the vital fluids of a dishwasher. The trio of alkaline powder, salt for the zeolite resin and rinse aid to let the water dry in sheets instead of drops, is one of the glories of 1970s technology. None of your 3-in-1 rubbish for me thank you very much. 

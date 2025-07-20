@@ -3,6 +3,8 @@ title: "Notes on Tim Hartford's 'Messy'"
 date: "2016-12-23"
 --- 
 
+> _2025 Hindsight: Hmm - I probably don't live enough by these principles. I might need to go and re-read the book._
+
 # Tim Hartford - Messy
 
 ## Do it in parallel
@@ -72,10 +74,5 @@ What are the tasks for humans in an algorithmic world? How can we manage the man
 Work across different domains to stay fresh
 Seek dissent to improve ideas
 Ask off-beam questions 
-Unfile
-
-Seek dissent
-Spin plates
-Unfile
-
+Unfile things - make disorder your friend
 
