@@ -1,6 +1,6 @@
 ---
 title: "Whose browser is it anyway?"
-date: "2016-05-15"
+date: 2016-05-15
 description:
   "Answer: Nachos"
 --- 

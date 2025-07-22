@@ -1,6 +1,6 @@
 ---
 title: "A Needle in my Bread"
-date: "2016-05-15"
+date: 2016-05-15
 description: "Heavy, heavy-hearted users"
 categories: Whingeing
 ---
