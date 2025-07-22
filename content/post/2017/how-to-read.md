@@ -1,6 +1,6 @@
 ---
 title: "How To Read"
-date: "2017-03-06"
+date: 2017-03-06
 
 --- 
 # How to read?
