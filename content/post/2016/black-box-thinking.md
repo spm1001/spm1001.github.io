@@ -1,7 +1,7 @@
 ---
 title: "Notes from reading Matthew Syed's 'Black Box Thinking'"
 date: 2016-08-25
-Categories: “Dweck”
+Categories: [Book Notes]
 ---
 
 > _Hindsight, 2025 Edition: Syed was a big influence on me both via [this](https://www.amazon.co.uk/Black-Box-Thinking-Surprising-Success-ebook/dp/B00PW634YQ) and his [previous book](https://www.amazon.co.uk/Bounce-Myth-Talent-Power-Practice-ebook/dp/B003P2WJ18). Possibly too much, as his articulation of Carol Dweck's ideas was super-persuasive and probably net negative in terms of my parenting. Or as my eldest would put it these days “I fucking hate fucking Carol Dweck". But some things have stuck - that I should look for evidence that disproves an idea, that I should go to where the disagreement and tension are in organisations, even if it is painful (and some of my colleagues would probably agree lol) - because disagreement makes the ideas better. It also reminds me of my [favourite Pixar story](https://www.quora.com/Did-Pixar-accidentally-delete-Toy-Story-2-during-production/answer/Oren-Jacob), where the culprit was known but not blamed, but, in fact, protected to this day...unlike, sadly, the lady whose SGI Workstation saved the day._

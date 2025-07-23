@@ -2,6 +2,7 @@
 title: "On being a vegetarian butcher"
 date: 2016-05-15
 description: "How much of a hypocrite am I really?"
+categories: [Adblocking]
 ---
 
 > _2025 Hindsight: This was a talk for the [Feed](https://www.feed.xyz/about) breakfast which the wonderful Mark Robinson invited me to. Their essay question was "How do you see one-to-one marketing and relationships, and how does that impact your daily life?" Not sure if I really answered it, but I probably still think most of the things I wrote here except the ones that have been proven spectacularly wrong, like the rise of ad-funding for streamers..._

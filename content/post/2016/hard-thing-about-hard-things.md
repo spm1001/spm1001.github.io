@@ -1,6 +1,7 @@
 ---
 title: "Notes on Ben Horowitz' 'The Hard Thing About Hard Things'"
 date: 2016-12-04
+categories: [Book Notes]
 ---
 > _2025 Hindsight Edition: I re-read this scrappy set of notes expecting to dislike it, in line with my memory of the book, but actually I think these are useful nuggets. I certainly treat 121s now as the employee's meeting, and have a very different approach to doing them to when I first started managing (terribly, btw, and I'm sorry to the people I was supposed to be looking after then.)_
 

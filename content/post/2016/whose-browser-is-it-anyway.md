@@ -1,11 +1,11 @@
 ---
 title: "Whose browser is it anyway?"
 date: 2016-05-15
-description:
-  "Answer: Nachos"
+description: "Answer: Nachos"
+categories: [Adblocking]
 --- 
 
-> _2025 Hindsight: I'm still ambivalent about aggressive forms of ad insertion, and still aware that that's an odd position given what I do for a living. But in the end, I'd still say business models can't be protected by user-hostility. Not for ever anyway. I still feel strongly about control over devices, and the idea that content producers' business models are not consumers' problems. I also think running adblocking software (probably DNS adblocking) is still the best way to understand adtech plumbing._
+> _2025 Hindsight: I'm still ambivalent about aggressive forms of ad insertion, and still aware that that's an odd position given what I do for a living. But in the end, I'd say business models can't be protected by user-hostile approaches. Not forever anyway. I still feel strongly about control over devices, and the idea that content producers' business models are not consumers' problems. I also think running adblocking software (especially DNS adblocking) is still the best way to understand adtech plumbing._
 
 There's a recent [research piece](https://oriel.io/blog/adblocking-blocking-more-than-ads/) doing the rounds from Oriel.io - who sell anti-adblocking software. 
 

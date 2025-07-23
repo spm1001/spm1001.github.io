@@ -1,8 +1,12 @@
 ---
 title: "How To Read"
 date: 2017-03-06
-
+categories: [Current Awareness]
+Description: "2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then."
 --- 
+
+> _2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or maybe I've gotten complacent. Also, there's a reference to the book 'Chaos Monkeys' which is meant neither as an endorsement of him as a person, nor of his attitudes to women, but the book still has lots of useful historical information on the early days of Facebook ad products even if you have to hold your nose while reading it._
+
 # How to read?
 Or perhaps a better title would be ’how to edit’. We all have to keep informed about a lot of fast moving stuff for what we do - ’header bidding, ’privacy policy’, ’verification’, ’messaging apps’ - and information comes at us from all sides, but we don't often talk about how we deal with it. 
 
@@ -103,10 +107,6 @@ Pocket, by contrast doesn't accept anything which it can't access from its serve
 
 I have an email address setup where I forward important email attachments. There is then a Zapier listener which looks out for email attachments and then saves them to Google Drive. Then another one turns Google Drive docs into PDFs and sends them to my Pocket account. 
 
-There isn't an easy way to publiush the Zapier recipes in all their detail but broadly like this:
-
-/Screen Shot 2017-03-14 at 15.02.56.png
-
 ### Low volume RSS not in Apple News
 So not every source I find interesting has published itself on Apple News yet, so there are a few blind spots. I have whittled down my list of RSS feeds to those which are high quality and low volume, and those feeds get a direct line straight into Pocket.
 
@@ -121,7 +121,9 @@ Tim Wu, [*The Master Switch*](https://www.amazon.co.uk/d/Books/Master-Switch-Ris
 
 Susan Crawford, [*Captive Audience*](https://www.amazon.co.uk/Captive-Audience-Telecom-Industry-Monopoly/dp/0300205708/) is also similarly regulatory focused, and similarly gripping. 
 
-Cathy O'Neil's [*Weapons of Math Destruction*](https://www.amazon.co.uk/Weapons-Math-Destruction-Increases-Inequality/dp/0241296811/) is a good account of the dark side of machine learning, as, weirdly is Tim Harford's [*Messy*](https://www.amazon.co.uk/d/Books/Messy-How-Be-Creative-Resilient-Tidy-Minded-World/1408706768/) as well as covering all sorts of other things. Am also a fan of Matthew Syed, and his [*Black Box Thinking*](https://www.amazon.co.uk/gp/product/B00PW634YQ/) is worth a pop, even if you're not into all that growth mindset stuff.
+Cathy O'Neil's [*Weapons of Math Destruction*](https://www.amazon.co.uk/Weapons-Math-Destruction-Increases-Inequality/dp/0241296811/) is a good account of the dark side of machine learning, as, weirdly is Tim Harford's [*Messy*](https://www.amazon.co.uk/d/Books/Messy-How-Be-Creative-Resilient-Tidy-Minded-World/1408706768/) as well as covering all sorts of other things.
+
+Am also a fan of Matthew Syed, and his [*Black Box Thinking*](https://www.amazon.co.uk/gp/product/B00PW634YQ/) is worth a pop, even if you're not into all that growth mindset stuff.
 
 [*The Hard Thing About Hard Things*](https://www.amazon.co.uk/Hard-Thing-About-Things-Building/dp/0062273205/) and [*Chaos Monkeys*](https://www.amazon.co.uk/Chaos-Monkeys-Inside-Silicon-machine/dp/1785034545/) are both good Valley books, as of course is [*High Output Management*](https://www.amazon.co.uk/High-Output-Management-Andrew-Grove/dp/0679762884/) by Andy Grove. 
 

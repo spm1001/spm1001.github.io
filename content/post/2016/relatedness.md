@@ -1,7 +1,7 @@
 ---
 title: "Why relatedness matters"
 date: 2016-05-15
-categories: []
+categories: [Similarity]
 description: "How much should you bundle targeting signals, and how?"
 --- 
 

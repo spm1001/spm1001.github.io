@@ -5,7 +5,7 @@ description: "Heavy, heavy-hearted users"
 categories: Whingeing
 ---
 
-> _2025 Hindsight: I think the idea was maybe interesting but not enough follow-through. Probably something that Product Analysts should ask themselves though? But the Logue translation still rocks. I no longer use Evernote or Omnifocus, so I'm probably a bit less worried about this now. I changed an 'and' to a 'but' in the last sentence._
+> _2025 Hindsight: I think the idea was maybe interesting but not enough follow-through. Probably something that Product Analysts should be asking themselves though. That said, the Christopher Logue translation still rocks. I no longer use Evernote or Omnifocus, so I'm probably a bit less worried about this now. I changed an 'and' to a 'but' in the last sentence._
 
 I am a heavy user of both Evernote and Omnifocus. They are on all my bits of glass. I use them hundreds of times a week. They are deeply integrated into my life, my workflow and other apps.
 

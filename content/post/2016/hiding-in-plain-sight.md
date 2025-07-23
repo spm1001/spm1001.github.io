@@ -1,7 +1,7 @@
 ---
 title: "Hiding in Plain Sight"
 date: 2016-05-15
-Categories: “Guilt”
+categories: [Guilt]
 --- 
 
 > _2025 Hindsight: Pretty early perhaps to be bemoaning the demise of the 'publications formerly known as print newspapers', and a bit underdeveloped, but again, not bad in pointing to a worrying thing._
