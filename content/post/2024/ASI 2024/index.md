@@ -4,6 +4,7 @@ date: "2024-08-01"
 categories: [ASI 2024]
 description:
   "Presentation I gave at ASI 2024 in Venice trying to sharpen the Outcomes pitch."
+image: ASI2024_3.png
 ---
 
 ![](ASI2024_0.png)

@@ -3,6 +3,7 @@ title: "Collateral Knowledge"
 date: 2022-07-27
 categories: [Juice those models]
 Description: "Presentation at the Entertainment Data Science conference in 2022"
+image: pinterest.jpg
 ---
 > _2025 Hindsight: I had to resist the temptation to rewrite this much more than some of the older material. Distinct lack of editing, and a very forgiving audience on the sunny day in LA when I presented it at the Entertainment Data Science conference who put up with my terrible time-keeping. The core idea of value from production models still makes some sense I think - if we're seeing a split between large general purpose ones and domain/problem-specific ones, then the latter are worth getting more value out of._
 
