@@ -2,11 +2,11 @@
 title: "Notes on Tim Hartford's 'Messy'"
 date: 2016-12-23
 categories: [Book Notes]
+image: messy.jpg
 --- 
 
 > _2025 Hindsight: Hmm - I probably don't live enough by these principles. I might need to go and re-read the book._
 
-# Tim Hartford - Messy
 
 ## Do it in parallel
 Scientists who produced strings of breakthrough papers kept changing the subject. 

@@ -26,7 +26,8 @@ Some suggest Katex is a good renderer for equations like this $$x = {-b \pm \sqr
 So to get that working I needed to add to the theme I'm using, as it doesn't support by default. Fortunately there were a couple of helpful resources for this:
 
 - There is a link [here](https://katex.org/docs/autorender.html) on the Katex site to a code block like the one below. Go get the version there as it might have changed. Apparently linking to javascript assets without integrity checks and frozen versions is a bad thing. Who knew? 
-```
+
+```zsh
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css" integrity="sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js" integrity="sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
@@ -34,7 +35,7 @@ So to get that working I needed to add to the theme I'm using, as it doesn't sup
 ``` 
 - This [blogger](https://kevcaz.github.io/notes/hugo/katex_and_goldmark/) managed to get past tetchy [threads](https://discourse.gohugo.io/t/use-goldmark-mathjax-extension/25721/12) on the Hugo discussion site, and came up with a way of telling Katex to 'listen' for the conventional delimiters `$$` and `$` by adding
 
-```
+```zsh
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
@@ -50,7 +51,7 @@ So to get that working I needed to add to the theme I'm using, as it doesn't sup
 - And, to be fair, the theme maintainer has some handy hints [here](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/content/posts/math-typesetting.md) but the amount to the same thing
 
 1. Concenate the bits of code from above, and save as `math.html` in `/layouts/partials`. It'll look something like this
-```
+```zsh
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css" integrity="sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js" integrity="sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"

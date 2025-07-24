@@ -3,9 +3,10 @@ title: "The Signal and the Eyeball"
 date: 2021-04-18
 description:  "Paying to advertise is now as much about buying the targeting signal as it is the space in front of someone's eyeballs. But how will that play out over the next few years and what's a content owner to do?"
 Categories: [Bergemann and Bonatti]
+image: "Selling Cookies.png"
 ---
 
-> _2025 Hindsight: Pretty good again I think. Or maybe I'm just not self-critical enough. Meta did indeed weather ATT and come out stronger. 
+> _2025 Hindsight: Pretty good again I think. Or maybe I'm just not self-critical enough. Meta did indeed weather ATT and come out stronger. I need to re-read those papers though._
 
 As the rest of the ad world chews through the impact of various privacy preserving changes that are happening, there’s an interesting piece [here](https://www.linkedin.com/pulse/what-audiences-inside-amazon-dsp-eldad-sotnick-yogev/) about Amazon’s DSP, from Eldad at *We Are Liberty*, which got me thinking again about signals and eyeballs. 
 
