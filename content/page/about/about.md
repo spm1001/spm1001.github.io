@@ -5,7 +5,7 @@ menu:
     main:
         weight: 2
         params: 
-            icon: archives
+            icon: user
 ---
 
 # Notes to Self
