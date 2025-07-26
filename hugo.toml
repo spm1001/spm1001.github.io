@@ -2,16 +2,17 @@ baseURL = 'https://spm1001.planetmodha.com'
 languageCode = 'en-gb'
 title = 'spm1001'
 theme = 'hugo-theme-stack' #'reveal-hugo'
+timeout = 100000
+
 
 [params]
     rssFullContent = false
 
-timeout = 100000
-
 [markup.goldmark.renderer]
-unsafe = true
+    unsafe = true
 
 [outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
+    baseName = "index"
+    mediaType = "text/html"
+    isHTML = true
+
