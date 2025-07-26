@@ -30,7 +30,11 @@ So in summary
 
 Hence here, the first bit is the `summary` front matter and the secon bit of text is from the `description`
 
-![](summary-vs-description.png) 
+![](in-buffer.png)
+
+Whereas on the site itself, it will ignore the `summary` and use the `description`, so it makes sense to put (something like) the `summary` at the top of the article as well. 
+
+![](on-site.png) 
 
 ### Submodule Handling
 
