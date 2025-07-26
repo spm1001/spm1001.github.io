@@ -21,7 +21,7 @@ It's a collection of stuff I've written, said and thought over the years. And in
 
 ## Why bother with a website these days?
 
-Fair question. Two related reasons:
+Fair question. Two related answers:
 
 1. I can't guarantee that anything I do which appears anywhere else will stay there forever. This way I can have it all somewhere that's my responsibility to manage - think of it as a 'website-of-last-resort'.
 
@@ -36,5 +36,5 @@ In a world where audiences fund their media as much as advertisers do, I’m int
 
 ## Why `spm1001`?
 
-`spm1001@cam.ac.uk` was my first ever email address. I think it was just because I was the first with the initials 'spm' and that was the naming convention - so the next 'spm' would have got `spm1002` - but I like the fact it can also be thought of as binary. 
+`spm1001@cam.ac.uk` was my first ever email address. I think it was just because I was the first with the initials 'spm' and that was the naming convention - so the next 'spm' would have got `spm1002` - but I like the fact it can also be thought of as binary. I remember having to access email via a client called PINE. 'Why's it called PINE' I hear you ask? Well, because 'Pine Is Not Elm' of course. 
 
