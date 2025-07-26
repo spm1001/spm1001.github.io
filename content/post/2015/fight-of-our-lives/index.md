@@ -3,11 +3,12 @@ title: "The Fight of Our Lives (2015)"
 date: 2015-07-06
 image: page_5.png
 Categories: [Rise of the Platforms]
-Description: "My attempt to be a Cassandra at the Mindshare global conference in Valencia (at least I think it was there anyway) was damn near spot on, even if my choice of images left a lot to be desired."
+Description: "Cosplaying Cassandra at the Mindshare global conference in Valencia (at least I think it was there anyway) circa 2015. My choice of images left a lot to be desired but I think the predictions have held up pretty well."
+Summary: "This summary is independent of the content."
 Weight: 1
 ---
 
-> _2025 Hindsight: The data estate mapping stuff is a bit hard to follow, but 'kinell this was on the money. Disintermediation of big agencies. Rise of the platforms. Rising costs of audience measurement combined with falling utility in the face of viewing fragmentation and tail-per distribution of what people watch. Critical nature and scarcity of good quality identity, and specifically cross-device identity. It's all there. Hell there's even a nod to Google's weakness versus Amazon. Oh and a prediction of the fall of Xandr. Shame I couldn't persuade enough other people to do something about it... but look at that last paragraph!_
+> _2025 Hindsight: The data estate mapping is a bit rough, but otherwise this was on the money. Disintermediation of big agencies. Rise of the platforms. Rising costs of audience measurement combined with falling utility in the face of viewing fragmentation and tail-per distribution of what people watch. Critical nature and scarcity of good quality identity, and specifically cross-device identity. It's all there. Hell there's even a nod to Google's weakness versus Amazon. Oh and a prediction of the fall of Xandr. Shame I couldn't persuade enough other people to do something about it..._
 
 ![](page_1.png)
 
