@@ -1,6 +1,16 @@
-/* Custom CSS for centering site name under avatar */
+/* In your your-hugo-site/assets/scss/custom.scss */
 
-/* Make the overall header content a flex container, stacking items and centering them */
+/* Make the overall sidebar container a flex column and center its content */
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center all its direct children horizontally */
+    width: 100%; /* Ensure it takes full width for centering to be effective */
+    box-sizing: border-box; /* Include padding/border in the width */
+    /* Remove any existing display/flex properties from here if they conflict in theme CSS */
+}
+
+/* Original centering for avatar/site-name (keep this for inner structure of the header) */
 .left-sidebar header .sidebar-header-content {
     display: flex;
     flex-direction: column; /* Stack avatar and site-meta vertically */
@@ -21,21 +31,34 @@
     margin: 0 auto; /* This can help center block-level elements */
     display: block; /* Ensure it behaves as a block for margin auto to work */
 }
-/* Custom CSS for social icons */
+
+/* Ensure the social menu itself is a flex container and its items are centered */
+.menu-social {
+    display: flex; /* Make the list itself a flex container */
+    justify-content: center; /* Center the icons within the social menu */
+    width: 100%; /* Ensure it takes full width within the sidebar */
+    padding: 10px 0; /* Add some vertical padding, remove horizontal if exists */
+    list-style: none; /* Remove default list bullet points */
+    margin-bottom: 20px; /* Add space below social icons */
+}
+
+/* Add some spacing between individual social icons */
+.menu-social li {
+    margin: 0 8px; /* Adjust spacing between icons as desired */
+}
+
 /* Apply consistent sizing to ALL social SVGs */
 .menu-social svg {
-    /* Set a fixed size, e.g., 24px or larger */
-    height: 20px; /* Adjust this value if you want them larger or smaller */
-    width: 20px;  /* Adjust this value if you want them larger or smaller */
-
-    /* The following are for Lucide-like icons which are outlined */
+    height: 24px; /* Set a fixed size for all icons */
+    width: 24px;
     stroke: currentColor;
-    stroke-width: 2; /* Adjust to match the visual thickness of Lucide icons */
+    stroke-width: 2;
     fill: none;
 }
 
 /* Specific styling for the Bit.ly icon (which is filled) */
-.menu-social svg.lucide-bitly { /* Targets the SVG by the class we added */
+.menu-social svg.lucide-bitly { /* Targets the SVG by the class we added in its file */
     fill: currentColor;   /* Make it solid with the text color */
     stroke: none;         /* Ensure it has no outline */
+    opacity: 0.6;         /* Reduce opacity to make it visually lighter */
 }

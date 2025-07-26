@@ -10,9 +10,26 @@ copyright = 'Sameer Modha'
 [pagination]
 pagerSize = 50
 
+
 [params]
     rssFullContent = false
     favicon = "/favicon.ico"
+
+    # Nested tables for article, colorScheme, footer, and sidebar
+    [params.article]
+        math = true
+
+    [params.colorScheme]
+        toggle = false
+        default = "light"
+
+    [params.footer]
+        since = 2015
+        customText = "These opinions may have been mine, but certainly don't represent those of any past, present or indeed future employer"
+
+    [params.sidebar]
+        subtitle = "This is a subtitle" # Your subtitle is here
+
 
 [menu]
     # Define your main menu if you have one, e.g.:
@@ -51,17 +68,6 @@ pagerSize = 50
             icon = "brand-bitly" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
 
 
-[params.article]
-    math = true
-
-[params.colorScheme]
-toggle = false
-default = "light"
-
-[params.footer]
-since = 2015
-customText = "These opinions may have been mine, but certainly don't represent those of any past, present or indeed future employer"
-
 [markup.goldmark.renderer]
     unsafe = true
 
@@ -69,4 +75,3 @@ customText = "These opinions may have been mine, but certainly don't represent t
     baseName = "index"
     mediaType = "text/html"
     isHTML = true
-
