@@ -164,10 +164,9 @@ However, there’s a big gulf between that and where we are today. There are som
 It’s all aggregated in the end so the privacy issues are manageable, but we really need to get a move on. Audience measurement just ain’t gonna cut it. 
 
 
+{{< youtube Bfb77G47hU  >}}
 
-![](Slide14.png)
-
-And here’s a quick pep talk from Edna
+And here’s a quick pep talk from Edna to remind you of your greatness. 
 
 
 ![](Slide15.png)

@@ -5,6 +5,7 @@ image: page_5.png
 Categories: [Rise of the Platforms]
 Description: "My attempt to be a Cassandra at the Mindshare global conference in Valencia (at least I think it was there anyway) was damn near spot on, even if my choice of images left a lot to be desired."
 Weight: 1
+rssfullcontent: false
 ---
 
 > _2025 Hindsight: The data estate mapping stuff is a bit hard to follow, but 'kinell this was on the money. Disintermediation of big agencies. Rise of the platforms. Rising costs of audience measurement combined with falling utility in the face of viewing fragmentation and tail-per distribution of what people watch. Critical nature and scarcity of good quality identity, and specifically cross-device identity. It's all there. Hell there's even a nod to Google's weakness versus Amazon. Oh and a prediction of the fall of Xandr. Shame I couldn't persuade enough other people to do something about it... but look at that last paragraph!_
@@ -15,40 +16,59 @@ Hello, my name is Sameer. My background is mostly in strategic planning and I wo
 
 ![](page_2.png)
 
+
+# Why we exist
+
+
 But before we get to the future, I’d like to start by looking back. When I do inductions for new people in the office I always ask them why we exist. Not in some deep philosophical sense, as I usually save that kind of talk for the bar, but why we, corporately, media agencies exist.
 
 They are generally young of course, and few of them know.
 
 Most of you in the room today will remember, many better than me, why we exist, but I think it's worth us all reminding ourselves that we were born of scarcity; born in the brutal fight for a scarce resource, because there is another fight coming, and I think it is going to be the fight of our lives.
 
-At that time, publishers had control of the scarce resource. In this case TV airtime, that was in ever growing demand. This meant they could charge higher and higher prices because, frankly, no one was there to stop them. In the end the only way advertisers could regain some power was to pool their money. It didn't come easily to a lot of them, especially the larger ones, because of the way the market had historically worked. In fact it was the smaller clients that went first, gathering together in the shelter of the bucket shops – but the logic of scale, once it got going, was unstoppable. As those of you who lived through that period of rampant TV price inflation will know, that's the reason we are all here today. The reason Mindshare, and ultimately GroupM, were born.
+At that time, publishers had control of the scarce resource. In this case TV airtime, that was in ever growing demand. This meant they could charge higher and higher prices because, frankly, no one was there to stop them. In the end the only way advertisers could regain some power was to pool their money. It didn't come easily to a lot of them, especially the larger ones, because of the way the market had historically worked.
+
+In fact it was the smaller clients that went first, gathering together in the shelter of the bucket shops – but the logic of scale, once it got going, was unstoppable. As those of you who lived through that period of rampant TV price inflation will know, that's the reason we are all here today. The reason Mindshare, and ultimately GroupM, were born.
 
 ![](page_3.png)
+
+# Since then we've thrived
 
 And hey, we’ve all done pretty well. Just 10 years ago, the big media groups controlled maybe 50% of global media spend. In 2013, 70% of all media money spent worldwide was spent out of one of 6 big groups. Now I don’t have the real figures, those are just RECMA, but even then, to go from maybe 150 billion of client money handled in the top groups, to 300 billion -­ that’s not a bad record.
 
 ![](page_4.png)
 
+# Powered by Audience Measurement
+
 And one of the things that’s amazing when you stop to think about it, is that all of that flow of cash, all those billions of dollars, travel from advertiser to publisher on the strength of a tiny bit of money that we spend on measurement. Media currency information is all around us, so we tend to take it for granted, but the structures of the JICs and their thoughtful methodologies and their weighting and their systems for accessing their data are pretty amazing things. It is independent data, that everyone agrees to use and to pay for, but in reality it’s more than that…
 
 ![](page_5.png)
+
+# Tiny but Mighty
 
 It’s like a giant power transistor, where thumping amounts of current are able to flow because of a tiny little trickle of information fed in the right place. Any of you who have built or repaired your own amplifiers will immediately recognise this as a power transistor of course, but even if you haven’t, look at how tiny the base wire is, compared to everything else.
 
 ![](page_6.png)
 
+# Which costs us nothing
+
 And it really is a tiny cost. We might grumble about them, especially when the systems are down, but the contracts for a BARB or any other TV audience measurement system, even with all the fancy stuff they are adding these days, are in the low tens of millions per country. They’re under pressure at the moment for reasons I’ll come on to, but on the whole, these systems probably cost much maybe 1 or 2% of the total amount of money that is traded on the back of them.
 
 ![](page_7.png)
+
+# Because, statistics
 
 And that in turn is down to the magic of statistics. When the screens can only show one of a handful of things – a few thousand programmes and tens of commonly watched channels – you don’t need to be able to measure all those millions of viewers. You just take a sample and scale it up to represent the total population. Yes you have to fiddle around to make sure it is reliable and representative, but through some independent currency research a few thousand people can be used reliably to represent millions of others just like them. It’s probably one of the most highly leveraged examples of statistics to control real money that I’m aware of, and one of the earliest examples of large scale ‘behavioural’ research
 
 ![](page_8.png)
 
+# But now there are more screens...
+
 We go on and on about the rise in mobile, but it has happened so staggeringly fast that it hasn’t really sunk in yet. So I think it is important to keep going on about it. Even in the past couple of years, the number of addressable screens per head in Europe has gone from somewhere between 1 and 2, to between 2 or 3 per person.
 
 Now that might not sound like much but bear in mind that that is a really gross average across the whole population – all the ageing European grannies and granddads are in that statistic, and we’ve still reached nearly three screens per head in the blink of an eye. People are desperate to have this stuff. And it isn’t zero sum. I mean, there is some substitution of course, but as far as we can tell, the total amount of screen time we are cramming into every day is going up and up.
 
+# ...lots of screens
 
 Online time for the world (or at least the 2-­3 billion people who have any money worth mentioning, so half the world in reality I guess) has gone up, according to our own Interaction data, from 2.5 hours a day to over 3.3. These bits of glass, these glowing rectangles, are so compelling that we’re finding nearly an extra hour every day to stare at them and we’ve changed our habits that much in just four years. Just to put that into context, it took American dads over FORTY years to find the time to do an extra hour of housework a day. But an extra hour of screen time? No problem.
 
@@ -56,19 +76,27 @@ We’re now all surrounded by lots of little bits of computerised glass. And thi
 
 ![](page_9.png)
 
+# Which breaks currency independence
+
 So now the people with the best measure of what’s going on all those screens are the people who control what is being put on them. In fact, the only people who can actually measure what is going on are the people who are putting those things on those screens. The people with vast, consumer-­facing businesses that spend their time developing stuff that people like looking at on all these bits of glass.
 
 I like to say that these people have actually beaten the research panel guys at their own game. When I have a Kantar people meter in my home, I click a box to say I give them permission to use my data, and they give me some loyalty points I can redeem, for a toaster or something like that. With a Google people meter, I click a box to say that I give them permission to use my data and they give me Gmail. I like that trade much more, and so do billions of other people. And if you think that’s silly and Google don’t actually have a people meter, what do you think the millions of Nest thermostats out there are doing?
 
 ![](page_10.png)
 
+# And gives platforms more power
+
 And of course the main impact of this loss of currency independence is that it gives those publishers much more power, and the same power (or at least some of it) to any other publishers who are integrated with their systems. And that doesn’t just mean some of the traditional media brands like the NYT or the Guardian – it also means every 16 year-­old app developer who is putting the finishing touches to their magnum opus, and decides to make some money from advertising by connecting to one of the major advertising systems. In a few clicks they can make their inventory and their data available to Google, and effectively benefit from the scarce information that Google has control of.
 
 ![](page_11.png)
 
+# What do you pay for an 'impression'?
+
 One way to understand it is to look at the breakdown of the media cost in a typical programmatic buy. So where the slide before earlier was all European TV ad spend, this is the cost of just one impression to one person on one screen. I love this example, because in going from the extreme macro to the tiny, micro, we can see a glimpse of our future. In programmatic-­world, everything gets a separate price, and we can split them all out. Now we see a few things here – there are the little mosquito bites of cost that different players take along the way for verification, adserving etc, but look at the two biggest elements of the cost: there’s a chunk of money that goes to pay for the actual media space itself, but almost as much money goes on the cost of information about who is looking at that space.
 
 ![](page_12.png)
+
+# Renting signals as well as pixels
 
 So instead of one media cost…
 

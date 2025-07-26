@@ -3,6 +3,8 @@ languageCode = 'en-gb'
 title = 'spm1001'
 theme = 'hugo-theme-stack' #'reveal-hugo'
 
+rssFullContent = false
+
 timeout = 100000
 
 [markup.goldmark.renderer]
