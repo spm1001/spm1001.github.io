@@ -1,0 +1,41 @@
+/* Custom CSS for centering site name under avatar */
+
+/* Make the overall header content a flex container, stacking items and centering them */
+.left-sidebar header .sidebar-header-content {
+    display: flex;
+    flex-direction: column; /* Stack avatar and site-meta vertically */
+    align-items: center;   /* Horizontally center the items (avatar and site-meta) */
+    width: 100%; /* Ensure it takes full width to enable centering */
+    box-sizing: border-box; /* Include padding/border in the width */
+}
+
+/* Ensure the text within site-meta is also centered */
+.left-sidebar .site-meta {
+    text-align: center;
+    /* Optional: Adjust margins if needed, e.g., to reduce space between avatar and name */
+    /* margin-top: 10px; */
+}
+
+/* Optional: Center the avatar if it's not perfectly centered by default flex behavior */
+.left-sidebar .site-avatar {
+    margin: 0 auto; /* This can help center block-level elements */
+    display: block; /* Ensure it behaves as a block for margin auto to work */
+}
+/* Custom CSS for social icons */
+/* Apply consistent sizing to ALL social SVGs */
+.menu-social svg {
+    /* Set a fixed size, e.g., 24px or larger */
+    height: 20px; /* Adjust this value if you want them larger or smaller */
+    width: 20px;  /* Adjust this value if you want them larger or smaller */
+
+    /* The following are for Lucide-like icons which are outlined */
+    stroke: currentColor;
+    stroke-width: 2; /* Adjust to match the visual thickness of Lucide icons */
+    fill: none;
+}
+
+/* Specific styling for the Bit.ly icon (which is filled) */
+.menu-social svg.lucide-bitly { /* Targets the SVG by the class we added */
+    fill: currentColor;   /* Make it solid with the text color */
+    stroke: none;         /* Ensure it has no outline */
+}

@@ -2,8 +2,10 @@ baseURL = 'https://spm1001.planetmodha.com'
 languageCode = 'en-gb'
 title = 'spm1001'
 theme = 'hugo-theme-stack' #'reveal-hugo'
-timeout = "60s"
-defaultContentLanguage = "en"
+timeout = '60s'
+defaultContentLanguage = 'en'
+copyright = 'Sameer Modha'
+
 
 [pagination]
 pagerSize = 50
@@ -13,25 +15,41 @@ pagerSize = 50
     favicon = "/favicon.ico"
 
 [menu]
-    [[social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/CaiJimmy/hugo-theme-stack"
-    [[social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/CaiJimmy/hugo-theme-stack"
+    # Define your main menu if you have one, e.g.:
+    # [[main]]
+    #   identifier = "home"
+    #   name = "Home"
+    #   url = "/"
+    #   weight = 10
 
-    [social.params]
-    icon = "brand-github"
+    # Social links - each [[social]] creates a new item in the social menu
 
-    [[social]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com"
+    [[menu.social]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://linkedin.com/in/sameermodha" # CHANGE THIS TO YOUR ACTUAL LINKEDIN PROFILE URL
+        weight = 10
+        [menu.social.params]
+            icon = "brand-linkedin" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
 
-    [social.params]
-    icon = "brand-twitter"
+
+    [[menu.social]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/spm1001"
+        weight = 20 # Optional: Controls order, lower number appears first
+        [menu.social.params]
+            icon = "brand-github" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
+
+
+    [[menu.social]]
+        identifier = "bitly"
+        name = "Bit.ly"
+        url = "https://bit.ly/m/sameermodha"
+        weight = 30 # Optional: Controls order, lower number appears first
+        [menu.social.params]
+            icon = "brand-bitly" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
+
 
 [params.article]
     math = true
