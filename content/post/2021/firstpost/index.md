@@ -2,10 +2,11 @@
 title: "First Post!"
 date: 2021-04-17
 categories: [Static Sites]
-description: "This is the summary that will appear on the homepage. Ideally I don't want to add a separate 'read more' link manually as the theme should do it. But it turns out Hugo wants a hint…"
+summary: "2025 Hindsight: A tradition of every attempt to rebuild my 'home on the internet' is one of these - a recursive, technical commentary on the process of building and testing the site."
+description: "Explanation of how I built a version of my website in 2021 using Hugo."
 ---
 
-> *2025 Hindsight: A tradition of every attempt to rebuild my 'home on the internet' is one of these - some sort of technical commentary on the process of building and testing it.* 
+> _2025 Hindsight: A tradition of every attempt to rebuild my 'home on the internet' is one of these - some sort of technical commentary on the process of building and testing it.*_
 
 ## Introduction
 I want to host articles somewhere I can link to, but I don’t want to bother with managing a site. So am setting up a static site using Hugo, and GitHub Actions so when I push a new markdown post, it automatically appears on site. 

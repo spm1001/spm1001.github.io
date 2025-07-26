@@ -1,6 +1,7 @@
 ---
 title: "The Signal and the Eyeball"
 date: 2021-04-18
+summary: "2025 Hindsight: Pretty good POV for the time I think. Or maybe I'm just not self-critical enough. Meta did indeed weather ATT and come out stronger. I need to re-read those papers though."
 description:  "Paying to advertise is now as much about buying the targeting signal as it is the space in front of someone's eyeballs. But how will that play out over the next few years and what's a content owner to do?"
 Categories: [Bergemann and Bonatti]
 image: "Selling Cookies.png"

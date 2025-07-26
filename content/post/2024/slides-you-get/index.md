@@ -3,8 +3,11 @@ title: "Slides you get"
 date: 2024-01-16
 outputs: ["Reveal"]
 categories: [Broken Slides]
+summary: "This doesn't work yet, but it will"
+description: "This is meant to be a demo of how to get slide presentations embedded in my site, using a template that invokes Reveal.js"
 ---
 
+> _This doesn't work yet, but it will_
 
 # Slide 1
 ---

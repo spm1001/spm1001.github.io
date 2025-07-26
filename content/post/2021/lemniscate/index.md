@@ -2,11 +2,12 @@
 title: "Lemniscate Empathy"
 date: 2021-04-20
 image: lemniscate.jpg
-description: "The lemniscate. That funny infinity symbol on Apple Music, hides a model that feels like it's tuned just right. But how do you engineer empathy?"
+summary: "2025 Hindsight: Still feels overwritten sadly, but there is an idea here - 'how does the development system of modern big tech adapt to checking for vibes'? Of course we know the answer now in the context of LLMs, but chalk another one up to Mystic Modha I guess, given tha this was 2021..."
+description: "The lemniscate. That funny infinity symbol on Apple Music, hides a model that feels like it's tuned just right. But how do you engineer for empathy?"
 categories: [Autoplay]
 ---
 
-> _2025 Hindsight: Still feels very 'written' sadly, but there is an idea here - how does the development system of modern big tech adapt to checking for 'vibes'? Of course we know the answer now in the context of LLMs, but chalk another one up to Mystic Modha I guess?_
+> _2025 Hindsight: Still feels overwritten sadly, but there is an idea here - 'how does the development system of modern big tech adapt to checking for vibes'? Of course we know the answer now in the context of LLMs, but chalk another one up to Mystic Modha I guess, given tha this was 2021..._
 
 Models are everywhere now. So many products we use have moved on from hand-tuned heuristics (`if email contains 'viagra' then spam = 1`) to programs that haven't actually been programmed at all, but *taught* to do a job, as Ben Evans puts it, like a million interns. 
 

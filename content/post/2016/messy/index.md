@@ -1,8 +1,10 @@
 ---
-title: "Notes on Tim Hartford's 'Messy'"
+title: "Notes on Tim Harford's 'Messy'"
 date: 2016-12-23
 categories: [Book Notes]
 image: messy.jpg
+summary: "2025 Hindsight: Hmm - I probably don't live enough by these principles. I might need to go and re-read the book"
+description: "Snippets from Tim Harford's book on the perils of intellectual tidiness."
 --- 
 
 > _2025 Hindsight: Hmm - I probably don't live enough by these principles. I might need to go and re-read the book._

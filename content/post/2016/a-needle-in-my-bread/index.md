@@ -4,6 +4,8 @@ date: 2016-05-15
 description: "Heavy, heavy-hearted users"
 categories: Whingeing
 image: logue.jpg
+summary: "2025 Hindsight: I think the idea was maybe interesting but not enough follow-through. Probably something that Product Analysts should be asking themselves though. That said, the Christopher Logue translation still rocks and I no longer use Evernote or Omnifocus, so I'm probably a bit less worried about this now."
+description: "Once you're locked-in to using an app, it can be a miserable place to be."
 ---
 
 > _2025 Hindsight: I think the idea was maybe interesting but not enough follow-through. Probably something that Product Analysts should be asking themselves though. That said, the Christopher Logue translation still rocks. I no longer use Evernote or Omnifocus, so I'm probably a bit less worried about this now. I changed an 'and' to a 'but' in the last sentence._

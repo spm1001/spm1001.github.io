@@ -2,9 +2,9 @@
 title: "Dishwashers and SEO"
 date: 2016-05-15
 categories: [70s Technology]
+summary: "2025 Hindsight: I remain genuinely enchanted, every time I reload my dishwasher, by those 70s engineers. But man, Black Hat SEO has become *so* much worse than it was back then..."
 description: "No-one cares about dishwasher content online, but some people pretend to."
 --- 
-
 
 > _2025 Hindsight: I remain genuinely enchanted, every time I reload my dishwasher, by those 70s engineers. But man, Black Hat SEO has become *so* much worse than it was back then..._
 

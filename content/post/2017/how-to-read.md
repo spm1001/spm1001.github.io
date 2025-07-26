@@ -2,10 +2,11 @@
 title: "How To Read"
 date: 2017-03-06
 categories: [Current Awareness]
-Description: "2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then."
+summary: "2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or perhaps I've just become complacent?"
+Description: "Piece on how I used systematically to scan various sites/podcasts  to gather useful information on the industry."
 --- 
 
-> _2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or maybe I've gotten complacent. Also, there's a reference to the book 'Chaos Monkeys' which is meant neither as an endorsement of him as a person, nor of his attitudes to women, but the book still has lots of useful historical information on the early days of Facebook ad products even if you have to hold your nose while reading it._
+> _2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or maybe I've gotten complacent. Also, there's a reference to the book 'Chaos Monkeys' which is meant neither as an endorsement of him as a person, nor of his attitudes to women, but the book still has lots of useful historical information on the early days of Facebook ad products, even if you have to hold your nose while reading it._
 
 # How to read?
 Or perhaps a better title would be ’how to edit’. We all have to keep informed about a lot of fast moving stuff for what we do - ’header bidding, ’privacy policy’, ’verification’, ’messaging apps’ - and information comes at us from all sides, but we don't often talk about how we deal with it. 
@@ -40,7 +41,7 @@ But broadly I feel as though I can get through a lot of stuff, on a lot of topic
 And one last technical note - a lot of this happens on a mobile device (iOS in my case) where the sharing features are massively powerful. Whether I am in a browser, or another app, the share button instantly lets me add anything good to Pocket, for me to read later. The Pocket setup walks you through this fairly well. 
 
 ## What I read
-I wrote a ['things to read'](https://planetmodha.com/things-to-read) post a while back which mostly still stands. I've tweaked the sources a little, but the big change since I wrote that is in how I read them.
+I wrote a 'things to read' post a while back which mostly still stands. I've tweaked the sources a little, but the big change since I wrote that is in how I read them.
 
 ### Apple News
 I used to scan a vast range of RSS feeds manually, but  that got to be too much of burden and I need a bit of machine help. I could of course have used the biggest algorithmic news feed on the planet, and have filtered everything through Facebook, but I'm old-fashioned enough to want to keep my news separate from other stuff, so Apple News it was. 

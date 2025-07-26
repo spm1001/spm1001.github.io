@@ -2,11 +2,12 @@
 title: "Fear Geeks Bearing Gifts"
 date: 2015-10-13
 categories: [Suckers]
+summary: "2025 Hindsight: Not bad here actually. There definitely *was* more to AMP than met the eye - an early shot in Google's push to ad-tech dominance, just a couple of years before [Jedi Blue](https://en.wikipedia.org/wiki/Jedi_Blue). (Man, I really thought Header Bidding and Atlas were the mutts' nuts back then.)"
 description: "Early ruminations on the 'openness' of AMP"
 image: Accelerated_Mobile_Pages_logo.svg
 --- 
 
-> *2025 Hindsight is not bad here actually. There definitely *was* more to AMP than met the eye - an early shot in Google's push to ad-tech dominance, just a couple of years before [Jedi Blue](https://en.wikipedia.org/wiki/Jedi_Blue). (Man, I really thought Header Bidding and Atlas were the mutts' nuts  back then.) That said, I later met some of the AMP folk, who genuinely believed - even under the application of alcohol - that they were doing it for the good of the publishers-formerly-known-as-print-pubs. Maybe they just didn't know about the plan to let AMP adopters rank higher. As usual on this blog views are my own and not any current or previous employer's. Quite pleased looking back at this though.*
+> _2025 Hindsight: Not bad here actually. There definitely *was* more to AMP than met the eye - an early shot in Google's push to ad-tech dominance, just a couple of years before [Jedi Blue](https://en.wikipedia.org/wiki/Jedi_Blue). (Man, I really thought Header Bidding and Atlas were the mutts' nuts back then.) That said, I later met some of the AMP folk, who genuinely believed - even under the application of alcohol - that they were doing it for the good of the publishers-formerly-known-as-print-pubs. Maybe they just didn't know about the plan to let AMP adopters rank higher. As usual on this blog views are my own and not any current or previous employer's. Quite pleased looking back at this though._
 
 One of the best things about BlackBerry in its heyday was that it worked hard to make the best of a rubbish mobile connection. It gave the user an illusion of speed and control, and got on with sending and receiving stuff in the background when it could. In effect, the device did the waiting for you. 
 

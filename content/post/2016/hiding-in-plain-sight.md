@@ -2,6 +2,8 @@
 title: "Hiding in Plain Sight"
 date: 2016-05-15
 categories: [Guilt]
+summary: "2025 Hindsight: Pretty early perhaps to be bemoaning the demise of 'publications formerly known as print newspapers', and a bit underdeveloped, but not bad foresight in pointing to a worrying thing."
+description: "Short piece on the how Facebook will always put the use of user emotions like guilt ahead of the needs of content owners."
 --- 
 
 > _2025 Hindsight: Pretty early perhaps to be bemoaning the demise of the 'publications formerly known as print newspapers', and a bit underdeveloped, but again, not bad in pointing to a worrying thing._
@@ -12,7 +14,7 @@ Which of course reminded me why Facebook is one of the most powerful media force
 
 Through sure-footed strategy they survived the near-death experience of the switch to mobile, to come back even stronger as the primary stream of the modern Internet.
 
-Today they have a huge chunk of media time, cushioned from ad-blocking inside an app (yes, I know about VPN blockers but only freaks like me use them), enriched with an unparalleled set of signals of who I am and what I care about that advertisers may borrow (but never have, of course). 
+Today they have a huge chunk of media time, cushioned from ad-blocking inside an app (yes, I know about VPN blockers but only freaks like me use them), enriched with an unparalleled set of signals of who I am and what I care about that advertisers may borrow (but never *have*, of course). 
 
 And if context matters in media, what better context than news from my nearest and dearest? 
 

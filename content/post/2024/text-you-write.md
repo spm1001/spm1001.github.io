@@ -2,9 +2,13 @@
 title: "Text you write"
 date: "2024-01-16"
 categories: [Magic Slides]
+summary: "This was a rather optimistic attempt, as part of the Quarto version of my site, to try and teach some colleagues how to write slides in Markdown."
 description:
-  "Demonstration of building slides from markdown - this is an example of the text you would actually write, where the other link shows you how that renders as a slide presentation."
+  "Demonstration of building slides from Markdown - this is an example of the text you would actually write, where the other link shows you how that renders as a slide presentation."
 --- 
+
+> _2025 Hindsight: This was a rather optimistic attempt, as part of the Quarto version of my site, to try and teach some colleagues how to write slides in Markdown._
+
 So below is an example of the text you would write. It looks a bit dull, but in a way that's liberating - no more fiddling around with boxes and type sizes. You'd need to learn some of the conventions, but once you do, you can take the same text file and turn it into Powerpoint, slides, PDF or many other things. 
 
 To see the slideshow that comes from this text go [here](/posts/2024/slides.html).

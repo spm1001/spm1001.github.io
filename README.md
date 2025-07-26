@@ -28,7 +28,7 @@ So in summary
 - `summary` (if specified) is what will appear in the top of the LinkedIn cross-post as I've told Zapier to use it above the post URL
 - `description` is what will appear in the card for the post on the site, and therefore will *also* appear in the LinkedIn post, because when it goes to grab the URL it takes the description. 
 
-Hence here, the first bit is the `summary` front matter and the secon bit of text is from the `description`
+Hence here, the first bit is the `summary` front matter and the second bit of text is from the `description`
 
 ![](in-buffer.png)
 

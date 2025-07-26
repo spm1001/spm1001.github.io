@@ -2,8 +2,9 @@
 title: "Welcome"
 date: "2024-01-01"
 categories: [Notes to self]
+summary: "2025 Hindsight: Another in the fine tradition of technical blog setup notes from previous attempts at reboots. I've often wanted to do more posts like this for obscure technical things I figured out which I might need to remind myself of, but that's an exercise for another day."
 description:
-  "Over Christmas I decided to dig out old articles and speeches etc and put them online. For fun, I did it in Quarto, with an automated CI/CD pipeline. Here's a dull description of how..."
+  "Over Christmas I decided to dig out old articles and speeches etc and put them online. For fun, I did it in Quarto, with an automated CI/CD pipeline. Here's a description of how..."
 --- 
 
 > _2025 Hindsight: Another in the fine tradition of technical blog setup notes from previous attempts at reboots. I've often wanted to do more posts like this for obscure technical things I figured out which I might need to remind myself of, but that's an exercise for another day._

@@ -2,10 +2,13 @@
 title: "How to learn to stop worrying and love the Outcome"
 date: "2024-08-01"
 categories: [ASI 2024]
+summary: "ASI is the premier global conference for Audience Measurement researchers to come together. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead."
 description:
-  "Presentation I gave at ASI 2024 in Venice trying to sharpen the Outcomes pitch."
+  "Presentation on why TV needs outcome measurement, what we're doing about it in the UK with Lantern, and some pointers on how other markets can do the same."
 image: ASI2024_3.png
 ---
+
+> _ASI is the premier global conference for Audience Measurement researchers to come together. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead._
 
 ![](ASI2024_0.png)
 Three things I want to do today.

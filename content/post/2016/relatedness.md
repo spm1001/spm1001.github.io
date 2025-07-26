@@ -2,10 +2,11 @@
 title: "Why relatedness matters"
 date: 2016-05-15
 categories: [Similarity]
+summary: "2025 hindsight: Quite pleased with spotting, in 2016, and before my time at Google, that search keywords needed clustering into higher order intents, and that selling those intents rather than individual words was where the search product would need to go. Mildly amusing that even in the present days of Performance Max (son of UAC) we still have search 'experts' complaining about the death of the keyword. Google presumably wants to get rid of them all - better to have the machines choosing the words than people. (Although 'better for whom?' is a fun question...)"
 description: "How much should you bundle targeting signals, and how?"
 --- 
 
-> _2025 hindsight: Quite pleased with spotting, in 2016, and pre my Google stint, that search keywords needed clustering into higher order intents, and that selling those intents rather than individual words was where the search product would go. Mildly amusing that even in the present days of Performance Max (son of UAC) we still have search 'experts' complaining about the death of the keyword. Google presumably wants to get rid of them all - better to have the machines choosing the words than people. (Although better for whom most of all is a fun question...)_
+> _2025 hindsight: Quite pleased with spotting, in 2016, and before my time at Google, that search keywords needed clustering into higher order intents, and that selling those intents rather than individual words was where the search product would need to go. Mildly amusing that even in the present days of Performance Max (son of UAC) we still have search 'experts' complaining about the death of the keyword. Google presumably wants to get rid of them all - better to have the machines choosing the words than people. (Although 'better for whom?' is a fun question...)_
 
 
 ## Similar people, similar things

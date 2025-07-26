@@ -2,6 +2,7 @@
 title: "Hail Fellows Well Met"
 date: 2015-09-15
 categories: [Speeches and Talks]
+summary: "2025 Hindsight: [Jon Steel](https://www.amazon.co.uk/Perfect-Pitch-Selling-Winning-Business/dp/0471789763) kindly asked me to do the speech at the dinner to celebrate the 20th anniversary of the WPP Fellowship. The scheme is no longer operating but for many years it was a great way into the marketing services industry, especially for those who, like me, didn’t have the confidence, connections or chutzpah to get in the normal way, through one of the creative-agency grad schemes."
 description: "Speech for the WPP Fellowship Twentieth Anniversary Dinner at the Tower of London"
 ---
 > _2025 Hindsight: [Jon Steel](https://www.amazon.co.uk/Perfect-Pitch-Selling-Winning-Business/dp/0471789763) kindly asked me to do the speech at the dinner to celebrate the 20th anniversary of the WPP Fellowship. The scheme is no longer operating but for many years it was a great way into the marketing services industry, especially for those who, like me, didn’t have the confidence, connections or chutzpah to get in the normal way, through one of the creative-agency grad schemes. It was supported by many of the great and good at WPP - Jon of course, but also Eric Salama - who is name-checked below - and of course the wonderful Jeremy Bullmore._
