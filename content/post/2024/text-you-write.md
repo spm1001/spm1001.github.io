@@ -11,44 +11,68 @@ description:
 
 So below is an example of the text you would write. It looks a bit dull, but in a way that's liberating - no more fiddling around with boxes and type sizes. You'd need to learn some of the conventions, but once you do, you can take the same text file and turn it into Powerpoint, slides, PDF or many other things. 
 
-To see the slideshow that comes from this text go [here](/posts/2024/slides.html).
+To see the slideshow that comes from this text go [here](/posts/2024/slides-you-get/).
 
 ```
-## Hello, There
+---
+title: "Slides you get"
+date: 2024-01-16
+outputs: ["Reveal"]
+categories: [Magic Slides]
+summary: "Reveal Slide Presentation"
+description: "This is meant to be a demo of how to get slide presentations embedded in my site, using a template that invokes Reveal.js"
+---
 
-This presentation will show you examples of what you can do with Quarto and Reveal
+# Hello there
+
+This presentation will show you examples of what you can do with Reveal.js and Hugo.
+
 - Bullets
 - Images
 - Videos
 ...and much more
 
+---
 
-## Two Hashes means new slide
-- and more bullets
-- appear like this
+# Slide 2
 
+This is a slide.
+Separated by `---`
 
-## You can do builds
-Which look a bit weird
+---
 
-::: {.incremental}
-- Eat spaghetti
-- Drink wine
-:::
+# Hash means top level heading
+- Here's a bullet point.
+- And another.
+- They appear instantly by default.
 
+---
 
-## You can present with notes
-You just need to use that weird syntax again
+## Smaller title has two hashes
+And you can add images
+![](bandit.jpeg)
 
-::: {.notes}
-Speaker notes go here. This uses the colon syntax and means they appear in the body of the text for longhand document but in speaker notes when presented as a slideshow. 
-:::
+---
 
+# You can do builds
 
-## Or if you want to get clever
-You can tell it to put your notes in the PDF, but hide them when presenting as a slideshow.
+Here, we're using `class="fragment"` directly in HTML.
+
+<ul>
+    <li class="fragment">This is the first list item.</li>
+    <li class="fragment">This is the second list item.</li>
+    <li class="fragment">This is the third list item.</li>
+</ul>
+
+---
+
+# You can present with notes too
+
+This slide has speaker notes, which are hidden from the main presentation. They will appear in the separate speaker view when you press 'S' during the presentation.
 
 <aside class="notes">
-Shhh, these are your private notes using the aside class. The syntax is clunky but it means that this text will go in speaker notes for slideshow and in the right hand side for document.
+    Hello! Well done... you found me. 
 </aside>
+
+
 ```

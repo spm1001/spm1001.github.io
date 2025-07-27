@@ -2,6 +2,7 @@
 title: "Slides you get"
 date: 2024-01-16
 outputs: ["Reveal"]
+categories: [Magic Slides]
 summary: "Reveal Slide Presentation"
 description: "This is meant to be a demo of how to get slide presentations embedded in my site, using a template that invokes Reveal.js"
 ---
@@ -33,7 +34,7 @@ Separated by `---`
 
 ## Smaller title has two hashes
 And you can add images
-
+![](bandit.jpeg)
 
 ---
 
@@ -41,7 +42,7 @@ And you can add images
 
 Here, we're using `class="fragment"` directly in HTML.
 
-<ul class="fragment">
+<ul>
     <li class="fragment">This is the first list item.</li>
     <li class="fragment">This is the second list item.</li>
     <li class="fragment">This is the third list item.</li>

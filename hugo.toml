@@ -39,7 +39,7 @@ pagerSize = 50
     # Footer Parameters
     [params.footer]
         since = 2015
-        customText = "These opinions may have been mine, but certainly don't represent those of any past, present or indeed future employer"
+        customText = "These opinions may once have been mine, but certainly don't represent those of any past, present or indeed future employer"
 
 
 # Menu Configuration
