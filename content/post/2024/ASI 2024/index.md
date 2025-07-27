@@ -10,6 +10,10 @@ image: ASI2024_3.png
 
 > _ASI is the premier global conference for Audience Measurement, where media researchers come together to discuss their work. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead._
 
+{{< youtube P7kCCRTrtLk >}}
+
+You can see me presenting the script above, or read it below, as you wish. If you watch the video, and conclude I was dying on my ar*e - that may be true, but the reason it sounds like that is that the audience wasn't mic'd up, so you can't hear their gasps of horror. At least that's what I tell myself...
+
 ![](ASI2024_0.png)
 Three things I want to do today.
 

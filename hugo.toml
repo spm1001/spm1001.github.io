@@ -77,6 +77,14 @@ pagerSize = 50
         [menu.social.params]
             icon = "brand-bitly"
 
+    [[menu.social]]
+        identifier = "email"
+        name = "Email"
+        url = "mailto:spm1001@planetmodha.com?subject=I%20was%20on%20your%20site%20and..."
+        weight = 40
+        [menu.social.params]
+            icon = "mail"
+
 
 # Markdown Markup Configuration
 [markup.goldmark.renderer]

@@ -9,6 +9,12 @@ description: "My first visit to, and first presentation at the ASI Conference, i
 
 > _2025 Hindsight: First, clunky attempt to preach Outcomes on a bigger stage. In hindsight, choosing the premier audience measurement research conference might not have been the best place to do it - asking turkeys to vote for Christmas being something of a faux pas. But huge thanks to Mike Sainsbury and Richard Marks for letting me try. Must have made some kind of impression as they asked me back the following year._
 
+
+{{< youtube ZvyOVzkbuk8 >}}
+
+You can read the script below, or see me performing it in the video above. 
+
+
 ![](Slide1.png)
 
 
