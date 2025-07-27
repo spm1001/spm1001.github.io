@@ -9,15 +9,23 @@ description: "This is meant to be a demo of how to get slide presentations embed
 
 > _This doesn't work yet, but it will_
 
+---
+
 # Slide 1
+
+This is the first slide.
+
 ---
 
 # Slide 2
+
+This is the second slide.
+
 ---
 
 # Hello there
 
-This presentation will show you examples of what you can do with Quarto and Reveal
+This presentation will show you examples of what you can do with Reveal.js and Hugo.
 
 - Bullets
 - Images
@@ -27,40 +35,37 @@ This presentation will show you examples of what you can do with Quarto and Reve
 ---
 
 # Hash means new slide
-- and more bullets
-- appear like this
+- Here's a bullet point.
+- And another.
+- They appear instantly by default.
 
 ---
 
 ## Smaller title has two hashes
 And you can add images
-![Cat](bandit.jpeg){#fig-cat}
+
 
 ---
 
 # You can do builds
-::: {.incremental}
-- Which look a bit weird in the text
-- Eat spaghetti
-- Drink wine
-:::
+
+Here, we're using `class="fragment"` directly in HTML.
+
+<ul class="fragment">
+    <li class="fragment">This is the first list item.</li>
+    <li class="fragment">This is the second list item.</li>
+    <li class="fragment">This is the third list item.</li>
+</ul>
 
 ---
 
 # You can present with notes
-You just need to use that weird syntax again
 
-::: {.notes}
-Speaker notes go here. This uses the colon syntax and means they appear in the body of the text for longhand document but in speaker notes when presented as a slideshow. 
-:::
+This slide has speaker notes, which are hidden from the main presentation. 
+They will appear in the separate speaker view when you press 'S' during the presentation.
 
----
-
-# Or if you want to get clever
-You can tell it to put your notes in the PDF, but hide them when presenting as a slideshow.
 
 <aside class="notes">
-Shhh, these are your private notes using the aside class. The syntax is clunky but it means that this text will go in speaker notes for slideshow and in the right hand side for document.
+    These are your private speaker notes for this slide.
 </aside>
 
----

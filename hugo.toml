@@ -1,77 +1,97 @@
+# Basic Site Configuration
 baseURL = 'https://spm1001.planetmodha.com'
 languageCode = 'en-gb'
 title = 'spm1001'
-theme = 'hugo-theme-stack' #'reveal-hugo'
-timeout = '60s'
 defaultContentLanguage = 'en'
 copyright = 'Sameer Modha'
+timeout = '60s' # General timeout for Hugo build
+
+# Theme Configuration
+# Defines the theme fallback chain: hugo-theme-stack is primary, reveal-hugo is fallback
+themesDir = "themes" # Ensure this points to your themes directory
+theme = ["hugo-theme-stack", "reveal-hugo"]
 
 
+# Pagination Settings
 [pagination]
 pagerSize = 50
 
 
+# Site Parameters (Params)
+# All custom site-wide parameters are defined here
 [params]
     rssFullContent = false
-    favicon = "/favicon.ico"
+    favicon = "/favicon.ico" # Favicon path, typically relative to /static
 
-    # Nested tables for article, colorScheme, footer, and sidebar
+    # Sidebar Parameters
+    [params.sidebar]
+#        subtitle = "This is a subtitle" # Your custom subtitle under the avatar
+
+    # Article/Content Specific Parameters
     [params.article]
-        math = true
+        math = true # Enables MathJax or KaTeX for mathematical notation
 
+    # Color Scheme Parameters
     [params.colorScheme]
-        toggle = false
-        default = "light"
+        toggle = false # Disable dark mode toggle if not needed
+        default = "light" # Default color scheme
 
+    # Footer Parameters
     [params.footer]
         since = 2015
         customText = "These opinions may have been mine, but certainly don't represent those of any past, present or indeed future employer"
 
-    [params.sidebar]
-        subtitle = "This is a subtitle" # Your subtitle is here
 
-
+# Menu Configuration
+# Defines main and social menus
 [menu]
-    # Define your main menu if you have one, e.g.:
+    # Main menu items (currently commented out, defined in _index.md)
     # [[main]]
     #   identifier = "home"
     #   name = "Home"
     #   url = "/"
     #   weight = 10
 
-    # Social links - each [[social]] creates a new item in the social menu
-
+    # Social links menu
     [[menu.social]]
         identifier = "linkedin"
         name = "LinkedIn"
         url = "https://linkedin.com/in/sameermodha" # CHANGE THIS TO YOUR ACTUAL LINKEDIN PROFILE URL
         weight = 10
         [menu.social.params]
-            icon = "brand-linkedin" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
-
+            icon = "brand-linkedin" # Icon name should match SVG file in assets/icons/
 
     [[menu.social]]
         identifier = "github"
         name = "GitHub"
         url = "https://github.com/spm1001"
-        weight = 20 # Optional: Controls order, lower number appears first
+        weight = 20
         [menu.social.params]
-            icon = "brand-github" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
-
+            icon = "brand-github"
 
     [[menu.social]]
         identifier = "bitly"
         name = "Bit.ly"
         url = "https://bit.ly/m/sameermodha"
-        weight = 30 # Optional: Controls order, lower number appears first
+        weight = 30
         [menu.social.params]
-            icon = "brand-bitly" # This icon refers to the Feather Icons or Font Awesome icons bundled/supported by the theme
+            icon = "brand-bitly"
 
 
+# Markdown Markup Configuration
 [markup.goldmark.renderer]
-    unsafe = true
+    unsafe = true # Allows raw HTML in Markdown, often needed for Reveal.js and custom shortcodes
 
+
+# Reveal.js Specific Configurations
+# These settings define the 'Reveal' output format for slideshows
 [outputFormats.Reveal]
-    baseName = "index"
+    baseName = "index" # The filename for the Reveal output (e.g., your-post-slug/index.html)
     mediaType = "text/html"
-    isHTML = true
+    isHTML = true # Important for browser recognition
+
+# Media Types Configuration
+# This maps the 'Reveal' output format to the 'reveal' layout kind,
+# so Hugo knows to look for templates like single.reveal.html
+[mediaTypes."text/html"]
+    suffixes = ["html", "reveal"] # Add 'reveal' as a valid suffix for HTML content
