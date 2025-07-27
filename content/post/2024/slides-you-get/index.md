@@ -5,6 +5,7 @@ outputs: ["Reveal"]
 categories: [Magic Slides]
 summary: "Reveal Slide Presentation"
 description: "This is meant to be a demo of how to get slide presentations embedded in my site, using a template that invokes Reveal.js"
+image: bandit.jpeg
 ---
 
 # Hello there

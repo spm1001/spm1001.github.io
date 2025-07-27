@@ -4,6 +4,7 @@ date: 2017-03-06
 categories: [Current Awareness]
 summary: "2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or perhaps I've just become complacent?"
 Description: "Piece on how I used systematically to scan various sites/podcasts  to gather useful information on the industry."
+image: Pocket_logo.png
 --- 
 
 > _2025 Hindsight: Oof - it's exhausting just reading this. I'm not nearly as thorough in my boiling of the ocean as I was back then. Which is maybe a bad thing now I think about it. Maybe I know more now, or maybe I've gotten complacent. Also, there's a reference to the book 'Chaos Monkeys' which is meant neither as an endorsement of him as a person, nor of his attitudes to women, but the book still has lots of useful historical information on the early days of Facebook ad products, even if you have to hold your nose while reading it._

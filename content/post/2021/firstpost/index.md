@@ -4,6 +4,7 @@ date: 2021-04-17
 categories: [Static Sites]
 summary: "2025 Hindsight: A tradition of every attempt to rebuild my 'home on the internet' is one of these - a recursive, technical commentary on the process of building and testing the site."
 description: "Explanation of how I built a version of my website in 2021 using Hugo."
+image: hugo-logo-wide.svg
 ---
 
 > _2025 Hindsight: A tradition of every attempt to rebuild my 'home on the internet' is one of these - some sort of technical commentary on the process of building and testing it.*_
