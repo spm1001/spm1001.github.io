@@ -2,7 +2,7 @@
 title: "How to learn to stop worrying and love the Outcome"
 date: "2024-08-01"
 categories: [ASI 2024]
-summary: "ASI is the premier global conference for Audience Measurement researchers to come together. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead."
+summary: "ASI is the premier global conference for Audience Measurement, where media researchers come together to discuss their work. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead."
 description:
   "Presentation on why TV needs outcome measurement, what we're doing about it in the UK with Lantern, and some pointers on how other markets can do the same."
 image: ASI2024_3.png
@@ -19,28 +19,38 @@ Three things I want to do today.
 
 3. Give you some ideas on how you too can help give TV the measurement it deserves.
 
-
 ![](ASI2024_1.png)
 
-But first, let’s deal with the fruit.
+But first, we need to deal with the fruit.
 
-As you’ve heard this week, some people look at this picture and see three pieces of fruit that should be counted equally because, well, there are three of them. Other people think that because it has more juice, the orange, which could be, say, a 30 second TV impact, should count for more than the little kumquat on the right which might be, let’s see, a 2 second video view on Facebook. 
+As you’ve heard this week, some people look at this picture and see three pieces of fruit that should be counted equally because, well, there are three of them. 
 
+Other people think that because it has more juice, the orange, which could be, say, a 30 second TV impact, should count for more than the little kumquat on the right which might be, let’s see, a 2 second video view on Facebook. 
 
 ![](ASI2024_2.png)
 
-And I. Don’t. Care. I don’t care percentage of fruit consumed with skin-on vs skin-off. If JRC standards for Vitamin C content are unmet (The JRC is the Juice Research Council by the way) I am unbothered. And don’t get me started on the amount of attention mobile satsumas get compared to in-home Clockwork Oranges, the measurement of which is being demonstrated here by our test subject under natural viewing conditions
+And I.
 
-And as you might have deduced from my question yesterday I don’t believe in deduplicated citrus reach. Because I’m much more worried about holes.
+Don’t.
+
+Care.
+
+I don’t care about the percentage of fruit which is consumed with the skin-on vs skin-off.
+
+If JRC standards for Vitamin C content are unmet (The JRC is the Juice Research Council you understand) I am unbothered.
+
+And just don’t get me started on the amount of attention mobile satsumas get compared to in-home Clockwork Oranges - the measurement of which is being demonstrated here by our test subject under natural viewing conditions
+
+And as you might have deduced from my question yesterday I don’t care about deduplicated citrus reach. Because I’m much more worried about holes.
 
 
 ![](ASI2024_3.png)
 
-Marketing Professor Ted Levitt once said “the consumer doesn’t want a quarter inch drill, they want a quarter inch hole”. What he meant is that consumers want to buy a benefit. They don’t care about the means of achieving it.
+Marketing Professor Ted Levitt once said “the consumer doesn’t want a quarter inch drill, they want a quarter inch hole” by which he meant that consumers want to buy a benefit. They don’t care so much about the method of achieving it.
 
-But that is what broadcasters have been doing to our customers for decades. Selling drills rather than holes. Means rather than ends. Eyeballs rather than outcomes. 
+But for decades, broadcasters have been selling their customers drills rather than holes. Means rather than ends. Eyeballs rather than outcomes. 
 
-It is also why this conference is so generously supported by Nielsen, Kantar and Ipsos. Because most of the money the measurement today comes from eyeballs.  I mean they’ve got effectiveness practises somewhere turning out Market Mix Models, but I can’t imagine it’s more than 5%.
+It is also why this conference is so generously supported by Nielsen, Kantar and Ipsos. Because most of the money that they make from media measurement today comes from measuring eyeballs. I mean, sure, they’ve got effectiveness practises somewhere in an attic churning out Market Mix Models, but I can’t imagine it’s more than 5% of the money made. (If it’s different - tell me in the bar afterwards.)
 
 
 ![](ASI2024_4.png)
@@ -63,17 +73,24 @@ We had also did a piece with Viewers Logic where we proved that peak spots are t
 
 And since then we’ve been busy. All of these are linked in the QR code by the way, so if you want to learn more about any of them, feel free to take a picture.
 
-Since last year we’ve run 35 of those geo experiments and built a whole set of outcome measurement propositions from simple Addressable Site Lift through to more advanced things like Auction Boost which looks at TV's effect on search auction pricing and Pricing Power which measures the impact of TV on price elasticity. 
+Since last year we’ve run 35 of those geo experiments and built a whole set of outcome measurement propositions from simple Addressable Site Lift through to more advanced things like Auction Boost which looks at TV's effect on search auction pricing, and Pricing Power which measures the impact of TV on price elasticity. 
 
-And all of these have shown that TV makes the biggest holes around, but as any physicist will tell you, detecting black holes is hard work. 
-
+And all of these have shown that TV makes the biggest holes around. But as any physicist will tell you, detecting black holes is hard work. 
 
 ![](ASI2024_7.png)
 
 
 Because you can’t see them directly, detecting black holes is hard work
 
-And I have to admit that the past year or two has also been hard work. It’s been hard getting outcome data from advertisers. Hard building an experimental database. Hard proving medium-term effects in a scalable way. And when I met colleagues at Sky and Channel 4 doing outcome measurement work we found we were all feeling the same.
+And I have to admit that the past year or two has also been hard work.
+
+It’s been hard getting outcome data from advertisers.
+
+Hard building an experimental database.
+
+Hard proving medium-term effects in a scalable way.
+
+And when I met colleagues at Sky and Channel 4 doing outcome measurement work we found we were all feeling the same.
 
 Now there’s a saying. If you want to go fast, go alone. If you want to go far, go together. So we started to ask ourselves: how far could we go together?  
 
@@ -82,7 +99,7 @@ Now there’s a saying. If you want to go fast, go alone. If you want to go far,
 
 We asked ourselves, what if, rather than scratching out a living one study at a time, there was a way to make a Multi-outcome, Multi-advertiser, Multi-category Measurement system, Massive enough to detect the Medium-term, causal effects of Most TV campaigns, Most of the time? Not MMM but Mmmmmm
 
-And like those physicists who figure out you can detect interstellar events with a swimming pool and a laser we realised we just needed two things we already have. 
+And like those physicists who figure out you can detect interstellar events with a swimming pool and a laser we realised we only needed two things that we already have. 
 
 
 ![](ASI2024_9.png)
@@ -93,7 +110,7 @@ The first is large-scale TV exposure data. RPD. Server data, Whatever you want t
 
 The second is rich outcome data from online behavioural panels - metered or meterless - the websites we visit, the searches we do, the places we go. 
 
-To illuminate the variety of online business outcomes created by TV advertising, all you have to do is link them. 
+To illuminate the variety of online business outcomes created by TV advertising, all you have to do... is link them. 
 
 
 ![](ASI2024_10.png)
@@ -107,36 +124,33 @@ But it’s important to be clear about what we’re doing and when.
 
 The plan is that we start with a small PoC. 
 
-For the PoC only, we are working with Measure Protocol, and because they focus on  historical account level data they can go back in time to get up to 2 years of historical data for a panellist even if that panellist joins them today.
+For the PoC only, we are working with Measure Protocol, and because they focus on historical account level data they can go back in time to get up to 2 years of historical data for a panellist even if that panellist joins them today.
 
-And of course the Sky and YouView data set go back in time as well, so by asking panellists what their subscriber ID is and getting permission to share if with the broadcaster, we’ll be able to get a cube of 2 years online behaviour with linear exposures.
+And of course the Sky and YouView data sets go back in time as well, so by asking panellists what their subscriber ID is and getting permission to share it with the broadcaster, we’ll be able to get a cube of 2 years online behaviour with linear exposures.
 
-We will learn lots about historical campaigns from that, but it is also already teaching us a lot about how to approach it technically, legally and commercially. One of the key things we will learn, through the magic of Bayesian statistics, is how big and how representative a panel would need to be to measure most campaigns.
+We will learn lots about historical campaigns from that, but it is also already teaching us a lot about how to approach the challenge technically, legally and commercially. One of the key things we will learn, through the magic of Bayesian statistics, is how big and how representative a panel would need to be to measure most campaigns.
 
 Assuming that all checks out, we will do an RFI and RFP next year to build a production system. And that’s where you come in. Because it will take a lot of creativity and thought to figure that out. 
 
-And after that, who knows? In one of my weirder fantasies I dream Sky has been taken over by Wayne Butler, Jeff Eales and Matt Hill (congrats btw).  They have got their hands on the access codes to Sky’s data centres, and have broken in to link Sky broadband and mobile data to its TV data to make a four million strong outcome measurement panel. 
+And after that, who knows? In one of my weirder fantasies I dream that Sky has been taken over by Wayne Butler, Jeff Eales and Matt Hill (congrats on the new gig btw).  They have got their hands on the access codes to Sky’s data centres, and have broken in to link Sky broadband and mobile data to its TV data to make a four million strong outcome measurement panel. 
 
-Like I said. My dreams are a bit odd. 
-
-
+Like I said. My dreams are a bit odd. But imagine if it came true?
 
 ![](ASI2024_12.png)
 
-So what does this multi-outcome panel give us? Can’t show you data, because that’s within the team for now, but I can show you this marketing slide from Measure Protocol which will give you an idea of what it might look like. 
+So what does this multi-outcome panel give us? Can’t show you data yet, because that’s within the team for now, but I can show you this marketing slide from Measure Protocol which will give you an idea of what it might look like. 
 
 On the left we have an exposure of a Dior ad that happened on a panellists’s TV, which in our PoC might have been pulled in from Sky, YouView or similar. Following that,we have a number of different online behaviours, which happened afterwards, on a range of different devices. 
 
-You can see that all those individual behaviours have been linked together by the system, by filtering out, for example, Charlize Theron Official. She was in the ad but that channel isn’t relevant here.
+You can see that all those individual behaviours have been linked together by the system, by filtering out, for example, Charlize Theron Official. She was in the ad, but that channel isn’t relevant here.
 
 Now imagine having millions of events like this. And if you had a healthy sample of all perfume journeys. And you had perfume journeys for people who didn’t see that ad, but were otherwise similar in their behaviour. 
-
 
 
 ![](ASI2024_13.png)
 
 
-What detectors could we build? Because there’s a whole range of metrics you might imagine creating. 
+What detectors could we build with that data? Because there’s a whole range of metrics you might imagine creating. 
 
 There’s short-term spot lift from linear spikes, and attribution style measures - 10% of people who saw the ad went on to visit a shop selling Dior.
 
@@ -145,7 +159,6 @@ But then you could look at a geo lift or a lift versus a synthetic control.
 We could even look at share of search or share of site visits. 
 
 And best of all, because the panel is stable over time you can look at medium-term effects, not just the short-term lift. And in this way it starts to light up the total value TV ads create for advertisers.
-
 
 
 ![](ASI2024_14.png)
@@ -163,5 +176,13 @@ And on the right hand side you have a range of businesses who collect a spectrum
 
 ![](ASI2024_15.png)
 
-Three things to do when you get back to your desk on Monday
+And with that, here are three things to do when you get back to your desk on Monday. 
+
+1. Draw out this map for your market. List out the different sources and possibilities you have. Think laterally. 
+2. Think about how you could link those for outcome measurement. This is tricky if you have an audience measurement mindset to think about the constraints you can relax. In lift measurement a dirty panel is fine as long as the test and control are equally dirty. 
+3. And then think of the smallest pilot that you could do. Call up the people who have that data. See what it would take to make it happen. 
+
+And of course send me a message and let me know how you got on...
+
+Thank you. 
 

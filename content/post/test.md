@@ -1,7 +1,7 @@
 ---
 title: Test Page
 description: "Page to test different template and Hugo functions"
-date: 2025-07-26
+date: 2000-01-01
 draft: false
 ---
 
