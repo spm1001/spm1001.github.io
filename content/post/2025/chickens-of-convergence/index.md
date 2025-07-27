@@ -6,6 +6,7 @@ summary: "I was asked to present at an invite-only breakfast, hosted by VideoWee
 description: "Not a Metal band, but an attempt to explain why Team Coax and Team IP are going to have to work closely together, and understand each other better, if we are to help TV make its transition from selling audiences to delivering outcomes."
 slug: chickens-of-convergence
 image: 
+draft: true
 ---
 
 > I was asked to present at an invite-only breakfast, hosted by VideoWeek, to introduce the brilliant Sebastian Hinterstoisser from TV Insight. So naturally enough I ended up talking about the Chickens of Convergence.
