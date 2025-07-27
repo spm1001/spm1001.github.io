@@ -10,9 +10,7 @@ image:
 
 > I was asked to present at an invite-only breakfast, hosted by VideoWeek, to introduce the brilliant Sebastian Hinterstoisser from TV Insight. So naturally enough I ended up talking about the Chickens of Convergence.
 
-
-
-*Image: Title slide with the text "The chickens of digital convergence are coming home to roost. But how to count ‘em?"*
+![](title.png)
 
 Good morning. I’m Sameer Modha and I look after the Outcome Measurement Innovation team at ITV. I was lucky enough to get a sneak peek yesterday, of what you’re about to hear from Sebastian, and I think it’s fascinating. 
 
@@ -23,52 +21,50 @@ So before you hear from him, I want to try and put what he and his colleagues in
 
 # From Spy Radios to Smart TVs
 
-
 Let's start with a question though. Has anyone here heard of Numbers Stations?
 
 For the uninitiated, they were a classic piece of one-way spycraft. A spy, somewhere deep in enemy territory, could tune into a shortwave radio frequency at a specific time and listen to a disembodied voice reading out strings of numbers. It was the perfect one-way communication: you could receive your instructions without ever revealing who (or where) you were.
 
 You can hear an example here. 
 
+{{< audio src="Cuban Numbers Station.mp3" >}}
+
 For decades, broadcast TV worked in much the same way. It was a numbers station for the masses; you could watch all you wanted, and nobody would know. Except for the handful of households with people meters in their home - a random sample from which to estimate what the population at large was doing. 
 
-*Image: A photo of an old, suitcase-style shortwave radio with a world map chart.*
+![](verge.png)
 
 That world is gone. In the digital realm, you announce your presence constantly. It's unremarkable to log in to Netflix, and we've all become begrudgingly accustomed to accepting the attentions of the hundreds of "partners" who are apparently essential to the functioning of The Last Website on Earth™.
 
-*Image: A screenshot of a GDPR/cookie consent pop-up from The Verge, showing options for managing consent preferences.*
+# The Two Tribes: Coax vs. IP
 
-### **The Two Tribes: Coax vs. IP**
+![](two_cultures.png)
 
 But what we're seeing isn't just a convergence of two technologies – the coaxial cable and the Ethernet plug if you like – but a collision of two completely different cultures.
 
-*Image: A close-up photo of a silver coaxial cable connector next to a silver RJ45 (Ethernet) connector.*
-
+![](telltale.png)
 You can tell which culture you're dealing with by the words they use.
 
 On one side, you have the world of Team Coax. They talk about **samples**, **people meters**, and **weighted data**. They worry about statistical distributions and, above all, they are in the business of measuring **reach**. It's a culture of counting.
 
 On the other side is the world of IP. It speaks of a **census** of **devices**, using **logins** and **IP addresses** to process **big data**. It's a culture built not on counting, but on *comparing* one group to another to measure **outcomes**.
 
-*Image: The same photo of the two connectors, with words like "Sample," "People," and "Reach" overlaid on the coaxial connector, and words like "Census," "Devices," and "Outcomes" overlaid on the Ethernet connector.*
-
-### **The Old World: Measure, Transact, Model, Repeat**
+# The Old Way: Measure, Transact, Model, Repeat
+![](rave.png)
 
 For a long time, the old way was fine. The media owner paid for the system that measured reach; the buyer and seller transacted on that reach; and the advertiser paid an analyst to model the link between that reach and its business impact.
 
 It was a neat little loop: Measure, Transact, Model, Repeat.
 
-*Image: The "This is Fine" dog meme, where a dog sits in a burning room with a cup of coffee, smiling.*
-
 Eat, Sleep, Rave, Repeat for the media world.
 
-But a funny thing happens at the debrief for a Market Mix Model (MMM). The econometrician shows a chart and says the ROI for a campaign was 0.7. The client, quite reasonably, asks, "Doesn't that mean I lost money?". "Ah," says the modeller, "don't worry. We just multiply it by three to account for the long-term effects".
+
+![](fine.png)
+
+And you probably think that that old way is fine. But it probably isn't. I'll give you an example. A funny thing happens at the debrief for a Market Mix Model (MMM). The econometrician shows a chart and says the ROI for a campaign was 0.7. The client, quite reasonably, asks, "Doesn't that mean I lost money?". "Ah," says the modeller, "don't worry. We just multiply it by three to account for the long-term effects".
 
 I'm not making this up; it's common practice to multiply our way past the short term to justify long-term investment. But as Keynes famously said, in the long run, we're all dead.
 
-*Image: A photo of a yellow t-shirt that says "EAT SLEEP RAVE REPEAT" in black block letters.*
-
-### **How the Platforms Changed the Game**
+# How the Platforms Changed the Game
 
 Into this world of long-run justifications came the digital platforms. And they came with a killer proposition: in return for an advertiser handing over their outcome data, the platforms would take on the job of measuring the business impact themselves.
 
