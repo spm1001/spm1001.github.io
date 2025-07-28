@@ -5,6 +5,7 @@ categories: [Media Leader]
 summary: "Ahead of running my first ever panel, at CTV World Summit, the Media Leader were kind enough to ask me to write something on why progress in outcome measurement for TV is better than it looks."
 description: "Why selling eyeballs was OK. Until it wasn't."
 slug: getting-tv-the-measurement-it-deserves
+image: ctv2024.png
 ---
 
 > Ahead of running my first ever panel, at CTV World Summit, the Media Leader were kind enough to ask me to write something on why progress in outcome measurement for TV is better than it looks.
