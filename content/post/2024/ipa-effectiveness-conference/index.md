@@ -5,7 +5,7 @@ categories: [Pricing Power]
 summary: "First outing of our Pricing Power work. Tried to cram too much in I think, and we haven't found a way to tell it simply, but not a bad overview nevertheless. We've had some stumbles since then on the analysis so I can't link to anything more recent at the moment, but working hard to fix that."
 description: "Kate Waters and I presenting the Pricing Power work we've been developing with a range of people including the brilliant Simeon Duckworth."
 slug: ipa-effectiveness-conference
-image: 
+image: ipa.jpeg
 ---
 
 > First outing of our Pricing Power work. Tried to cram too much in I think, and we haven't found a way to tell it simply, but not a bad overview nevertheless. We've had some stumbles since then on the analysis so I can't link to anything more recent at the moment, but working hard to fix that.

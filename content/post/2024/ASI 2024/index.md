@@ -1,6 +1,6 @@
 ---
 title: "How to learn to stop worrying and love the Outcome"
-date: "2024-08-01"
+date: "2024-11-08"
 categories: [ASI 2024]
 summary: "ASI is the premier global conference for Audience Measurement, where media researchers come together to discuss their work. For the past couple of years I've been trying to persuade them to turn their attention to measuring outcomes instead."
 description:

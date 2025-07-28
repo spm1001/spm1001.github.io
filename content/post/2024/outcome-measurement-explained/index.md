@@ -5,7 +5,7 @@ categories: [IBC]
 summary: "The lovely folk at IBC asked me to do a 'tutorial' on outcome measurement"
 description: "Me trying to explain the basics of outcome measurement for broadcasters in two minutes."
 slug: outcome-measurement-explained
-image: 
+image: ibc.png
 ---
 
 > The lovely folk at IBC asked me to do a 'tutorial' on outcome measurement. 
