@@ -86,8 +86,14 @@ pagerSize = 50
             icon = "mail"
 
 # GA4
-[services.googleAnalytics]
-    id = "G-DCFV6EWCTW"
+[services]
+    [services.googleAnalytics]
+        id = "G-DCFV6EWCTW"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
 
 
 # Markdown Markup Configuration
