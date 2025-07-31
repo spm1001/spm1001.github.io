@@ -4,6 +4,4 @@ resources
 
 *.sh
 *.txt
-.crush/
-.crush/
-.crush/
+.crush
