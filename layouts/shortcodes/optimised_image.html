@@ -29,17 +29,17 @@
   {{- errorf "Image not found: '%s' in page '%s'. Make sure local images are in the same folder as your index.md." $src $.Page.Path -}}
 {{- end -}}
 
-{{- $targetWidths := slice 320 640 768 1024 1280 1600 1920 2560 -}}
-{{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 2)) -}}
+{{- $targetWidths := slice 640 1280 1920 -}}
+{{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 0)) -}}
 
 <figure>
   <picture>
     <source type="image/avif" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx avif" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <source type="image/webp" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx webp" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
-    <img src="{{ $fallback.RelPermalink }}" 
-         alt="{{ $alt }}" 
-         width="{{ $fallback.Width }}" 
+    <img src="{{ $fallback.RelPermalink }}"
+         alt="{{ $alt }}"
+         width="{{ $fallback.Width }}"
          height="{{ $fallback.Height }}"
          loading="{{ $loading }}"
          fetchpriority="{{ $fetchpriority }}">
@@ -48,4 +48,3 @@
     <figcaption>{{ . | markdownify }}</figcaption>
   {{- end -}}
 </figure>
-
