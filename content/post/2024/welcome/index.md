@@ -12,7 +12,7 @@ image: quarto.png
 
 ## Setting up a Quarto blog on Github
 
-![Quarto Logo](https://quarto.org/docs/blog/posts/2023-05-15-get-started/get-started-video-cover.png)
+{{< optimised_image src="https://quarto.org/docs/blog/posts/2023-05-15-get-started/get-started-video-cover.png" alt="The Quarto logo, representing the author's transition to a new blogging platform." >}}
 
 Useful resources are Github's [Pages setup](https://pages.github.com) guide and the Quarto's [Github Pages guide](https://quarto.org/docs/publishing/github-pages.html)
 

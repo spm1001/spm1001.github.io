@@ -15,7 +15,7 @@ description: "My first visit to, and first presentation at the ASI Conference, i
 You can read the script below, or see me performing it in the video above. 
 
 
-![](Slide1.png)
+{{< optimised_image src="Slide1.png" alt="Title slide of the ASI 2023 presentation: " >}}
 
 
 Hello. If you want to know about me, you can scan the code or take a picture and visit the link later. I’m not going to waste time introducing myself because I’ve only got ten minutes and I have some terrible news.
@@ -25,13 +25,13 @@ You have all lost someone precious to you. They’ve been seduced from right und
 And if you want to win them back you are going to have to take drastic action.
 
 
-![](Slide2.png)
+{{< optimised_image src="Slide2.png" alt="Picture of a heart, with dollar bills in the background, and a line stating 'Media money loves Outcomes' with the aord Audiences crossed out" >}}
 That’s right folks. Media dollars don’t love you any more. They love Outcomes now, and they’ve fallen for them in a big way. 
 
 What do I mean by Outcomes? Well, to borrow Ted Levitt, if Audiences are the quarter-inch drill…
 
 
-![](Slide3.png)
+{{< optimised_image src="Slide3.png" alt="A slide from the ASI 2023 presentation defining Outcomes as " >}}
 Outcomes are the quarter-inch holes
 
 Advertisers have always wished they could buy results but we've always sold them audiences as a currency instead. We left the outcome measurement up to them. 
@@ -43,7 +43,7 @@ I gave Google $10m and they gave me $50m worth of site visits or installs or sal
 I gave ITV $10m and I got some TVRs is ultimately harder to justify, at least in relative terms.  
 
 
-![](Slide3a.png)
+{{< optimised_image src="Slide3a.png" alt="A graph from the ASI 2023 presentation showing the shift in UK media spend from traditional to digital channels." >}}
 Here is an example using GroupM’s UK data, where the yellow bars are digital ad products and the wine coloured bars are TV spend.
 
 Everyone knows media money has shifted channels over the past decade. 
@@ -51,7 +51,7 @@ Everyone knows media money has shifted channels over the past decade.
 But what does it look like if we recut this data? Split it into money spent buying Audiences, versus money spent buying Outcomes?
 
 
-![](Slide4.png)
+{{< optimised_image src="Slide4.png" alt="A graph from the ASI 2023 presentation recut to show that Outcome-based spending surpassed Audience-based spending five years ago." >}}
 Well it looks like this. It looks a bit better in some ways, because there’s platform money that goes on Audience buys too.
 
 But even then, you can see that Outcomes stole your love away five years ago. Their toothbrush is in someone else’s house now.
@@ -63,13 +63,13 @@ So let's remove all that, and just look at video adspend.
 This is tricky but can we estimate it using data given to the UK Competition and Markets Authority as part of their 2019 investigation.
 
 
-![](Slide5.png)
+{{< optimised_image src="Slide5.png" alt="A chart from the ASI 2023 presentation estimating that outcome contracts will take over half the money spent on video advertising in the UK." >}}
 If someone here has better data than this, I’d love to see it, but even on my crude estimates, I reckon outcome contracts will take over half the money spent on video advertising in the UK by the end this year.
 
 And it’s only going to get worse. Platforms are starting to sell incremental lift products and get into ever deeper outcomes. The logical result is the ultimate in quarter-inch holes: buy net profit at a certain Cost Per Dollar.
 
 
-![](Slide6.png)
+{{< optimised_image src="Slide6.png" alt="A slide from the ASI 2023 presentation arguing that broadcasters cannot win by trying to imitate platforms' targeting capabilities because they lack the five major ingredients" >}}
 
 And the tragedy of your unrequited love is that you can’t win them back by trying to be more like their new partner. It won’t work
 
@@ -87,7 +87,7 @@ To win them back, you need to dig deep and remember what made you great in the f
 
 
 
-![](Slide7.png)
+{{< optimised_image src="Slide7.png" alt="A slide from the ASI 2023 presentation celebrating the measurement greatness of the audience research community." >}}
 
 You need to remember your measurement greatness. 
 You see, even though media dollars don’t love you anymore, I do. I love this community.
@@ -99,7 +99,7 @@ You are champions of quality, of representativity, of accuracy.
 But today you're measuring the wrong thing. 
 
 
-![](Slide8.png)
+{{< optimised_image src="Slide8.png" alt="A picture of Cyrano de Bergerac" >}}
 
 So how can you get started measuring Outcomes?
 
@@ -108,7 +108,7 @@ Well, we can give some pointers. Back in 2021 we created a Measurement Innovatio
 Think of us like Cyrano de Bergerac – we’re here to help you write letters to your love, to woo them back
 
 
-![](Slide9.png)
+{{< optimised_image src="Slide9.png" alt="A slide from the ASI 2023 presentation outlining the mission of ITV's Measurement Innovation Team." >}}
 
 To put it formally, this is our mission
 
@@ -123,7 +123,7 @@ And advertiser data teams don’t expect us to have anything useful for them
 And there are only 10 of us - so we work with a wide range of companies in the industry to run proofs of concept, pilots and scaled advertiser trials. 
 
 
-![](Slide10.png)
+{{< optimised_image src="Slide10.png" alt="A diagram showing how effectiveness is about linking outcomes with exposures" >}}
 
 
 And this is how we do it – we look for outcome sources that we can get at scale. Everything from data on the prices brands get in search auctions to sales data from open banking.
@@ -139,7 +139,7 @@ I would love for pilots you run with us to become your measurement products of t
 Hell, I’ll even try and persuade my fellow broadcasters to chip in. 
 
 
-![](Slide11.png)
+{{< optimised_image src="Slide11.png" alt="A summary slide from the ASI 2023 presentation detailing the progress made in measuring TV's impact on outcomes." >}}
 
 So how have we done so far?
 
@@ -151,7 +151,7 @@ And we’ve developed modern methods for designing and running multi-outcome geo
 
 
 
-![](Slide12.png)
+{{< optimised_image src="Slide12.png" alt="A slide listing contract rigidity as a challenge, intermediate outcomes as a sweet spot, and single source as the key thing to focus on" >}}
 
 A few learnings to share
 
@@ -162,7 +162,7 @@ Second – we think intermediate outcomes are going to be the sweet spot, so inv
 Third – there’s a chasm to cross when it comes to single source. 
 
 
-![](Slide13.png)
+{{< optimised_image src="Slide13.png" alt="A log-log plot from the ASI 2023 presentation showing the gap between current measurement capabilities and what's needed for most campaigns." >}}
 
 To finish I want to leave you with this chart
 It’s a log-log plot so beware of the scale
@@ -177,7 +177,7 @@ It’s all aggregated in the end so the privacy issues are manageable, but we re
 And here’s a quick pep talk from Edna to remind you of your greatness. 
 
 
-![](Slide15.png)
+{{< optimised_image src="Slide15.png" alt="A final, inspirational slide from the ASI 2023 presentation." >}}
 
 
 
