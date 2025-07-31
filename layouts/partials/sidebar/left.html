@@ -11,13 +11,13 @@
             <figure class="site-avatar">
                 <a href="{{ .Site.BaseURL | relLangURL }}">
                 {{ if not .local }}
-                    {{< optimised_image src=.src alt="Avatar" loading="lazy" >}}
+                    {{< optimised_image src="{{ .src }}" alt="Avatar" loading="lazy" >}}
                 {{ else }}
                     {{ $avatar := resources.Get (.src) }}
                     
                     {{ if $avatar }}
                         {{- $src := $avatar.RelPermalink -}}
-                        {{< optimised_image src=$src alt="Avatar" loading="lazy" >}}
+                        {{< optimised_image src="{{ $src }}" alt="Avatar" loading="lazy" >}}
                     {{ else }}
                         {{ errorf "Failed loading avatar from %q" . }}
                     {{ end }}

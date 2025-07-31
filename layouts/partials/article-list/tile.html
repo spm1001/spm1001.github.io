@@ -7,9 +7,9 @@
                 {{ if $image.resource }}
                     {{- $src := $image.resource.RelPermalink -}}
                     {{- $alt := printf "Featured image of post %s" .context.Title -}}
-                    {{< optimised_image src=$src alt=$alt loading="eager" fetchpriority="high" >}}
+                    {{< optimised_image src="{{ $src }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" >}}
                 {{ else }}
-                    {{< optimised_image src=$image.permalink alt=(printf "Featured image of post %s" .context.Title) loading="eager" fetchpriority="high" >}}
+                    {{< optimised_image src="{{ $image.permalink }}" alt="{{ printf "Featured image of post %s" .context.Title }}" loading="eager" fetchpriority="high" >}}
                 {{ end }}
             </div>
         {{ end }}
