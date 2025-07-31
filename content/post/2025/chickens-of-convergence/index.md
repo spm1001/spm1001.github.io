@@ -125,7 +125,9 @@ And that is where projects like **Lantern** come in - a cross-broadcaster initia
 
 The Lantern PoC that's being worked on at the moment combines large scale linear ad exposure with large scale behavioural outcome data. Meaning we can link the ads people see, to the things they do, not just five minutes after the ad, but days and weeks after. "But what's that got to do with audience measurement" I hear you ask?
 
-It's because they both draw water from the same well. 
+The point is that we have to think about them together because they both draw water from the same well.
+
+And if we can’t figure out how to manage that resource for both purposes we are going to get ourselves into trouble. 
 
 
 # Same Well, Different Thirsts
