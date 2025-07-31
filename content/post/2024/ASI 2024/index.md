@@ -14,7 +14,7 @@ image: ASI2024_3.png
 
 You can see me presenting the script above, or read it below, as you wish. If you watch the video, and conclude I was dying on my ar*e - that may be true, but the reason it sounds like that is that the audience wasn't mic'd up, so you can't hear their gasps of horror. At least that's what I tell myself...
 
-{{< optimised_image src="ASI2024_0.png" alt="Title slide of the ASI 2024 presentation: "How to learn to stop worrying and love the Outcome"." >}}
+![](ASI2024_0.png)
 Three things I want to do today.
 
 1. Persuade you there’s money to be made measuring TV’s best bits; not its reach or attention, but the outcomes it delivers for advertisers.
@@ -23,7 +23,7 @@ Three things I want to do today.
 
 3. Give you some ideas on how you too can help give TV the measurement it deserves.
 
-{{< optimised_image src="ASI2024_1.png" alt="A slide from the ASI 2024 presentation showing three pieces of fruit: an orange, a lime, and a kumquat." >}}
+![](ASI2024_1.png)
 
 But first, we need to deal with the fruit.
 
@@ -31,7 +31,7 @@ As you’ve heard this week, some people look at this picture and see three piec
 
 Other people think that because it has more juice, the orange, which could be, say, a 30 second TV impact, should count for more than the little kumquat on the right which might be, let’s see, a 2 second video view on Facebook. 
 
-{{< optimised_image src="ASI2024_2.png" alt="Picture of a character from the film 'A Clockwork Orange' being forced to watch TV." >}}
+![](ASI2024_2.png)
 
 And I.
 
@@ -48,7 +48,7 @@ And just don’t get me started on the amount of attention mobile satsumas get c
 And as you might have deduced from my question yesterday I don’t care about deduplicated citrus reach. Because I’m much more worried about holes.
 
 
-{{< optimised_image src="ASI2024_3.png" alt="A picture of an orange with a hold drilled into it. The drill bit lies nearby." >}}
+![](ASI2024_3.png)
 
 Marketing Professor Ted Levitt once said “the consumer doesn’t want a quarter inch drill, they want a quarter inch hole” by which he meant that consumers want to buy a benefit. They don’t care so much about the method of achieving it.
 
@@ -57,7 +57,7 @@ But for decades, broadcasters have been selling their customers drills rather th
 It is also why this conference is so generously supported by Nielsen, Kantar and Ipsos. Because most of the money that they make from media measurement today comes from measuring eyeballs. I mean, sure, they’ve got effectiveness practises somewhere in an attic churning out Market Mix Models, but I can’t imagine it’s more than 5% of the money made. (If it’s different - tell me in the bar afterwards.)
 
 
-{{< optimised_image src="ASI2024_4.png" alt="A picture showing a lazer burning '50%' onto a piece of card." >}}
+![](ASI2024_4.png)
 
 But here’s the thing. If you look at advertiser spend in the UK, outcome spend overtook eyeball spend 5 years ago. In Britain today, nearly 2/3rds of all ad money is spent buying clicks or installs or sales instead of buying eyeballs. Buying holes not drills.
 
@@ -66,14 +66,14 @@ And what’s even more shocking is that for video ads, it’s already over half.
 The market has spoken. Outcomes have won. 
 
 
-{{< optimised_image src="ASI2024_5.png" alt="A summary slide from the ASI 2024 presentation showing some of ITV's early work in 2023 on Outcome Measurement" >}}
+![](ASI2024_5.png)
 
 Which is why, last year, I shared that we’d been trying to measure outcomes for TV, by working on modern, 21st Century Regional Tests. Properly designed experiments with synthetic counterfactuals.
 
 We had also did a piece with Viewers Logic where we proved that peak spots are the Duracell bunny of response advertising.
 
 
-{{< optimised_image src="ASI2024_6.png" alt="A slide showing ITV's 2024 measurement work spanning geo experiments and other approaches" >}}
+![](ASI2024_6.png)
 
 And since then we’ve been busy. All of these are linked in the QR code by the way, so if you want to learn more about any of them, feel free to take a picture.
 
@@ -81,7 +81,7 @@ Since last year we’ve run 35 of those geo experiments and built a whole set of
 
 And all of these have shown that TV makes the biggest holes around. But as any physicist will tell you, detecting black holes is hard work. 
 
-{{< optimised_image src="ASI2024_7.png" alt="Picture of a star being eaten by a black hole" >}}
+![](ASI2024_7.png)
 
 
 Because you can’t see them directly, detecting black holes is hard work
@@ -99,14 +99,14 @@ And when I met colleagues at Sky and Channel 4 doing outcome measurement work we
 Now there’s a saying. If you want to go fast, go alone. If you want to go far, go together. So we started to ask ourselves: how far could we go together?  
 
 
-{{< optimised_image src="ASI2024_8.png" alt="A slide from the ASI 2024 presentation posing the task of creating of a massive, multi-outcome measurement system for TV." >}}
+![](ASI2024_8.png)
 
 We asked ourselves, what if, rather than scratching out a living one study at a time, there was a way to make a Multi-outcome, Multi-advertiser, Multi-category Measurement system, Massive enough to detect the Medium-term, causal effects of Most TV campaigns, Most of the time? Not MMM but Mmmmmm
 
 And like those physicists who figure out you can detect interstellar events with a swimming pool and a laser we realised we only needed two things that we already have. 
 
 
-{{< optimised_image src="ASI2024_9.png" alt="A slide from the ASI 2024 presentation showing the two key ingredients for outcome measurement: large-scale TV exposure data and rich outcome data." >}}
+![](ASI2024_9.png)
 
 We’ve talked a lot about them already.
 
@@ -117,14 +117,14 @@ The second is rich outcome data from online behavioural panels - metered or mete
 To illuminate the variety of online business outcomes created by TV advertising, all you have to do... is link them. 
 
 
-{{< optimised_image src="ASI2024_10.png" alt="A slide introducing Lantern, a collaboration between C4, Sky, and ITV to measure TV's impact on outcomes." >}}
+![](ASI2024_10.png)
 
 Which brings us to Lantern. A collaboration between C4, Sky and ITV, under the auspices of Thinkbox, to link rich, multi-outcome, multi-category behavioural data with large-scale TV exposure data to measure impact on outcomes. That’s it. Simple really. 
 
 But it’s important to be clear about what we’re doing and when.
 
 
-{{< optimised_image src="ASI2024_11.png" alt="A diagram from the ASI 2024 presentation outlining the plan for the Lantern proof-of-concept showing three stars being eaten by black holes" >}}
+![](ASI2024_11.png)
 
 The plan is that we start with a small PoC. 
 
@@ -140,7 +140,7 @@ And after that, who knows? In one of my weirder fantasies I dream that Sky has b
 
 Like I said. My dreams are a bit odd. But imagine if it came true?
 
-{{< optimised_image src="ASI2024_12.png" alt="A marketing slide from Measure Protocol showing how a Dior ad exposure is linked to various online behaviors." >}}
+![](ASI2024_12.png)
 
 So what does this multi-outcome panel give us? Can’t show you data yet, because that’s within the team for now, but I can show you this marketing slide from Measure Protocol which will give you an idea of what it might look like. 
 
@@ -151,7 +151,7 @@ You can see that all those individual behaviours have been linked together by th
 Now imagine having millions of events like this. And if you had a healthy sample of all perfume journeys. And you had perfume journeys for people who didn’t see that ad, but were otherwise similar in their behaviour. 
 
 
-{{< optimised_image src="ASI2024_13.png" alt="A slide from the ASI 2024 presentation listing various outcome metrics that can be built, from spot lift to medium-term effects." >}}
+![](ASI2024_13.png)
 
 
 What detectors could we build with that data? Because there’s a whole range of metrics you might imagine creating. 
@@ -165,7 +165,7 @@ We could even look at share of search or share of site visits.
 And best of all, because the panel is stable over time you can look at medium-term effects, not just the short-term lift. And in this way it starts to light up the total value TV ads create for advertisers.
 
 
-{{< optimised_image src="ASI2024_14.png" alt="A 2x2 framework from the ASI 2024 presentation mapping sources of ad exposures and outcomes in the UK market." >}}
+![](ASI2024_14.png)
 
 So here’s a framework you might find useful, that I hope distills some of what you’ve been hearing this week. And again, a QR code so can ask questions or find out more. 
 
@@ -178,7 +178,7 @@ So putting that together you get a pretty decent map of what matters in the UK f
 And on the right hand side you have a range of businesses who collect a spectrum of outcome data, particularly for online outcomes. You might be less used to thinking about those and there’s a wide range. Everything from apps that offer people a useful service like financial management, in return for access to their bank statements. To panels that have meterless collection. 
 
 
-{{< optimised_image src="ASI2024_15.png" alt="The final slide of the ASI 2024 presentation with three calls to action for the audience." >}}
+![](ASI2024_15.png)
 
 And with that, here are three things to do when you get back to your desk on Monday. 
 

@@ -14,14 +14,14 @@ image: chickens.jpeg
 
 > _In February I was delighted to be asked to present at an invite-only breakfast, hosted by VideoWeek, to introduce the brilliant Sebastian Hinterstoisser from TV Insight. So naturally enough I ended up talking about The Chickens of Convergence. Enough time has passed that I think it’s OK to put up a version of the talk I did. Since then I’ve only become more convinced that having mastery of large scale linear impression data is critical for the future of broadcasters. Historically we’ve been content with collecting small samples of TV viewing through TAM panels, but in an outcome measurement setting we need all of it - or as near as dammit. And if that can be aligned to the way we do audience measurement (which also needs viewing data) that leads to some pretty great possibilities._
 
-{{< optimised_image src="title.png" alt="Title slide for the presentation "Chickens of Convergence"." >}}
+![](title.png)
 
 Good morning. I’m Sameer Modha and I look after the Outcome Measurement Innovation team at ITV. I was lucky enough to get a sneak peek yesterday, of what you’re about to hear from Sebastian, and I think it’s fascinating so I'll do my best not to keep you too long from the main event. 
 
 But before you hear from him, I want to try and put what he and his colleagues in Austria have achieved into a recent historical context. I want to explain *why* I think it is fascinating and what it hints at about the next few years of digital convergence, and TV measurement. 
 
 
-{{< optimised_image src="numbers.png" alt="An image of a numbers station, used as a metaphor for hidden signals in data." >}}
+![](numbers.png)
 
 # From Spy Radios to Smart TVs
 
@@ -37,7 +37,7 @@ For decades, broadcast TV worked in much the same way. It was a numbers station 
 
 …except for the companies doing audience measurement. They had a small handful of households with people meters in their home - a random sample - whose behaviours they could observe, and from whom they were able to estimate what the population at large was doing, *as long as they were all doing the same thing.*
 
-{{< optimised_image src="verge.png" alt="Screenshot of the consent screen from the website The Verge" >}}
+![](verge.png)
 
 For better and worse, that world is disappearing fast.
 
@@ -47,11 +47,11 @@ But what’s changing is that the technologies that did this on the small screen
 
 # The Two Tribes: Coax vs. IP
 
-{{< optimised_image src="two_cultures.png" alt="A picture of a coax connector and an ethernet plug" >}}
+![](two_cultures.png)
 
 And I think the important thing about this is not the convergence of the two technologies – the coaxial cable and the Ethernet plug if you like – one carrying broadcast signals, the other carrying two-way internet communication - but a collision of two completely different cultures. The culture of audience measurement and the culture of outcome detection. 
 
-{{< optimised_image src="telltale.png" alt="A picture of a coax connector and an ethernet plug this time overlaid with language about each one" >}}
+![](telltale.png)
 You can tell which one you're dealing with by the words they use.
 
 On one hand, you have the world of Team Coax. They talk about **samples**, **people meters**, and **weighted data**. They worry about statistical distributions and, above all, they are in the business of measuring **reach**. It's a culture of counting that arose at a time when we didn’t have data, so we had to gather our own. 
@@ -61,13 +61,13 @@ On the other side is the world of IP. It speaks of a **census** of **devices**, 
 This is very different from how it used to be. 
 
 # The Old Way: Measure, Transact, Model, Repeat
-{{< optimised_image src="rave.png" alt="An image of the Eat, Sleep, Rave, Repeat t-shirt" >}}
+![](rave.png)
 
 For a long time, the old way was that the media owner paid for the system that measured reach; the buyer and seller transacted on that reach; and the advertiser paid an analyst to model the link between that reach and its business impact. (See more on this [here](https://spm1001.planetmodha.com/post/2025/getting-tv-the-measurement-it-deserves/))
 
 It was a neat little loop: Measure, Transact, Model, Repeat. Not as fun as Mr Slim's sadly but it worked fine. 
 
-{{< optimised_image src="fine.png" alt="The "This is fine" dog meme, used to represent a state of denial." >}}
+![](fine.png)
 
 And you may be thinking that that old way is still fine. But it isn't.
 
@@ -79,7 +79,7 @@ It's often done in a mathematically fancier way than this, and there are lots of
 
 # How the Platforms Changed the Game
 
-{{< optimised_image src="outcomes.png" alt="A diagram distinguishing between outputs and outcomes in media buying." >}}
+![](outcomes.png)
 
 Into this world of long-run justifications came the digital platforms. And they came with a killer proposition: in return for an advertiser handing over outcome data, the platforms would take on the job of measuring the business impact, relieving advertisers of the burden of doing so themselves. 
 
@@ -87,17 +87,17 @@ Advertisers were so delighted that they transmitted more and more of their outco
 
 The platforms, in turn, got scarily good at predicting, and even optimising for, those outcomes, because they had lots of data on each one. It's the tragedy of machine learning - your data can be useless to you but valuable to someone else.
 
-{{< optimised_image src="eric.png" alt="A picture of Eric Seufert explaining incremental buying" >}}
+![](eric.png)
 
 It's gone so far now that the platforms can even sell incrementality. They can promise to spend an advertiser's money on *just* the people who wouldn't otherwise have bought, avoiding both cardinal sins of marketing waste: spending money on people who will never buy, and spending it on people who were going to buy anyway.
 
 # Outcomes Won. Eyeballs Nil.
 
-{{< optimised_image src="outcomes_won.png" alt="Chart showing the growth in % of media spend bought on an outcome basis" >}}
+![](outcomes_won.png)
 
 Seen from an advertiser’s perspective, is it any wonder then, that outcomes have won? Looking at UK ad spend, we reckon that outcome-based buying overtook eyeball-based buying across all media back in 2019.
 
-{{< optimised_image src="video_too.png" alt="Chart showing the growth in % of video spend bought on an outcome basis" >}}
+![](video_too.png)
 And if you were thinking video advertising was immune, I have bad news. For video, the tipping point happened later - probably around 2023, but still a couple of years ago.
 
 But here’s a question. They may take over half the money, and they obviously have effective ad products, but do we think that over half of the value created by advertising was actually generated by that platform spend?
@@ -106,7 +106,7 @@ Broadly speaking, no. For a bunch of reasons this new measurement paradigm massi
 
 # So What Did We Do?
 
-{{< optimised_image src="naughty.png" alt="A montage of different ways in which the brand marketing community has tried to admonish advertisers" >}}
+![](naughty.png)
 
 Strangely, brand marketing's response for years was one of denial. We reminded advertisers about "The Long and the Short of It". We told them off for using "toxic digital metrics." We pushed the "60/40" rule to try and keep them spending 'correctly'.
 
@@ -116,12 +116,12 @@ This is the mission: to give TV the outcome measurement it deserves. We need to 
 
 # Enter The Lantern
 
-{{< optimised_image src="lantern.png" alt="A picture of the logo for the Lantern project" >}}
+![](lantern.png)
 
 And that is where projects like **Lantern** come in - a cross-broadcaster initiative to link large-scale TV exposure data with a rich panel of online outcome data.
 
 
-{{< optimised_image src="lantern-poc.png" alt="A diagram explaining the Lantern proof-of-concept." >}}
+![](lantern-poc.png)
 
 The Lantern PoC that's being worked on at the moment combines large scale linear ad exposure with large scale behavioural outcome data. Meaning we can link the ads people see, to the things they do, not just five minutes after the ad, but days and weeks after. "But what's that got to do with audience measurement" I hear you ask?
 
@@ -132,11 +132,11 @@ And if we can’t figure out how to manage that resource for both purposes we ar
 
 # Same Well, Different Thirsts
 
-{{< optimised_image src="water.png" alt="A picture of a well, used in a metaphorical context." >}}
+![](water.png)
 
 For audience measurement, the goal is to sell the water. The focus is on counting reliably. We worry about sample bias, we reweight the data, and we are careful not to accept anyone onto our panels who actually wants to be there. Counting the eyeballs is an end (and an art) in itself.
 
-{{< optimised_image src="beer.png" alt="A picture of a glass of beer, used in a metaphorical context." >}}
+![](beer.png)
 
 But for outcome measurement, you don't want to aggregate that data straight away. You want to keep it at an individual level until you can join it to an outcome, like a website visit or a purchase. The goal isn't to count, but to *compare*.
 
@@ -148,13 +148,13 @@ So they both use the same raw material. But how do we get water for both?
 
 # The Chickens Of Course...
 
-{{< optimised_image src="glot.png" alt="Logos of MHEG and HBBTV" >}}
+![](glot.png)
 
 In Europe, TV operating systems like HbbTV and MHEG-5 have been speaking both Coax and IP for years. And in recent times they've reached critical mass. Most TVs are now connected to both a coax cable and to the internet. 
 
 So in Austria, the new AGTT Teletest system has been able to use HbbTV to collect viewing data from millions of TVs, building a panel that is calibrated against the traditional people meter but reports in real-time. It’s the best result I know of, of a productive, collaborative conversation between Team Coax and Team IP.
 
-{{< optimised_image src="freely.png" alt="Screenshot of a Freely TV asking a viewer to sign in." >}}
+![](freely.png)
 
 You'll hear more about that in just a second, but even here in the UK there are signs of change. If you buy a new Freely TV and plug it in, you’ll have a moment of cognitive dissonance. The part of your brain that thinks like a spy expects to just tune in to ITV1. Instead, you're politely asked to sign in to ITVX first. Just to watch linear TV.
 
