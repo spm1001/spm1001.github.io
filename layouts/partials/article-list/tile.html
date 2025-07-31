@@ -5,28 +5,11 @@
         {{ if $image.exists }}
             <div class="article-image">
                 {{ if $image.resource }}
-                    {{- $imageRaw := $image.resource | resources.Fingerprint "md5" -}}
-                    {{- $Permalink := $imageRaw.RelPermalink -}}
-                    {{- $Width := $imageRaw.Width -}}
-                    {{- $Height := $imageRaw.Height -}}
-
-                    {{- if .context.Site.Params.imageProcessing.cover.enabled -}}
-                        {{- $thumbnail := $imageRaw.Fill .size -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
-                        {{- $Width = $thumbnail.Width -}}
-                        {{- $Height = $thumbnail.Height -}}
-                    {{- end -}}
-                    
-                    <img src="{{ $Permalink }}" 
-                        width="{{ $Width }}" 
-                        height="{{ $Height }}" 
-                        loading="eager"
-                        fetchpriority="high"
-                        alt="Featured image of post {{ .context.Title }}"
-                        {{ with .context.Slug }}data-key="{{ . }}" {{ end }}
-                        data-hash="{{ $imageRaw.Data.Integrity }}">
+                    {{- $src := $image.resource.RelPermalink -}}
+                    {{- $alt := printf "Featured image of post %s" .context.Title -}}
+                    {{< optimised_image src=$src alt=$alt loading="eager" fetchpriority="high" >}}
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="eager" fetchpriority="high" data-key="{{ .context.Slug }}" data-hash="{{ $image.permalink }}"/>
+                    {{< optimised_image src=$image.permalink alt=(printf "Featured image of post %s" .context.Title) loading="eager" fetchpriority="high" >}}
                 {{ end }}
             </div>
         {{ end }}
