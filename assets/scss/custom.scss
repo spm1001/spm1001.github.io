@@ -1,5 +1,10 @@
 /* In your your-hugo-site/assets/scss/custom.scss */
 
+:root {
+    --body-text-color: #555;
+    --card-text-color-secondary: #666;
+}
+
 /* Make the overall sidebar container a flex column and center its content */
 .left-sidebar {
     display: flex;

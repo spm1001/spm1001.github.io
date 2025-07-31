@@ -4,7 +4,7 @@ languageCode = 'en-gb'
 title = 'spm1001'
 defaultContentLanguage = 'en'
 copyright = 'Sameer Modha'
-timeout = '60s' # General timeout for Hugo build
+timeout = '120s' # General timeout for Hugo build
 
 # Theme Configuration
 # Defines the theme fallback chain: hugo-theme-stack is primary, reveal-hugo is fallback

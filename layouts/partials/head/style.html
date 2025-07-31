@@ -1,0 +1,9 @@
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | toCSS | minify | resources.Fingerprint "sha256" }}
+
+<style>
+  {{ $style.Content | safeCSS }}
+</style>
+
+<link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}"></noscript>

@@ -1,12 +1,14 @@
 {{/*
-  Shortcode for responsive, optimized images.
-  Usage: {{< optimised_image src="image.jpg" alt="Description" caption="Optional caption." >}}
+  Shortcode for responsive, optimized images with AVIF/WebP support and multiple sizes.
+  Usage: {{< optimised_image src="image.jpg" alt="Description" caption="Optional caption." sizes="(max-width: 768px) 100vw, 768px" loading="lazy" fetchpriority="auto" >}}
   Place images in the same folder as your index.md.
 */}}
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
 {{- $caption := .Get "caption" -}}
-{{- $width := .Get "width" | default "700" -}}
+{{- $sizes := .Get "sizes" | default "(max-width: 768px) 100vw, 768px" -}}
+{{- $loading := .Get "loading" | default "lazy" -}}
+{{- $fetchpriority := .Get "fetchpriority" | default "auto" -}}
 
 {{- if not $src -}}
   {{- errorf "The 'src' attribute is required for the optimised_image shortcode." -}}
@@ -27,21 +29,23 @@
   {{- errorf "Image not found: '%s' in page '%s'. Make sure local images are in the same folder as your index.md." $src $.Page.Path -}}
 {{- end -}}
 
-{{/* Generate the optimized images */}}
-{{- $webp := $imageResource.Resize (printf "%sx webp" $width) -}}
-{{- $fallback := $imageResource.Resize (printf "%sx" $width) -}}
+{{- $targetWidths := slice 320 640 768 1024 1280 1600 1920 2560 -}}
+{{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 2)) -}}
 
 <figure>
   <picture>
-    <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-    <source srcset="{{ $fallback.RelPermalink }}" type="{{ $fallback.MediaType }}">
+    <source type="image/avif" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx avif" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    <source type="image/webp" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx webp" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <img src="{{ $fallback.RelPermalink }}" 
          alt="{{ $alt }}" 
          width="{{ $fallback.Width }}" 
          height="{{ $fallback.Height }}"
-         loading="lazy">
+         loading="{{ $loading }}"
+         fetchpriority="{{ $fetchpriority }}">
   </picture>
   {{- with $caption -}}
     <figcaption>{{ . | markdownify }}</figcaption>
   {{- end -}}
 </figure>
+

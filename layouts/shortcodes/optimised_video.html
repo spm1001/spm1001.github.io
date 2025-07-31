@@ -1,0 +1,28 @@
+{{/*
+  Shortcode for responsive, optimized videos.
+  Usage: {{< optimised_video src="video.mp4" >}}
+  Place videos in the same folder as your index.md.
+*/}}
+{{- $src := .Get "src" -}}
+
+{{- if not $src -}}
+  {{- errorf "The 'src' attribute is required for the optimised_video shortcode." -}}
+{{- end -}}
+
+{{- $videoResource := "" -}}
+{{- if hasPrefix $src "http" -}}
+  {{- $videoResource = resources.GetRemote $src -}}
+{{- else -}}
+  {{- $videoResource = $.Page.Resources.GetMatch $src -}}
+{{- end -}}
+
+{{- if not $videoResource -}}
+  {{- errorf "Video not found: '%s' in page '%s'. Make sure local videos are in the same folder as your index.md." $src $.Page.Path -}}
+{{- end -}}
+
+<figure>
+  <video autoplay loop muted playsinline>
+    <source src="{{ $videoResource.RelPermalink }}" type="{{ $videoResource.MediaType }}">
+    Your browser does not support the video tag.
+  </video>
+</figure>

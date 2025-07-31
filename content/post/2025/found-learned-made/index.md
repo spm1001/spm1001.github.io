@@ -5,8 +5,9 @@ Categories: [Welcome]
 summary: "Over the years, l've made a few little websites to host stuff l've written/presented, but never really kept them going for very long. I'm having another go, but this time, I'm making a bit more effort and rounding up older pieces as well."
 description: "Introducing the last website I'll ever make... again"
 weight: 2
-image: suit.gif
 ---
+
+{{< optimised_video src="suit.mp4" >}}
 So, much later than planned, I'm following through on my promise to myself to gather all my old stuff and put it in one place for the digital moths to chew on.
 
 The kick I needed was Simon Willison's recent post on the joys of writing about things you've
