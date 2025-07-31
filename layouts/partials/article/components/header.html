@@ -10,10 +10,11 @@
                     {{- $Srcset := "" -}}
                     
                     {{- if eq .Type "articleList" -}}
-                        {{- $thumbnail := $image.resource.Resize "200x" -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
-                        {{- $Width = $thumbnail.Width -}}
-                        {{- $Height = $thumbnail.Height -}}
+                        {{/* For article lists, avoid resizing and use original permalink or a small placeholder */}}
+                        {{/* This significantly speeds up build by avoiding repeated image processing */}}
+                        {{- $Permalink = $image.resource.RelPermalink -}}
+                        {{- $Width = $image.resource.Width -}}
+                        {{- $Height = $image.resource.Height -}}
                     {{- else if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Resize "800x" -}}
                         {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
