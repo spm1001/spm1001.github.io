@@ -2,3 +2,8 @@ public
 resources
 .hugo_build.lock
 
+*.sh
+*.txt
+.crush/
+.crush/
+.crush/
