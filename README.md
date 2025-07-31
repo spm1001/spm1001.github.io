@@ -12,7 +12,7 @@ I'm going to take a leaf out of Simon Willison's book by posting more frequently
 
 ## How does it work?
 
-It uses Hugo to turn a bunch of folders containing text files and images, and turns it into a static website, which is then hosted by Github at https://spm1001.planetmodha.com
+It uses Hugo to turn a bunch of folders containing text files and images into a static website, which is then hosted by Github at https://spm1001.planetmodha.com
 
 It also produces an RSS export at https://spm1001.planetmodha.com/index.xml, with summaries of the articles. 
 
@@ -42,7 +42,7 @@ The git [help page](https://git-scm.com/book/en/v2/Git-Tools-Submodules) is surp
 
 #### When cloning
 
-So if you clone from Github, it won't copy the files for the submodules
+So if you clone from this repo, it won't copy the files for the submodules
 
 If you've cloned already then do
 
