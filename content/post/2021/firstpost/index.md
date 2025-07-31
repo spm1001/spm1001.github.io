@@ -86,7 +86,7 @@ And below this is a horizontal rule - the rules for these are finicky - need a r
 ---
 ## Sometimes pictures are nice
 Here is hopefully a picture
-![Alt Text is Fun](https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg)
+{{< optimised_image src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg" alt="A picture of a turnip, used as a placeholder image for a first post." >}}
 
 What else? Not sure. 
 

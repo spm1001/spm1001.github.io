@@ -11,12 +11,12 @@ image: pinterest.jpg
 # Collateral Knowledge
 Hello hope everyone's feeling OK after last night! I'm Sameer and I’m very happy to be here. The Manchester arm of this conference has been one of the highlights of my professional life, and I always wanted to attend the Stateside version, and now here I am.
 
-![](Old_cathedral_of_Kaliningrad_in_Russia.jpg)
+{{< optimised_image src="Old_cathedral_of_Kaliningrad_in_Russia.jpg" alt="The old cathedral of Kaliningrad in Russia, a red-brick Gothic building surrounded by trees, used to introduce the idea of connecting different fields of knowledge." >}}
 It's been great to see some familiar faces, but for those of you I haven't had a chance to meet yet, I guess I should introduce myself.
 
 So. Anyone recognise this building? Or perhaps the bridge on the right, in the foreground?
 
-![](1*RjE1EQs2LCJrnysAHYZrWg.png)
+{{< optimised_image src="1*RjE1EQs2LCJrnysAHYZrWg.png" alt="A diagram of the Seven Bridges of Königsberg problem, illustrating the connections between different areas of study." >}}
 How about now?
 
 Yes exactly. It is a picture of the old Cathedral in Kaliningrad, which you are more likely to know as Königsberg Cathedral. Yes, the Königsberg of the famous bridge problem.
@@ -74,7 +74,7 @@ That's all I want. An hour of your time. But I should probably explain why. And 
 
 ---
 # Multi Mod{a,e}l?
-![](image8.gif)
+{{< optimised_image src="image8.gif" alt="An animated GIF showing an LLM as a tree that grows to cover more capabilities as the parameter count increases" >}}
 
 Ok so this is a gif taken from a recent blog post for Google's PaLM model, which neatly illustrates the point that as big models get bigger, they can tackle more problems in more domains. These kinds of model are getting lots of attention these days. (And I don't mean self-attention lol.) Even the Economist has covered 'Foundational' models that can be used for multiple tasks. Multi-lingual models. Multi-modal models. Models that, with a few shots, can learn to solve new problems, in novel settings.
 
@@ -82,7 +82,7 @@ Like many of you, I am following all this with huge excitement. Seeing ever more
 
 ---
 ## Go {big,{home, small}}?
-![](data-centric-ML_6.png.webp)
+{{< optimised_image src="data-centric-ML_6.png.webp" alt="A diagram showing the tradeoffs between data quality and data size in terms of the resulting model" >}}
 
 But it's not all towering, planet scale models of course. There is value in the opposite direction too. People are making small, task-specific models with compact, bijoux data sets. Andrew Ng, for instance, has been popularising the idea of data-centric AI, where, as long as you spend time cleaning them, modest datasets with modern techniques can yield huge amounts of business value. So again we can realise the potential of ML in new domains to answer novel questions.
 
@@ -95,7 +95,7 @@ Specifically, between the sequoia and the bonsai, I think, we should be asking m
 ---
 ## The Big, Friendly Giants
 
-![](media-librarypPljga.jpeg)
+{{< optimised_image src="media-librarypPljga.jpeg" alt="An illustration of the BFG - the Big Friendly Giant" >}}
 
 You know the ones I mean. The gentle giants that solve some difficult but important problem for your business. The ones you feed vast quantities of data but would never use for transfer learning. The ones where the internal website talks proudly about the billions of inferences per second delivered to the rest of the business. The models that make lots of money, but rarely get their own blog post. Funnily enough, a lot of the models in this conference. The recs engines, the fraud models, the lifetime value predictors.
 
@@ -106,7 +106,7 @@ But in some of my work in recent years, I've found these gentle giants have a lo
 ---
 # 1. Pinterest circa 2015
 
-![](pinterest.jpg)
+{{< optimised_image src="pinterest.jpg" alt="A map of the Pinterest topic graph" >}}
 
 Here's a simple, maybe even whimsical example of what I mean.
 
@@ -126,7 +126,8 @@ My point here is that something which was developed purely for the consumer-faci
 
 ---
 # 2. People Also Ask
-![](Screenshot_2022-07-24_at_19.06.59.png)
+{{< optimised_image src="Screenshot_2022-07-24_at_19.06.59.png" alt="A screenshot of Google's "People Also Ask" feature for the query "Who is the most prolific mathematician?".
+" >}}
 
 Another example.
 
@@ -135,7 +136,7 @@ There's a lovely feature in Google Search that understands related questions. As
 ---
 # What is a Mattress Topper?
 
-![](Screenshot_2022-07-24_at_19.09.50.png)
+{{< optimised_image src="Screenshot_2022-07-24_at_19.09.50.png" alt="A screenshot of Google's "People Also Ask" feature for the query "What is a Mattress Topper?"" >}}
 
 More practically, a search for mattress toppers might lead to questions about what they are, whether they are worth it and how thick they should be.
 
@@ -161,7 +162,7 @@ It was a good old-fashioned SVD, based purely on user behaviour. Nothing more, n
 That was old when the first of these conferences happened, let alone now in 2022. You're probably sitting there thinking, 'but what about cold start?' Or 'what about pollution of the model from home page editorial recommendations?' and you'd be right but for my purposes it didn't matter.
 
 ---
-![](Inbox_-_2022-07-27_16.07.12.png)
+{{< optimised_image src="Inbox_-_2022-07-27_16.07.12.png" alt="A hand drawn map showing clustered groups of TV shows and audiences, derived from the old ITV recommendation engine." >}}
 
 
 We dug out the old model. The one off the digital scrap heap. And we repurposed it. We took the SVD, and clustered it to produce groups of shows and groups of people
@@ -180,7 +181,7 @@ Now **the recs engines** that a lot of you have, implicitly know a lot about mor
 ---
 ## Lay foundations
 
-![](qg64wv5w1ok01.jpg)
+{{< optimised_image src="qg64wv5w1ok01.jpg" alt="A picture of an excavation happening on a river bed, showing a hole with reinforced metal sides holding the water back" >}}
 
 So I'm going to finish by talking a bit about the lessons learned from doing this kind of work.
 
@@ -197,7 +198,7 @@ To get them to engage, you need to reframe the question from the other islanders
 ---
 # Create unexpected connections
 
-![](583997371a00000d03cc9d37.png.webp)
+{{< optimised_image src="583997371a00000d03cc9d37.png.webp" alt="A picture of the Go board during the infamous Go game where AlphaGo played a move no-one understood, but that turned out to be brilliant" >}}
 
 
 And then, the challenge is to find a way to build the bridge. To coax answers out of the models in a form the other islanders can make use of.
@@ -218,7 +219,7 @@ And the connection, the bridge, when it works is magical. What happens first is 
 # Walk with them
 
 
-![](maxresdefault.jpg)
+{{< optimised_image src="maxresdefault.jpg" alt="Picture of the sea-spanning bridge in China" >}}
 
 
 OK, but even once you've got your analysis, there's one more hurdle, one tollbooth as you cross. Which is that the audience aren't used to working with you and aren't used to the artefacts you work with. And that gets in the way. So I'll finish with a few top tips on how to get people travelling on your bridge.
