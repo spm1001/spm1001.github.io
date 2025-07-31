@@ -60,8 +60,18 @@ git clone --recurse-submodules https://github.com/spm1001/spm1001.github.io.git
 `git submodule update --remote`
 
 
-#### To restore the conection
+#### To remove and restore the conection
+
 ```
+git rm --cached themes/hugo-theme-stack
+git rm --cached themes/reveal-hugo
+rm -rf themes
+rm -rf .git/modules/themes
+rm .gitmodules
+touch .gitmodules
+nano .git/config and remove the submodule sections
+
+
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
 git submodule add https://github.com/joshed-io/reveal-hugo.git themes/reveal-hugo
 ```
