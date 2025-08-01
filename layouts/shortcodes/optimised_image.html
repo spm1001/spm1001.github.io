@@ -1,22 +1,9 @@
-{{/*
-  Shortcode for responsive, optimized images with AVIF/WebP support and multiple sizes.
-  Usage: {{< optimised_image src="image.jpg" alt="Description" caption="Optional caption." sizes="(max-width: 768px) 100vw, 768px" loading="lazy" fetchpriority="auto" >}}
-  Place images in the same folder as your index.md.
-*/}}
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
 {{- $caption := .Get "caption" -}}
-{{- $sizes := .Get "sizes" | default "(max-width: 768px) 100vw, 768px" -}}
-{{- $loading := .Get "loading" | default "lazy" -}}
-{{- $fetchpriority := .Get "fetchpriority" | default "auto" -}}
-
-{{- if not $src -}}
-  {{- errorf "The 'src' attribute is required for the optimised_image shortcode." -}}
-{{- end -}}
-
-{{- if not $alt -}}
-  {{- errorf "The 'alt' attribute is required for accessibility in the optimised_image shortcode." -}}
-{{- end -}}
+{{- $sizes := .Get "sizes" -}}
+{{- $loading := .Get "loading" -}}
+{{- $fetchpriority := .Get "fetchpriority" -}}
 
 {{- $imageResource := "" -}}
 {{- if hasPrefix $src "http" -}}
@@ -25,26 +12,13 @@
   {{- $imageResource = $.Page.Resources.GetMatch $src -}}
 {{- end -}}
 
-{{- if not $imageResource -}}
-  {{- errorf "Image not found: '%s' in page '%s'. Make sure local images are in the same folder as your index.md." $src $.Page.Path -}}
-{{- end -}}
-
-{{- $targetWidths := slice 640 1280 1920 -}}
-{{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 0)) -}}
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx avif q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
-    <source type="image/webp" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx webp q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
-    <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx q75" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
-    <img src="{{ $fallback.RelPermalink }}"
-         alt="{{ $alt }}"
-         width="{{ $fallback.Width }}"
-         height="{{ $fallback.Height }}"
-         loading="{{ $loading }}"
-         fetchpriority="{{ $fetchpriority }}">
-  </picture>
-  {{- with $caption -}}
-    <figcaption>{{ . | markdownify }}</figcaption>
-  {{- end -}}
-</figure>
+{{ partial "helper/optimised_image_partial.html" (dict
+    "resource" $imageResource
+    "src" $src
+    "alt" $alt
+    "caption" $caption
+    "sizes" $sizes
+    "loading" $loading
+    "fetchpriority" $fetchpriority
+    "Context" .
+)}}

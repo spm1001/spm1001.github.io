@@ -17,9 +17,9 @@
                 {{ if $image.resource }}
                     {{- $src := $image.resource.RelPermalink -}}
                     {{- $alt := .Title -}}
-                    {{< optimised_image src="{{ $src }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" >}}
-                {{ else }}
-                    {{< optimised_image src="{{ $image.permalink }}" alt="{{ .Title }}" loading="eager" fetchpriority="high" >}}
+                    {{ partial "helper/optimised_image_partial.html" (dict "resource" $image.resource "alt" $alt "loading" "eager" "fetchpriority" "high" "src" $src "Context" .) }}
+                {{ else if $image.permalink }}
+                    <img src="{{ $image.permalink }}" alt="{{ .Title }}" loading="eager" fetchpriority="high">
                 {{ end }}
             </div>
         {{ end }}

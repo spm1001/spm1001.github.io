@@ -1,0 +1,49 @@
+{{/*
+  Partial for responsive, optimized images with AVIF/WebP support and multiple sizes.
+  Expected parameters:
+  - resource: The image resource object (required)
+  - alt: Alt text (string)
+  - caption: Optional caption (string)
+  - sizes: Optional sizes attribute (string)
+  - loading: Optional loading attribute (string)
+  - fetchpriority: Optional fetchpriority attribute (string)
+  - src: Original src path (for error reporting)
+  - Context: The page context (for error reporting)
+*/}}
+{{- $imageResource := .resource -}}
+{{- $alt := .alt -}}
+{{- $caption := .caption -}}
+{{- $sizes := .sizes | default "(max-width: 768px) 100vw, 768px" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $fetchpriority := .fetchpriority | default "auto" -}}
+
+{{- $src := .src -}}
+{{- $context := .Context -}}
+
+{{- if not $imageResource -}}
+  {{- errorf "The 'resource' attribute is required for the optimised_image partial. (src: %q, context: %q)" $src $context.Page.Path -}}
+{{- end -}}
+
+{{- if not $alt -}}
+  {{- errorf "The 'alt' attribute is required for accessibility in the optimised_image partial." -}}
+{{- end -}}
+
+{{- $targetWidths := slice 640 1280 1920 -}}
+{{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 0)) -}}
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx avif q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    <source type="image/webp" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx webp q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx q75" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    <img src="{{ $fallback.RelPermalink }}"
+         alt="{{ $alt }}"
+         width="{{ $fallback.Width }}"
+         height="{{ $fallback.Height }}"
+         loading="{{ $loading }}"
+         fetchpriority="{{ $fetchpriority }}">
+  </picture>
+  {{- with $caption -}}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end -}}
+</figure>
