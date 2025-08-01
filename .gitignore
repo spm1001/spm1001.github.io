@@ -1,10 +1,9 @@
 public
 resources
-.hugo_build.lock
 
+.hugo_build.lock
+.crush
+
+*.png
 *.sh
 *.txt
-.crush
-PageSpeed Insights.pdf
-Screenshot 2025-07-31 at 18.33.44.png
-Screenshot 2025-07-31 at 18.36.10.png

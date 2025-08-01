@@ -23,7 +23,7 @@
     .sidebar-header-content {
         display: flex;
         flex-direction: column; /* Stack avatar and site-meta vertically */
-        align-items: center;   /* Horizontally center the items (avatar and site-meta) */
+        align-items: center; /* Horizontally center the items (avatar and site-meta) */
         width: 100%; /* Ensure it takes full width to enable centering */
         box-sizing: border-box; /* Include padding/border in the width */
     }
@@ -40,18 +40,20 @@
     text-align: center;
     margin: 0; /* Explicitly remove all margins */
     padding: 0; /* Explicitly remove all paddings */
+    margin-top: -10px; /* Pull the title closer to the avatar */
 }
 
 .left-sidebar .site-meta .site-name {
     margin: 0; /* Explicitly remove all margins from the h1 */
     padding: 0; /* Explicitly remove all paddings from the h1 */
+    margin-top: 0; /* Ensure no top margin on the h1 element */
 }
 
 /* Optional: Center the avatar if it's not perfectly centered by default flex behavior */
 .left-sidebar .site-avatar {
     margin: 0 auto; /* This can help center block-level elements */
     display: block; /* Ensure it behaves as a block for margin auto to work */
-    margin-bottom: 5px; /* Control gap from avatar to title */
+    margin-bottom: -5px; /* Control gap from avatar to title */
 }
 
 .site-avatar img {
@@ -86,8 +88,19 @@
 }
 
 /* Specific styling for the Bit.ly icon (which is filled) */
-.menu-social svg.lucide-bitly { /* Targets the SVG by the class we added in its file */
-    fill: currentColor;   /* Make it solid with the text color */
-    stroke: none;         /* Ensure it has no outline */
-    opacity: 0.6;         /* Reduce opacity to make it visually lighter */
+.menu-social svg.lucide-bitly {
+    /* Targets the SVG by the class we added in its file */
+    fill: currentColor; /* Make it solid with the text color */
+    stroke: none; /* Ensure it has no outline */
+    opacity: 0.6; /* Reduce opacity to make it visually lighter */
+}
+
+/* More targeted approach to reduce spacing between avatar and title */
+.sidebar header {
+    gap: 2px !important; /* Minimize gap between avatar and site-meta instead of removing entirely */
+}
+
+/* Also add negative margin to pull title even closer */
+.left-sidebar .site-meta {
+    margin-top: -45px !important; /* Match reference implementation with very tight avatar-to-title spacing */
 }
