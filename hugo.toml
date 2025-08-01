@@ -4,7 +4,7 @@ languageCode = 'en-gb'
 title = 'spm1001'
 defaultContentLanguage = 'en'
 copyright = 'Sameer Modha'
-timeout = '30s'                             # Reduced timeout for faster failure detection (was 600s)
+timeout = '300s'                            # Increased timeout for image processing (was 30s)
 enableGitInfo = false                       # Disable git info lookup for faster builds
 
 # Theme Configuration
@@ -31,6 +31,15 @@ favicon = "/favicon.ico" # Favicon path, typically relative to /static
 # Article/Content Specific Parameters
 [params.article]
 math = true # Enables MathJax or KaTeX for mathematical notation
+
+# Image Processing Parameters
+# Controls how the theme processes and optimizes images
+[params.imageProcessing]
+[params.imageProcessing.cover]
+enabled = true # Enable image processing for cover/featured images
+
+[params.imageProcessing.content]
+enabled = true # Enable image processing for content images
 
 # Color Scheme Parameters
 [params.colorScheme]
@@ -100,6 +109,32 @@ respectDoNotTrack = true
 # Markdown Markup Configuration
 [markup.goldmark.renderer]
 unsafe = true # Allows raw HTML in Markdown, often needed for Reveal.js and custom shortcodes
+
+
+# Image Processing Configuration
+# Enables modern image formats (AVIF, WebP) and optimizes quality
+[imaging]
+# Enable AVIF format (most efficient, best compression)
+[imaging.avif]
+quality = 60 # AVIF quality (lower = smaller files, good quality at 60)
+
+# Enable WebP format (good compression, wide browser support)
+[imaging.webp]
+quality = 60 # WebP quality
+
+# JPEG settings for fallback
+[imaging.jpeg]
+quality = 75 # JPEG quality for fallback images
+
+# PNG settings
+[imaging.png]
+quality = 75 # PNG quality
+
+# General imaging settings
+anchor = "smart"              # Smart cropping
+bgColor = "#ffffff"           # Background color for transparent images
+hint = "photo"                # Optimize for photos
+resampleFilter = "CatmullRom" # High-quality resampling
 
 
 # Reveal.js Specific Configurations

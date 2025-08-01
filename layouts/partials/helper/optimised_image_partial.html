@@ -31,9 +31,20 @@
 {{- $targetWidths := slice 640 1280 1920 -}}
 {{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 0)) -}}
 
+{{- /* Test AVIF support by trying to generate a small AVIF image */ -}}
+{{- $avifTest := "" -}}
+{{- with $imageResource.Resize "100x avif q60" -}}
+  {{- if and (ne .RelPermalink $imageResource.RelPermalink) (strings.HasSuffix .RelPermalink ".avif") -}}
+    {{- $avifTest = . -}}
+  {{- end -}}
+{{- end -}}
+
 <figure>
   <picture>
+    {{- /* Only include AVIF source if AVIF encoding is working */ -}}
+    {{- if $avifTest -}}
     <source type="image/avif" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx avif q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
+    {{- end -}}
     <source type="image/webp" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx webp q60" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx q75" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <img src="{{ $fallback.RelPermalink }}"
