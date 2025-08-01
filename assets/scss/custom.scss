@@ -13,28 +13,45 @@
     width: 100%; /* Ensure it takes full width for centering to be effective */
     box-sizing: border-box; /* Include padding/border in the width */
     /* Remove any existing display/flex properties from here if they conflict in theme CSS */
+    --sidebar-avatar-size: 180px; /* Increase avatar size */
 }
 
 /* Original centering for avatar/site-name (keep this for inner structure of the header) */
-.left-sidebar header .sidebar-header-content {
-    display: flex;
-    flex-direction: column; /* Stack avatar and site-meta vertically */
-    align-items: center;   /* Horizontally center the items (avatar and site-meta) */
-    width: 100%; /* Ensure it takes full width to enable centering */
-    box-sizing: border-box; /* Include padding/border in the width */
+.left-sidebar header {
+    margin: 0;
+    padding: 0;
+    .sidebar-header-content {
+        display: flex;
+        flex-direction: column; /* Stack avatar and site-meta vertically */
+        align-items: center;   /* Horizontally center the items (avatar and site-meta) */
+        width: 100%; /* Ensure it takes full width to enable centering */
+        box-sizing: border-box; /* Include padding/border in the width */
+    }
+}
+
+.left-sidebar header .site-avatar,
+.left-sidebar header .site-meta {
+    margin: 0;
+    padding: 0;
 }
 
 /* Ensure the text within site-meta is also centered */
 .left-sidebar .site-meta {
     text-align: center;
-    /* Optional: Adjust margins if needed, e.g., to reduce space between avatar and name */
-    /* margin-top: 10px; */
+    margin: 0; /* Explicitly remove all margins */
+    padding: 0; /* Explicitly remove all paddings */
+}
+
+.left-sidebar .site-meta .site-name {
+    margin: 0; /* Explicitly remove all margins from the h1 */
+    padding: 0; /* Explicitly remove all paddings from the h1 */
 }
 
 /* Optional: Center the avatar if it's not perfectly centered by default flex behavior */
 .left-sidebar .site-avatar {
     margin: 0 auto; /* This can help center block-level elements */
     display: block; /* Ensure it behaves as a block for margin auto to work */
+    margin-bottom: 5px; /* Control gap from avatar to title */
 }
 
 .site-avatar img {
@@ -49,9 +66,9 @@
     display: flex; /* Make the list itself a flex container */
     justify-content: center; /* Center the icons within the social menu */
     width: 100%; /* Ensure it takes full width within the sidebar */
-    padding: 10px 0; /* Add some vertical padding, remove horizontal if exists */
     list-style: none; /* Remove default list bullet points */
-    margin-bottom: 20px; /* Add space below social icons */
+    margin: 0; /* Zero out all margins */
+    padding: 0; /* Zero out all paddings */
 }
 
 /* Add some spacing between individual social icons */
