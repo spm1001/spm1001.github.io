@@ -4,11 +4,12 @@ languageCode = 'en-gb'
 title = 'spm1001'
 defaultContentLanguage = 'en'
 copyright = 'Sameer Modha'
-timeout = '600s' # General timeout for Hugo build
+timeout = '30s'                             # Reduced timeout for faster failure detection (was 600s)
+enableGitInfo = false                       # Disable git info lookup for faster builds
 
 # Theme Configuration
 # Defines the theme fallback chain: hugo-theme-stack is primary, reveal-hugo is fallback
-themesDir = "themes" # Ensure this points to your themes directory
+themesDir = "themes"                        # Ensure this points to your themes directory
 theme = ["hugo-theme-stack", "reveal-hugo"]
 
 
@@ -20,96 +21,120 @@ pagerSize = 50
 # Site Parameters (Params)
 # All custom site-wide parameters are defined here
 [params]
-    rssFullContent = false
-    favicon = "/favicon.ico" # Favicon path, typically relative to /static
+rssFullContent = false
+favicon = "/favicon.ico" # Favicon path, typically relative to /static
 
-    # Sidebar Parameters
-    [params.sidebar]
+# Sidebar Parameters
+[params.sidebar]
 #        subtitle = "This is a subtitle" # Your custom subtitle under the avatar
 
-    # Article/Content Specific Parameters
-    [params.article]
-        math = true # Enables MathJax or KaTeX for mathematical notation
+# Article/Content Specific Parameters
+[params.article]
+math = true # Enables MathJax or KaTeX for mathematical notation
 
-    # Color Scheme Parameters
-    [params.colorScheme]
-        toggle = false # Disable dark mode toggle if not needed
-        default = "light" # Default color scheme
+# Color Scheme Parameters
+[params.colorScheme]
+toggle = false    # Disable dark mode toggle if not needed
+default = "light" # Default color scheme
 
-    # Footer Parameters
-    [params.footer]
-        since = 2015
-        customText = "These opinions may once have been mine, but certainly don't represent those of any past, present or indeed future employer"
+# Footer Parameters
+[params.footer]
+since = 2015
+customText = "These opinions may once have been mine, but certainly don't represent those of any past, present or indeed future employer"
 
 
 # Menu Configuration
 # Defines main and social menus
 [menu]
-    # Main menu items (currently commented out, defined in _index.md)
-    # [[main]]
-    #   identifier = "home"
-    #   name = "Home"
-    #   url = "/"
-    #   weight = 10
+# Main menu items (currently commented out, defined in _index.md)
+# [[main]]
+#   identifier = "home"
+#   name = "Home"
+#   url = "/"
+#   weight = 10
 
-    # Social links menu
-    [[menu.social]]
-        identifier = "linkedin"
-        name = "LinkedIn"
-        url = "https://linkedin.com/in/sameermodha"
-        weight = 10
-        [menu.social.params]
-            icon = "brand-linkedin" # Icon name should match SVG file in assets/icons/
+# Social links menu
+[[menu.social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://linkedin.com/in/sameermodha"
+weight = 10
+[menu.social.params]
+icon = "brand-linkedin" # Icon name should match SVG file in assets/icons/
 
-    [[menu.social]]
-        identifier = "github"
-        name = "GitHub"
-        url = "https://github.com/spm1001"
-        weight = 20
-        [menu.social.params]
-            icon = "brand-github"
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/spm1001"
+weight = 20
+[menu.social.params]
+icon = "brand-github"
 
-    [[menu.social]]
-        identifier = "bitly"
-        name = "Bit.ly"
-        url = "https://bit.ly/m/sameermodha"
-        weight = 30
-        [menu.social.params]
-            icon = "brand-bitly"
+[[menu.social]]
+identifier = "bitly"
+name = "Bit.ly"
+url = "https://bit.ly/m/sameermodha"
+weight = 30
+[menu.social.params]
+icon = "brand-bitly"
 
-    [[menu.social]]
-        identifier = "email"
-        name = "Email"
-        url = "mailto:spm1001@planetmodha.com?subject=I%20was%20on%20your%20site%20and..."
-        weight = 40
-        [menu.social.params]
-            icon = "mail"
+[[menu.social]]
+identifier = "email"
+name = "Email"
+url = "mailto:spm1001@planetmodha.com?subject=I%20was%20on%20your%20site%20and..."
+weight = 40
+[menu.social.params]
+icon = "mail"
 
 # GA4
 [services]
-    [services.googleAnalytics]
-        id = "G-DCFV6EWCTW"
+[services.googleAnalytics]
+id = "G-DCFV6EWCTW"
 
 [privacy]
-  [privacy.googleAnalytics]
-    disable = false
-    respectDoNotTrack = true
+[privacy.googleAnalytics]
+disable = false
+respectDoNotTrack = true
 
 
 # Markdown Markup Configuration
 [markup.goldmark.renderer]
-    unsafe = true # Allows raw HTML in Markdown, often needed for Reveal.js and custom shortcodes
+unsafe = true # Allows raw HTML in Markdown, often needed for Reveal.js and custom shortcodes
 
 
 # Reveal.js Specific Configurations
 # These settings define the 'Reveal' output format for slideshows
 [outputFormats.Reveal]
-    baseName = "index" # The filename for the Reveal output (e.g., your-post-slug/index.html)
-    mediaType = "text/html"
-    isHTML = true # Important for browser recognition
+baseName = "index"      # The filename for the Reveal output (e.g., your-post-slug/index.html)
+mediaType = "text/html"
+isHTML = true           # Important for browser recognition
 
 # Media Types Configuration
 # This maps the 'Reveal' output format to the 'reveal' layout kind,
 # so Hugo knows to look for templates like single.reveal.html
 [mediaTypes."text/html"]
-    suffixes = ["html", "reveal"] # Add 'reveal' as a valid suffix for HTML content
+suffixes = ["html", "reveal"] # Add 'reveal' as a valid suffix for HTML content
+
+# Performance Optimizations
+# These settings improve build times by caching processed resources
+[caches]
+# Cache external JSON data fetches (API calls, etc.)
+[caches.getjson]
+maxAge = "10m"
+
+# Cache external CSV data fetches
+[caches.getcsv]
+maxAge = "10m"
+
+# Cache processed images (AVIF/WebP conversions, resizing, etc.)
+# This is the big win for your image-heavy optimized site
+[caches.images]
+maxAge = "1h"             # Cache for 1 hour in production
+dir = ":resourceDir/_gen" # Store in resources/_gen directory
+
+# Development-specific optimizations for faster local builds
+[development]
+[development.caches]
+# Cache images longer during development since they change less frequently
+[development.caches.images]
+maxAge = "24h" # Cache images for 24 hours during local development
