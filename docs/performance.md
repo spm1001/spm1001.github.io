@@ -21,6 +21,4 @@ For all other images that are not immediately visible (i.e., below the fold), co
 
 The `optimised_image` shortcode now generates a more optimized set of image widths (640px, 1280px, 1920px) for AVIF, WebP, and fallback formats. This significantly reduces the number of image variations Hugo needs to process, leading to faster build times.
 
-## Deferring JavaScript
 
-The `vibrant.min.js` script, which previously blocked the page's initial render, is now deferred. This means it will load after the main content of the page, improving perceived loading speed. This change was implemented by overriding the `Vibrant` entry in `data/external.yaml` to include `defer: true`.
