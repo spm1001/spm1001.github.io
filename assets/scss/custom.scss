@@ -37,6 +37,13 @@
     display: block; /* Ensure it behaves as a block for margin auto to work */
 }
 
+.site-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 100%; /* Makes the image itself circular */
+}
+
 /* Ensure the social menu itself is a flex container and its items are centered */
 .menu-social {
     display: flex; /* Make the list itself a flex container */
