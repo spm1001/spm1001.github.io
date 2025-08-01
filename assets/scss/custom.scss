@@ -3,6 +3,12 @@
 :root {
     --body-text-color: #555;
     --card-text-color-secondary: #666;
+
+    /* System font stack - uses native fonts for each platform */
+    --base-font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, sans-serif;
+    --article-font-family: var(--base-font-family);
 }
 
 /* Make the overall sidebar container a flex column and center its content */
