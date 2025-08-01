@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.138.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -43,19 +43,37 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('content/**/*') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-resources-
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugo-mod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-mod-
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_CACHEDIR: /tmp/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          hugo \
+          echo "Starting Hugo build at $(date)"
+          time hugo \
             --minify \
+            --gc \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+          echo "Hugo build completed at $(date)"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
