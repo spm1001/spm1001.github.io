@@ -1,5 +1,5 @@
 ---
-title: "broadcasters-team-up"
+title: "Broadcasters Team Up"
 date: 2024-09-24
 categories: [asiCast]
 summary: "Lovely to be invited onto the asi podcast to talk about what the UK broadcast measurement community is doing with Lantern. Richard, Mike and the crew are just brilliant - gimlet eyed and yet also kindly."
