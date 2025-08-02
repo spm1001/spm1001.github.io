@@ -1,14 +1,37 @@
 /* In your your-hugo-site/assets/scss/custom.scss */
 
 :root {
-    --body-text-color: #555;
-    --card-text-color-secondary: #666;
+    /* Page Background and General Text */
+    --body-background: #222222; /* Slightly lighter dark grey for the overall page */
+    --body-text-color: #e0e0e0; /* Light grey for general text (e.g., sidebar, non-card content) */
+
+    /* Card Background and Text (for article list, etc.) */
+    --card-background: #ffffff; /* White background for cards */
+    --card-background-selected: #f0f0f0; /* Slightly off-white for selected/hovered cards */
+    --card-text-color-main: #333333; /* Dark grey for main card text (headings) */
+    --card-text-color-secondary: #666666; /* Medium grey for secondary card text */
+    --card-text-color-tertiary: #999999; /* Lighter grey for tertiary card text */
+    --card-separator-color: rgba(
+        218,
+        218,
+        218,
+        0.5
+    ); /* Light separator color for light cards */
+
+    /* Scrollbar colors for dark theme */
+    --scrollbar-thumb: #555555;
+    --scrollbar-track: transparent;
 
     /* System font stack - uses native fonts for each platform */
     --base-font-family:
         -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
         Arial, sans-serif;
     --article-font-family: var(--base-font-family);
+
+    /* Old School CRT Green Accent Color (Darkened for Contrast) */
+    --accent-color: #00c000; /* Darker CRT Green for better contrast */
+    --accent-color-darker: #009000; /* Even darker shade for hover/active states */
+    --accent-color-text: #ffffff; /* White text for contrast on green */
 }
 
 /* Make the overall sidebar container a flex column and center its content */
@@ -84,22 +107,29 @@
     margin: 0 8px; /* Adjust spacing between icons as desired */
 }
 
-/* Apply consistent sizing to ALL social SVGs */
+/* --- REVISED SOCIAL ICON STYLING --- */
+/* Apply consistent sizing, neutral colors, and appropriate stroke/fill for ALL social SVGs */
 .menu-social svg {
-    height: 24px; /* Set a fixed size for all icons */
+    height: 24px;
     width: 24px;
-    stroke: currentColor;
-    stroke-width: 2;
-    fill: none;
+    opacity: 1; /* Ensure full visibility for all icons by default */
 }
 
-/* Specific styling for the Bit.ly icon (which is filled) */
-.menu-social svg.lucide-bitly {
-    /* Targets the SVG by the class we added in its file */
-    fill: currentColor; /* Make it solid with the text color */
-    stroke: none; /* Ensure it has no outline */
-    opacity: 0.6; /* Reduce opacity to make it visually lighter */
+/* For stroked icons (LinkedIn, GitHub, Email, etc.) - ensure neutral stroke and no fill */
+.menu-social svg:not(.lucide-bitly) {
+    stroke: var(
+        --body-text-color
+    ); /* Sets stroke to your body text color (#555) */
+    fill: none; /* Ensure they are outlines */
+    stroke-width: 1.33; /* Match theme's desired stroke width for consistency */
 }
+
+/* Specific styling for the Bit.ly icon (which is filled) - ensure neutral fill and no stroke */
+.menu-social svg.lucide-bitly {
+    fill: var(--body-text-color); /* Make it solid with the body text color */
+    stroke: none; /* Ensure it has no outline */
+}
+/* --- END REVISED SOCIAL ICON STYLING --- */
 
 /* More targeted approach to reduce spacing between avatar and title */
 .sidebar header {
@@ -109,4 +139,53 @@
 /* Also add negative margin to pull title even closer */
 .left-sidebar .site-meta {
     margin-top: -45px !important; /* Match reference implementation with very tight avatar-to-title spacing */
+}
+
+/* Dark mode accent colors (for consistency, even if toggle is disabled) */
+/* These ensure if data-scheme="dark" is *ever* applied, colors remain consistent with our desired theme */
+[data-scheme="dark"] {
+    --body-background: #222222; /* Keep this consistent with the main body background */
+    --body-text-color: #e0e0e0;
+
+    --card-background: #282828; /* Keep dark cards for actual dark mode, if it ever activates */
+    --card-background-selected: #3a3a3a;
+    --card-text-color-main: #f0f0f0;
+    --card-text-color-secondary: #b0b0b0;
+    --card-text-color-tertiary: #808080;
+
+    --scrollbar-thumb: #555555;
+    --scrollbar-track: transparent;
+
+    --accent-color: #00c000;
+    --accent-color-darker: #009000;
+    --accent-color-text: #ffffff;
+}
+
+/* Override site title color to be neutral (THIS IS THE FIX) */
+.sidebar header .site-name {
+    /* The h1 itself might inherit, but the 'a' inside is the one we really need to force. */
+    /* This rule is now less critical than the 'a' rule below. */
+}
+
+/* Specific override for the site name link color to be white */
+.sidebar header .site-name a {
+    color: #ffffff !important; /* Force the link color to be pure white */
+}
+
+/* Ensure category/tag buttons have the bright green background and white text */
+/* Using !important to override the theme's nth-child specificity */
+.article-category a,
+.article-tags a {
+    background-color: var(
+        --accent-color
+    ) !important; /* Force bright green background */
+    color: var(--accent-color-text) !important; /* Force white text */
+    border: 1px solid var(--accent-color); /* Keep green border */
+
+    &:hover {
+        background-color: var(
+            --accent-color-darker
+        ) !important; /* Force darker green on hover */
+        border-color: var(--accent-color-darker) !important;
+    }
 }
