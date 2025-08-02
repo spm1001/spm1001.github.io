@@ -1,7 +1,0 @@
-{{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
-{{- $context := . -}}
-{{- $isFirstArticle := .FirstArticle | default false -}}
-
-<article class="{{ if $image.exists }}has-image{{ end }}">
-    {{ partial "article/components/header" (dict "Context" $context "FirstArticle" $isFirstArticle) }}
-</article>

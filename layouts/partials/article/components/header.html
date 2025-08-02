@@ -1,0 +1,38 @@
+<header class="article-header">
+    {{- $context := . -}}
+    {{- $isFirstArticle := false -}}
+
+    {{- /* Check if the partial was called with a dictionary (e.g., from article-list/default) */ -}}
+    {{- if reflect.IsMap . -}}
+        {{- $context = .Context -}}
+        {{- $isFirstArticle = .IsFirstArticle | default false -}}
+    {{- end -}}
+
+    {{- $image := partialCached "helper/image" (dict "Context" $context "Type" "article") $context.RelPermalink "article" -}}
+    {{ if $image.exists }}
+    <div class="article-image">
+        <a href="{{ $context.RelPermalink }}">
+            {{ if $image.resource }}
+                {{- $alt := printf "Featured image of post %s" $context.Title -}}
+                {{ partial "helper/optimised_image_partial" (dict
+                    "resource" $image.resource
+                    "alt" $alt
+                    "sizes" "(max-width: 768px) 100vw, 768px"
+                    "loading" (cond $isFirstArticle "eager" "lazy")
+                    "fetchpriority" (cond $isFirstArticle "high" "auto")
+                    "src" $image.resource.RelPermalink
+                    "Context" $context
+                ) }}
+            {{ else }}
+            <img
+                src="{{ $image.permalink }}"
+                loading="{{ cond $isFirstArticle "eager" "lazy" }}"
+                alt="Featured image of post {{ $context.Title }}"
+                fetchpriority="{{ cond $isFirstArticle "high" "auto" }}"
+            />
+            {{ end }}
+        </a>
+    </div>
+    {{ end }}
+    {{ partialCached "article/components/details" $context $context.RelPermalink }}
+</header>
