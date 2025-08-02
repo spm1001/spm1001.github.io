@@ -161,7 +161,7 @@
     --accent-color-text: #ffffff;
 }
 
-/* Override site title color to be neutral (THIS IS THE FIX) */
+/* Override site title color to be neutral */
 .sidebar header .site-name {
     /* The h1 itself might inherit, but the 'a' inside is the one we really need to force. */
     /* This rule is now less critical than the 'a' rule below. */
@@ -187,5 +187,31 @@
             --accent-color-darker
         ) !important; /* Force darker green on hover */
         border-color: var(--accent-color-darker) !important;
+    }
+}
+
+/* --- Mobile Menu & Hamburger Icon Fixes --- */
+/* Target screens up to 767px (i.e., less than 768px 'md' breakpoint) */
+@media (max-width: 767px) {
+    #main-menu {
+        background-color: var(
+            --body-background
+        ) !important; /* Match overall page background for seamless look */
+        box-shadow: var(--shadow-l2); /* Apply a subtle shadow for depth */
+    }
+
+    /* Hamburger icon color when inactive */
+    /* Make both active and inactive states use accent-color (green) */
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: var(
+            --accent-color
+        ) !important; /* Force green color for all hamburger lines */
+    }
+
+    /* Ensure the toggle-menu button is displayed on narrow screens */
+    #toggle-menu {
+        display: block !important; /* Override theme's display: none at md breakpoint */
     }
 }
