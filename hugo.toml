@@ -8,9 +8,10 @@ timeout = '300s'                            # Increased timeout for image proces
 enableGitInfo = false                       # Disable git info lookup for faster builds
 
 # Theme Configuration
-# Defines the theme fallback chain: hugo-theme-stack is primary, reveal-hugo is fallback
+# Using only hugo-theme-stack as primary theme
+# Reveal.js presentations use custom template at layouts/post/single.reveal.html
 themesDir = "themes"                        # Ensure this points to your themes directory
-theme = ["hugo-theme-stack", "reveal-hugo"]
+theme = "hugo-theme-stack"
 
 
 # Pagination Settings
