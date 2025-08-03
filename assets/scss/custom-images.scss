@@ -1,0 +1,85 @@
+/* Custom image styles for spm1001.github.io */
+
+/* Homepage (Article List) Image Adjustments */
+.article-list article .article-image img {
+    width: 100%; /* Ensure image takes full width */
+    height: auto; /* Let height adjust naturally based on width and aspect ratio */
+    max-height: 250px; /* Set a maximum height to control overall size */
+    object-fit: cover;
+    object-position: top left; /* Ensure the top-left of the image is visible */
+
+    @media (min-width: 768px) { /* md breakpoint */
+        max-height: 300px;
+    }
+
+    @media (min-width: 1200px) { /* xl breakpoint */
+        max-height: 350px;
+    }
+}
+
+/* Individual Article Page Image Adjustments */
+.main-article {
+    /* Ensure the main article card has rounded corners and clips content */
+    border-radius: var(--card-border-radius); /* Apply to the card itself */
+    overflow: hidden; /* Crucial for clipping the image within rounded corners */
+}
+
+.main-article .article-header {
+    /* Ensure no padding or margin on the header itself that would push the image in */
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.main-article .article-header .article-image {
+    /* Use negative margins to counteract the card's padding */
+    margin-left: calc(var(--card-padding) * -1) !important;
+    margin-right: calc(var(--card-padding) * -1) !important;
+    width: calc(100% + var(--card-padding) * 2) !important; /* Extend width to cover negative margins */
+    overflow: hidden !important; /* Crucial for clipping the image within rounded corners */
+    border-top-left-radius: var(--card-border-radius) !important;
+    border-top-right-radius: var(--card-border-radius) !important;
+}
+
+.main-article .article-header .article-image a {
+    display: block !important;
+    overflow: hidden !important;
+    border-top-left-radius: var(--card-border-radius) !important;
+    border-top-right-radius: var(--card-border-radius) !important;
+}
+
+.main-article .article-header .article-image figure {
+    /* Remove any default margins from the figure element */
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%; /* Ensure figure takes full width */
+    height: auto;
+    overflow: hidden !important; /* Apply overflow hidden to the figure as well */
+    border-top-left-radius: var(--card-border-radius) !important;
+    border-top-right-radius: var(--card-border-radius) !important;
+}
+
+.main-article .article-header .article-image img {
+    /* Ensure image fills the container and respects rounded corners */
+    width: 100%;
+    height: auto; /* Let height adjust naturally */
+    display: block; /* Remove any extra space below image */
+    object-fit: cover;
+    object-position: top;
+    /* Apply top rounded corners directly to the image with !important */
+    border-top-left-radius: var(--card-border-radius) !important;
+    border-top-right-radius: var(--card-border-radius) !important;
+}
+
+/* Adjust padding for article details and content to align with the card's padding */
+.main-article .article-details {
+    padding-left: var(--card-padding) !important;
+    padding-right: var(--card-padding) !important;
+    padding-top: var(--card-padding) !important; /* Ensure top padding for details */
+    padding-bottom: 0 !important;
+}
+
+.main-article .article-content {
+    padding-left: var(--card-padding) !important;
+    padding-right: var(--card-padding) !important;
+    margin: var(--card-padding) 0 !important; /* Keep vertical margin */
+}
