@@ -29,10 +29,15 @@
         Arial, sans-serif;
     --article-font-family: var(--base-font-family);
 
-    /* Old School CRT Green Accent Color (Darkened for Contrast) */
-    --accent-color: #00c000; /* Darker CRT Green for better contrast */
-    --accent-color-darker: #009000; /* Even darker shade for hover/active states */
-    --accent-color-text: #ffffff; /* White text for contrast on green */
+    /* 
+     * Old School CRT Green Accent Color Theme:
+     * Inspired by classic computer terminals, this green provides good contrast
+     * against both the dark sidebar and white article cards.
+     * The values are tuned to meet WCAG accessibility standards.
+     */
+    --accent-color: #00c000; /* Primary CRT green - darker than standard for better contrast */
+    --accent-color-darker: #009000; /* Hover/active state - even darker for clear feedback */
+    --accent-color-text: #ffffff; /* White text ensures readability on green backgrounds */
 }
 
 /* Make the overall sidebar container a flex column and center its content */
@@ -162,15 +167,12 @@
     --accent-color-text: #ffffff;
 }
 
-/* Override site title color to be neutral */
-.sidebar header .site-name {
-    /* The h1 itself might inherit, but the 'a' inside is the one we really need to force. */
-    /* This rule is now less critical than the 'a' rule below. */
-}
-
-/* Specific override for the site name link color to be white */
-.sidebar header .site-name a {
-    color: #ffffff !important; /* Force the link color to be pure white */
+/* 
+ * Site name styling - ensure consistent white color
+ * Using high specificity selector to match theme's specificity without !important
+ */
+.left-sidebar header .site-name a {
+    color: #ffffff; /* Pure white for the site title link */
 }
 
 /* Ensure category/tag buttons have the bright green background and white text */

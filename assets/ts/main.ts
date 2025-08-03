@@ -28,33 +28,6 @@ let Stack = {
         }
 
         /**
-         * Add linear gradient background to tile style article
-         */
-        const articleTile = document.querySelector('.article-list--tile');
-        if (articleTile) {
-            let observer = new IntersectionObserver(async (entries, observer) => {
-                entries.forEach(entry => {
-                    if (!entry.isIntersecting) return;
-                    observer.unobserve(entry.target);
-
-                    const articles = entry.target.querySelectorAll('article.has-image');
-                    articles.forEach(async articles => {
-                        const image = articles.querySelector('img'),
-                            imageURL = image.src,
-                            key = image.getAttribute('data-key'),
-                            hash = image.getAttribute('data-hash'),
-                            articleDetails: HTMLDivElement = articles.querySelector('.article-details');
-
-                        
-                    })
-                })
-            });
-
-            observer.observe(articleTile)
-        }
-
-
-        /**
          * Add copy button to code block
         */
         const highlights = document.querySelectorAll('.article-content div.highlight');

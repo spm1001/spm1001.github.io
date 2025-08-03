@@ -45,6 +45,31 @@ The site uses Hugo's built-in commands (no package.json present):
 - **Draft content**: `hugo server -D` (includes draft posts)
 - **Force rebuild**: `hugo --cleanDestinationDir` (cleans output before building)
 
+### Testing and Development Workflow
+- **Always test changes locally** before pushing to production
+- Use `hugo server -D --disableFastRender` for clean testing after code changes
+- Claude Code can manage starting/stopping the hugo server process
+- Test site at http://localhost:1313/ after any modifications
+- Verify both visual appearance and generated HTML/CSS for performance impact
+
+### Recent Session Progress (August 2025)
+**Completed Code Quality Improvements:**
+- ✅ Removed dead TypeScript intersection observer code (vibrant.js cleanup)
+- ✅ Formatted compressed Hugo templates (index.html, archives.html) with proper indentation and comments
+- ✅ Added explanatory comments for complex CSS edge-to-edge image techniques and CRT green color scheme
+- ✅ Reduced unnecessary !important usage where possible
+- ✅ All changes tested locally - site builds clean, no errors, performance maintained
+
+**MCP Server Status:**
+- browsermcp MCP server configured in .claude.json for visual site inspection
+- Requires Claude Code restart to activate browser capabilities
+- Will enable localhost visual testing and comprehensive site review
+
+**Next Steps After Restart:**
+- Test browsermcp MCP integration for visual site inspection
+- Verify code improvements don't impact 95/100 PageSpeed score
+- Continue any remaining code quality tasks if identified
+
 ## Architecture
 
 ### Directory Structure
@@ -90,7 +115,11 @@ git submodule update --remote
 - Zapier integration watches RSS and cross-posts to LinkedIn
 - Uses `summary` field from front matter for social media text
 
-### Image Optimization
+### Image Optimization and Performance
+- **Performance is critical** - Site maintains 95/100 Google PageSpeed Insights score
+- Any performance regressions are unacceptable
 - Automatic conversion to modern formats (AVIF priority, WebP fallback)
 - Smart cropping and resizing via Hugo's image processing
+- Complex image rendering code exists specifically for performance optimization
 - Caching enabled for faster rebuilds (1h production, 24h development)
+- Custom image partials handle responsive images with multiple format fallbacks

@@ -31,10 +31,16 @@
 }
 
 .main-article .article-header .article-image {
-    /* Use negative margins to counteract the card's padding */
-    margin-left: calc(var(--card-padding) * -1) !important;
-    margin-right: calc(var(--card-padding) * -1) !important;
-    width: calc(100% + var(--card-padding) * 2) !important; /* Extend width to cover negative margins */
+    /* 
+     * Edge-to-edge image technique for article headers:
+     * The card has internal padding, but we want the image to extend to the very edges.
+     * We use negative margins to "pull" the image outside the card's padding area,
+     * then increase the width to compensate for the space we've pulled into.
+     * This creates a full-width image that sits flush with the card's rounded corners.
+     */
+    margin-left: calc(var(--card-padding) * -1) !important; /* Pull image left beyond card padding */
+    margin-right: calc(var(--card-padding) * -1) !important; /* Pull image right beyond card padding */
+    width: calc(100% + var(--card-padding) * 2) !important; /* Extend width to fill the space we pulled into */
     overflow: hidden !important; /* Crucial for clipping the image within rounded corners */
     border-top-left-radius: var(--card-border-radius) !important;
     border-top-right-radius: var(--card-border-radius) !important;
