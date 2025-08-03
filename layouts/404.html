@@ -1,6 +1,4 @@
-{{/* Force 404 to use Stack theme layout, not reveal-hugo */}}
-{{ define "body-class" }}template-404{{ end }}
-
+{{/* 404 page using custom baseof to ensure Stack theme */}}
 {{ define "main" }}
     <div class="not-found-card">
         <h1 class="article-title">{{ T "notFound.title" }}</h1>

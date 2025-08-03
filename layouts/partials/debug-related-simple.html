@@ -1,0 +1,14 @@
+{{/* Simple debug for related content */}}
+<div style="background: yellow; padding: 10px; margin: 20px 0; font-family: monospace; font-size: 12px;">
+<strong>RELATED DEBUG:</strong><br>
+Current: {{ .Title }}<br>
+Total pages: {{ len .Site.RegularPages }}<br>
+{{ $related := .Site.RegularPages.Related . }}
+Related found: {{ len $related }}<br>
+{{ if $related }}
+First related: {{ (index $related 0).Title }}<br>
+{{ else }}
+<span style="color: red;">NO RELATED CONTENT FOUND</span><br>
+{{ end }}
+Threshold: {{ .Site.Params.related.threshold | default "default" }}<br>
+</div>

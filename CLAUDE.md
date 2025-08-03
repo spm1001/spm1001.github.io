@@ -70,8 +70,10 @@ The site uses Hugo's built-in commands (no package.json present):
 - ✅ Implemented "More Posts" section on article pages (shows 5 recent posts)
 - ✅ Configured Hugo related content settings (threshold: 20, case-insensitive)
 
-**TODO:**
-- Fix 404 page styling - currently triggering reveal.js template instead of proper 404 page
+**Completed August 2025:**
+- ✅ Fixed 404 page styling - now uses Stack theme with search functionality
+- ✅ Restored PageSpeed score to 97/100 by optimizing image sizes (400/800/1200px)
+- ✅ Fixed broken slide presentations while maintaining clean 404 page
 
 ## Architecture
 
