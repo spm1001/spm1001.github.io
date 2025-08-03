@@ -6,9 +6,6 @@ summary: "Over the years, l've made a few little websites to host stuff l've wri
 description: "Introducing the last website I'll ever make... again"
 weight: 2
 image: suit.png
-resources:
-- src: "suit.mp4"
-  name: "suit-video"
 ---
 
 {{< video  autoplay="true" loop="false" src="suit.mp4" >}}
