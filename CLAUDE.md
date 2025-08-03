@@ -65,10 +65,13 @@ The site uses Hugo's built-in commands (no package.json present):
 - Requires Claude Code restart to activate browser capabilities
 - Will enable localhost visual testing and comprehensive site review
 
-**Next Steps After Restart:**
-- Test browsermcp MCP integration for visual site inspection
-- Verify code improvements don't impact 95/100 PageSpeed score
-- Continue any remaining code quality tasks if identified
+**Completed August 2025:**
+- ✅ Added site subtitle: "Measurement, media, and the data in between"
+- ✅ Implemented "More Posts" section on article pages (shows 5 recent posts)
+- ✅ Configured Hugo related content settings (threshold: 20, case-insensitive)
+
+**TODO:**
+- Fix 404 page styling - currently triggering reveal.js template instead of proper 404 page
 
 ## Architecture
 

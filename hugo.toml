@@ -17,6 +17,13 @@ theme = ["hugo-theme-stack", "reveal-hugo"]
 [pagination]
 pagerSize = 50
 
+# Related Content Configuration
+# Use Hugo defaults but with lower threshold
+[related]
+includeNewer = true
+threshold = 20
+toLower = true
+
 
 # Site Parameters (Params)
 # All custom site-wide parameters are defined here
@@ -26,7 +33,7 @@ favicon = "/favicon.ico" # Favicon path, typically relative to /static
 
 # Sidebar Parameters
 [params.sidebar]
-#        subtitle = "This is a subtitle" # Your custom subtitle under the avatar
+subtitle = "Measurement, media, and the data in between"
 
 # Article/Content Specific Parameters
 [params.article]

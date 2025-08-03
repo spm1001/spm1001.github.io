@@ -1,0 +1,21 @@
+{{/* More Posts - Simple alternative to Hugo's related content */}}
+{{ $allPosts := where .Site.RegularPages "Params.hidden" "!=" true }}
+{{ $morePosts := slice }}
+{{ range $allPosts }}
+  {{ if ne .Permalink $.Permalink }}
+    {{ $morePosts = $morePosts | append . }}
+  {{ end }}
+{{ end }}
+{{ $morePosts = $morePosts | first 5 }}
+{{ if $morePosts }}
+<aside class="related-content--wrapper">
+    <h2 class="section-title">More Posts</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            {{ range $morePosts }}
+                {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
+            {{ end }}
+        </div>
+    </div>
+</aside>
+{{ end }}
