@@ -28,7 +28,7 @@
   {{- errorf "The 'alt' attribute is required for accessibility in the optimised_image partial." -}}
 {{- end -}}
 
-{{- $targetWidths := slice 640 1280 1920 -}}
+{{- $targetWidths := slice 400 800 1200 -}}
 {{- $fallback := $imageResource.Resize (printf "%dx" (index $targetWidths 0)) -}}
 
 {{- /* Test AVIF support by trying to generate a small AVIF image */ -}}
