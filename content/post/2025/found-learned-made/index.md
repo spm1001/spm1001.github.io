@@ -5,7 +5,7 @@ Categories: [Welcome]
 summary: "Over the years, l've made a few little websites to host stuff l've written/presented, but never really kept them going for very long. I'm having another go, but this time, I'm making a bit more effort and rounding up older pieces as well."
 description: "Introducing the last website I'll ever make... again"
 weight: 2
-image: suit.png
+image: mib.png
 ---
 
 {{< video  autoplay="true" loop="false" src="suit.mp4" >}}

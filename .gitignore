@@ -1,8 +1,11 @@
 public
 resources
 
+hugo.log
+
 .hugo_build.lock
 .crush
+.claude
 
 *.png
 *.sh
