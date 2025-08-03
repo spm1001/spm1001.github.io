@@ -11,7 +11,10 @@ resources:
   name: "suit-video"
 ---
 
-{{< optimised_video src="suit.mp4" >}}
+{{< video  autoplay="true" loop="false" src="suit.mp4" >}}
+
+
+
 So, much later than planned, I'm following through on my promise to myself to gather all my old stuff and put it in one place for the digital moths to chew on.
 
 The kick I needed was Simon Willison's recent post on the joys of writing about things you've
