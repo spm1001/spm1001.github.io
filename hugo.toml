@@ -149,14 +149,8 @@ resampleFilter = "CatmullRom" # High-quality resampling
 # These settings define the 'Reveal' output format for slideshows
 [outputFormats.Reveal]
 baseName = "index"      # The filename for the Reveal output (e.g., your-post-slug/index.html)
-mediaType = "text/reveal"
+mediaType = "text/html" # Use standard HTML media type since presentations are HTML files
 isHTML = true           # Important for browser recognition
-
-# Media Types Configuration
-# Create a custom media type for Reveal instead of overriding text/html
-# This preserves Hugo's default JSON output format handling
-[mediaTypes."text/reveal"]
-suffixes = ["reveal"]
 
 # Performance Optimizations
 # These settings improve build times by caching processed resources
