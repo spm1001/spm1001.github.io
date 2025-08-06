@@ -28,6 +28,7 @@ toLower = true
 # Site Parameters (Params)
 # All custom site-wide parameters are defined here
 [params]
+mainSections = ["post"] # Define which sections contain main content for search indexing
 rssFullContent = false
 favicon = "/favicon.ico" # Favicon path, typically relative to /static
 
