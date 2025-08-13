@@ -49,8 +49,8 @@
     <source type="{{ $fallback.MediaType }}" srcset="{{ range $i, $w := $targetWidths }}{{ if $i }}, {{ end }}{{ ($imageResource.Resize (printf "%dx q75" $w)).RelPermalink }} {{ $w }}w{{ end }}" sizes="{{ $sizes }}">
     <img src="{{ $fallback.RelPermalink }}"
          alt="{{ $alt }}"
-         width="{{ $fallback.Width }}"
-         height="{{ $fallback.Height }}"
+         width="{{ $imageResource.Width }}"
+         height="{{ $imageResource.Height }}"
          loading="{{ $loading }}"
          fetchpriority="{{ $fetchpriority }}">
   </picture>
