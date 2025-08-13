@@ -16,9 +16,7 @@ Hello, my name is Sameer. My background is mostly in strategic planning and I wo
 
 {{< optimised_image src="page_2.png" alt="Picture of hungry children" >}}
 
-
-# Why we exist
-
+## Why we exist
 
 But before we get to the future, I’d like to start by looking back. When I do inductions for new people in the office I always ask them why we exist. Not in some deep philosophical sense, as I usually save that kind of talk for the bar, but why we, corporately, media agencies exist.
 
@@ -32,43 +30,43 @@ In fact it was the smaller clients that went first, gathering together in the sh
 
 {{< optimised_image src="page_3.png" alt="Graph of growth in revenue handled by big media agency groups" >}}
 
-# Since then we've thrived
+## Since then we've thrived
 
 And hey, we’ve all done pretty well. Just 10 years ago, the big media groups controlled maybe 50% of global media spend. In 2013, 70% of all media money spent worldwide was spent out of one of 6 big groups. Now I don’t have the real figures, those are just RECMA, but even then, to go from maybe 150 billion of client money handled in the top groups, to 300 billion -­ that’s not a bad record.
 
 {{< optimised_image src="page_4.png" alt="Diagram of flow of money from advertisers to media owners, controlled by measurement" >}}
 
-# Powered by Audience Measurement
+## Powered by Audience Measurement
 
 And one of the things that’s amazing when you stop to think about it, is that all of that flow of cash, all those billions of dollars, travel from advertiser to publisher on the strength of a tiny bit of money that we spend on measurement. Media currency information is all around us, so we tend to take it for granted, but the structures of the JICs and their thoughtful methodologies and their weighting and their systems for accessing their data are pretty amazing things. It is independent data, that everyone agrees to use and to pay for, but in reality it’s more than that…
 
 {{< optimised_image src="page_5.png" alt="Picture of a MOSFET power transistor" >}}
 
-# Tiny but Mighty
+## Tiny but Mighty
 
 It’s like a giant power transistor, where thumping amounts of current are able to flow because of a tiny little trickle of information fed in the right place. Any of you who have built or repaired your own amplifiers will immediately recognise this as a power transistor of course, but even if you haven’t, look at how tiny the base wire is, compared to everything else.
 
 {{< optimised_image src="page_6.png" alt="Chart showing the spend in audience measurement as a tiny percentage of the total media spend it governs" >}}
 
-# Which costs us nothing
+## Which costs us nothing
 
 And it really is a tiny cost. We might grumble about them, especially when the systems are down, but the contracts for a BARB or any other TV audience measurement system, even with all the fancy stuff they are adding these days, are in the low tens of millions per country. They’re under pressure at the moment for reasons I’ll come on to, but on the whole, these systems probably cost much maybe 1 or 2% of the total amount of money that is traded on the back of them.
 
 {{< optimised_image src="page_7.png" alt="Diagram of lots of little TV screens" >}}
 
-# Because, statistics
+## Because, statistics
 
 And that in turn is down to the magic of statistics. When the screens can only show one of a handful of things – a few thousand programmes and tens of commonly watched channels – you don’t need to be able to measure all those millions of viewers. You just take a sample and scale it up to represent the total population. Yes you have to fiddle around to make sure it is reliable and representative, but through some independent currency research a few thousand people can be used reliably to represent millions of others just like them. It’s probably one of the most highly leveraged examples of statistics to control real money that I’m aware of, and one of the earliest examples of large scale ‘behavioural’ research
 
 {{< optimised_image src="page_8.png" alt="Diagram of lots of little TV screens and phone screens" >}}
 
-# But now there are more screens...
+## But now there are more screens
 
 We go on and on about the rise in mobile, but it has happened so staggeringly fast that it hasn’t really sunk in yet. So I think it is important to keep going on about it. Even in the past couple of years, the number of addressable screens per head in Europe has gone from somewhere between 1 and 2, to between 2 or 3 per person.
 
 Now that might not sound like much but bear in mind that that is a really gross average across the whole population – all the ageing European grannies and granddads are in that statistic, and we’ve still reached nearly three screens per head in the blink of an eye. People are desperate to have this stuff. And it isn’t zero sum. I mean, there is some substitution of course, but as far as we can tell, the total amount of screen time we are cramming into every day is going up and up.
 
-# ...lots of screens
+## ...lots of screens
 
 Online time for the world (or at least the 2-­3 billion people who have any money worth mentioning, so half the world in reality I guess) has gone up, according to our own Interaction data, from 2.5 hours a day to over 3.3. These bits of glass, these glowing rectangles, are so compelling that we’re finding nearly an extra hour every day to stare at them and we’ve changed our habits that much in just four years. Just to put that into context, it took American dads over FORTY years to find the time to do an extra hour of housework a day. But an extra hour of screen time? No problem.
 
@@ -76,7 +74,7 @@ We’re now all surrounded by lots of little bits of computerised glass. And thi
 
 {{< optimised_image src="page_9.png" alt="Diagram of lots of little TV screens and phone screens with an overlay that makes it look like the presenter's screen has shattered." >}}
 
-# Which breaks currency independence
+## Which breaks currency independence
 
 So now the people with the best measure of what’s going on all those screens are the people who control what is being put on them. In fact, the only people who can actually measure what is going on are the people who are putting those things on those screens. The people with vast, consumer-­facing businesses that spend their time developing stuff that people like looking at on all these bits of glass.
 
@@ -84,37 +82,37 @@ I like to say that these people have actually beaten the research panel guys at 
 
 {{< optimised_image src="page_10.png" alt="Diagram of flow of money from advertisers to media owners, showing the media owners controlling the measurement" >}}
 
-# And gives platforms more power
+## And gives platforms more power
 
 And of course the main impact of this loss of currency independence is that it gives those publishers much more power, and the same power (or at least some of it) to any other publishers who are integrated with their systems. And that doesn’t just mean some of the traditional media brands like the NYT or the Guardian – it also means every 16 year-­old app developer who is putting the finishing touches to their magnum opus, and decides to make some money from advertising by connecting to one of the major advertising systems. In a few clicks they can make their inventory and their data available to Google, and effectively benefit from the scarce information that Google has control of.
 
 {{< optimised_image src="page_11.png" alt="Chart showing breakdown in typical impression cost" >}}
 
-# What do you pay for an 'impression'?
+## What do you pay for an 'impression'?
 
 One way to understand it is to look at the breakdown of the media cost in a typical programmatic buy. So where the slide before earlier was all European TV ad spend, this is the cost of just one impression to one person on one screen. I love this example, because in going from the extreme macro to the tiny, micro, we can see a glimpse of our future. In programmatic-­world, everything gets a separate price, and we can split them all out. Now we see a few things here – there are the little mosquito bites of cost that different players take along the way for verification, adserving etc, but look at the two biggest elements of the cost: there’s a chunk of money that goes to pay for the actual media space itself, but almost as much money goes on the cost of information about who is looking at that space.
 
 {{< optimised_image src="page_12.png" alt="Chart showing the spend in audience measurement as a tiny percentage of the total media spend it governs" >}}
 
-# Renting signals as well as pixels
+## Renting signals as well as pixels
 
 So instead of one media cost…
 
 {{< optimised_image src="page_13.png" alt="Chart showing the spend on eyeball signals and pixel rent as roughly equal" >}}
 
-What that means is that fundamentally there are now not one, but two major costs to think about when buying media. The cost of the inventory itself – the rent that you pay to light up the pixels on the screen and vibrate the speakers – and the price you pay to know who is looking at that screen. These two costs won’t always be as neatly, explicitly broken out as they are in the programmatic example, but even in media costs that look like one number (your Google search CPC for example) there is another cost hiding in the shadows. 
+What that means is that fundamentally there are now not one, but two major costs to think about when buying media. The cost of the inventory itself – the rent that you pay to light up the pixels on the screen and vibrate the speakers – and the price you pay to know who is looking at that screen. These two costs won’t always be as neatly, explicitly broken out as they are in the programmatic example, but even in media costs that look like one number (your Google search CPC for example) there is another cost hiding in the shadows.
 
-In the old world, when most of the screens could only show one of a handful of things, the scarce resource was just getting onto that screen. There was only one cost to think about. And we got very good at doing that. Our media skills are honed to think about pixel rent, and a lot of our clients and their procurement people are trained to think about it as well. All of the stuff you’re hearing now about viewability and fraud (and well before that the idea of agency-­side adservers to check against the publisher server) – is all pixel rent thinking;; we are all pixel rent ninjas.
+In the old world, when most of the screens could only show one of a handful of things, the scarce resource was just getting onto that screen. There was only one cost to think about. And we got very good at doing that. Our media skills are honed to think about pixel rent, and a lot of our clients and their procurement people are trained to think about it as well. All of the stuff you’re hearing now about viewability and fraud (and well before that the idea of agency-side adservers to check against the publisher server) – is all pixel rent thinking;; we are all pixel rent ninjas.
 
 {{< optimised_image src="page_14.png" alt="Old advert showing people making out on a sofa, illuminated by the light of their TV." >}}
 
-Which is why we all laughed at this – it’s a classic example of pixel-­rent thinking.
+Which is why we all laughed at this – it’s a classic example of pixel-rent thinking.
 
 {{< optimised_image src="page_15.png" alt="Chart showing the spend on eyeball signals and pixel rent as roughly equal, but with labels pointing out that the signals are the scarce component" >}}
 
 But the trouble is that people looking at the screen is just not the scarce resource any more. In fact, as every month goes by, and every 120 million more smartphones get sold, inventory itself is getting less and less scarce all the time. There are more pixels in front of more eyeballs every day, happily ignoring the lover on the couch beside them.
 
-Where viewability, waste and fraud are the things that we fight over in pixel-­rent world;; when we’re talking about eyeball signals, identity and objectives are the defining battles. Asking ‘Did I reach people?’ is pixel rent; asking ‘did I reach the right people?’ is the eyeball cost. In fact; while we’re doing all our haggling over the number of seconds in-­view and the percentage of the ad that can be seen, the biggest waste of client media money in many markets is not from fraud and out-­of-­view impressions at all.
+Where viewability, waste and fraud are the things that we fight over in pixel-rent world; when we’re talking about eyeball signals, identity and objectives are the defining battles. Asking ‘Did I reach people?’ is pixel rent; asking ‘did I reach the right people?’ is the eyeball cost. In fact; while we’re doing all our haggling over the number of seconds in-view and the percentage of the ad that can be seen, the biggest waste of client media money in many markets is not from fraud and out-of-view impressions at all.
 
 Even if you take seriously some of the claims that are out there about how many ads are seen only by robots, or hidden behind other ads and so on, that is not the biggest way we are wasting client money.
 
@@ -186,11 +184,10 @@ The first is that we need to get better at thinking about them. As good as we ar
 
 The second thing is that we need to know who are the most popular audiences, what are the most popular KPIs? We need to have a better grip on the nature of the demand. I should be able to turn to any of you and ask which audiences are most popular in summer. Which KPIs are top for which audiences. Because the big global online publishers are essentially building learning machines that are observing which clients are seeking which audiences with which objectives. This is not something we can avoid – it’s not like the old argument about putting cost data in the ad server because they already know that – it’s that fundamentally, every time we buy a campaign in any of these media, we have to tell them the objective and the audience – there’s no escaping it, but we should at least get comparably good at doing it ourselves.
 
-Then I think the third thing we need to do is torture test the value of those signals. If we are going to be more targeted to specific audiences and if we want to chase after them, we had better be damn sure that they are audiences worth targeting, because that is what our clients’ money will increasingly be spent on. And it may be that a lot of the audiences we all think we need to buy are actually a waste of time. It may be that a lot of what we used to call media waste was actually working media and reach was a good thing. 
+Then I think the third thing we need to do is torture test the value of those signals. If we are going to be more targeted to specific audiences and if we want to chase after them, we had better be damn sure that they are audiences worth targeting, because that is what our clients’ money will increasingly be spent on. And it may be that a lot of the audiences we all think we need to buy are actually a waste of time. It may be that a lot of what we used to call media waste was actually working media and reach was a good thing.
 
 Or it may be that the rabbit hole goes really deep and there are lots of gains to be had from targeting ever smaller groups. At the moment we don’t really know. Hell, we don’t even have some of the basics – no-­one that I’m aware of within Mindshare has done any large scale studies of search effectiveness, so we don’t have a corporate view on the value of those signals beyond what Google tells us, when we should really be holding their feet to the fire.
 
 {{< optimised_image src="page_27.png" alt="Conceptual diagram" >}}
 
 And if that sounds like too much work, let’s just remind ourselves what the alternative could look like. People in media agencies reduced to flicking a few switches on the front ends of the big publishers, until such a time as they can automate even that.
-

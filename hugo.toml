@@ -74,7 +74,7 @@ customText = "These opinions may once have been mine, but certainly don't repres
 [[menu.social]]
 identifier = "linkedin"
 name = "LinkedIn"
-url = "https://linkedin.com/in/sameermodha"
+url = "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=sameermodha"
 weight = 10
 [menu.social.params]
 icon = "brand-linkedin" # Icon name should match SVG file in assets/icons/
