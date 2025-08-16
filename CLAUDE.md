@@ -17,6 +17,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - When reverting changes, use `git` commands rather than manual file edits
 - Be patient with multiple revision requests for visual/UX details
 
+### Git Commit Messages
+- Use neutral, descriptive language - avoid self-congratulatory terms like "clever", "brilliant", etc.
+- Let the content speak for itself rather than editorializing about its quality
+- Focus on what was done, not subjective assessments of how well it was done
+- Example: "Antiques shop metaphor explaining header bidding" not "Clever antiques shop metaphor..."
+
 ### Platform Considerations (macOS)
 - File paths often contain spaces - always use double quotes around paths in shell commands
 - Example: `cd "/Users/modha/My Documents/project"` not `cd /Users/modha/My Documents/project`
