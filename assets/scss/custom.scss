@@ -47,48 +47,43 @@
     align-items: center; /* This will center all its direct children horizontally */
     width: 100%; /* Ensure it takes full width for centering to be effective */
     box-sizing: border-box; /* Include padding/border in the width */
-    /* Remove any existing display/flex properties from here if they conflict in theme CSS */
     --sidebar-avatar-size: 180px; /* Increase avatar size */
 }
 
-/* Original centering for avatar/site-name (keep this for inner structure of the header) */
+/* Center the header contents (avatar and site-meta) */
 .left-sidebar header {
     margin: 0;
     padding: 0;
-    .sidebar-header-content {
-        display: flex;
-        flex-direction: column; /* Stack avatar and site-meta vertically */
-        align-items: center; /* Horizontally center the items (avatar and site-meta) */
-        width: 100%; /* Ensure it takes full width to enable centering */
-        box-sizing: border-box; /* Include padding/border in the width */
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center avatar and site-meta horizontally */
+    width: 100%;
 }
 
-.left-sidebar header .site-avatar,
-.left-sidebar header .site-meta {
-    margin: 0;
-    padding: 0;
+/* Ensure avatar is centered */
+.left-sidebar .site-avatar {
+    margin: 0; /* Remove all margins */
+    display: flex; /* Use flex to center the link/image inside */
+    justify-content: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Ensure the text within site-meta is also centered */
 .left-sidebar .site-meta {
     text-align: center;
-    margin: 0; /* Explicitly remove all margins */
-    padding: 0; /* Explicitly remove all paddings */
+    margin: 0;
+    padding: 0;
     margin-top: -10px; /* Pull the title closer to the avatar */
 }
 
 .left-sidebar .site-meta .site-name {
-    margin: 0; /* Explicitly remove all margins from the h1 */
-    padding: 0; /* Explicitly remove all paddings from the h1 */
-    margin-top: 0; /* Ensure no top margin on the h1 element */
-}
-
-/* Optional: Center the avatar if it's not perfectly centered by default flex behavior */
-.left-sidebar .site-avatar {
-    margin: 0 auto; /* This can help center block-level elements */
-    display: block; /* Ensure it behaves as a block for margin auto to work */
-    margin-bottom: -5px; /* Control gap from avatar to title */
+    margin: 0;
+    padding: 0;
 }
 
 .site-avatar img {
@@ -201,6 +196,14 @@
             --body-background
         ) !important; /* Match overall page background for seamless look */
         box-shadow: var(--shadow-l2); /* Apply a subtle shadow for depth */
+
+        /* Disable the slide animation - just use instant show/hide */
+        transition: none !important;
+
+        /* When menu has .show class, display it as flex (theme default) */
+        &.show {
+            display: flex !important;
+        }
     }
 
     /* Hamburger icon color when inactive */

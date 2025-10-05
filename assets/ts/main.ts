@@ -7,7 +7,6 @@
 */
 import StackGallery from "ts/gallery";
 
-import menu from 'ts/menu';
 import createElement from 'ts/createElement';
 import StackColorScheme from 'ts/colorScheme';
 import { setupScrollspy } from 'ts/scrollspy';
@@ -16,9 +15,22 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 let Stack = {
     init: () => {
         /**
-         * Bind menu event
+         * Bind menu event - custom implementation without animation
          */
-        menu();
+        const toggleMenu = document.getElementById('toggle-menu');
+        const mainMenu = document.getElementById('main-menu');
+
+        if (toggleMenu && mainMenu) {
+            toggleMenu.addEventListener('click', () => {
+                document.body.classList.toggle('show-menu');
+                mainMenu.classList.toggle('show');
+                toggleMenu.classList.toggle('is-active');
+
+                // Update aria-expanded for accessibility
+                const isExpanded = mainMenu.classList.contains('show');
+                toggleMenu.setAttribute('aria-expanded', String(isExpanded));
+            });
+        }
 
         const articleContent = document.querySelector('.article-content') as HTMLElement;
         if (articleContent) {
