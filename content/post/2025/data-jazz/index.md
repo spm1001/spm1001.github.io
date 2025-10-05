@@ -3,12 +3,11 @@ title: "Audience strategy is more like freeform jazz than classic rock"
 date: 2025-10-01
 categories: [Strategy]
 summary: "Every marketer thinks they know who their audience is. But what if the best audience strategy requires improvising with data? Rather than rigidly playing sheet music written from preconceptions about audience, the better approach is data jazz - where you start playing, listen to how people respond, and adjust your tune accordingly."
-description: "Why treating audiences as testable hypotheses rather than fixed segments - and letting machine learning discover who responds - can unlock better marketing outcomes than traditional demographic targeting."
+description: "First article for my new Marketing Week column, on why treating audiences as testable hypotheses rather than fixed segments - and letting machine learning discover who responds - can unlock better marketing outcomes than traditional demographic targeting."
 slug: data-jazz
 image: data-jazz.png
 ---
-
-# **Audience strategy is more like freeform jazz than classic rock**
+> You can (and should) read this over [here](https://www.marketingweek.com/audience-strategy-jazz-classic-rock/) in its original setting but they've said they're OK with me having it here as well. No-one reads personal websites these days anyway - so it's just an online archive really. 
 
 ## **Every marketer thinks they know who their audience is. But what if the best audience strategy requires improvising with data?**
 
