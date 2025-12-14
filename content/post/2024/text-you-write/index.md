@@ -51,7 +51,7 @@ Separated by `---`
 
 ## Smaller title has two hashes
 And you can add images
-{{< optimised_image src="bandit.jpeg" alt="A picture of my cat, Bandit" >}}
+{{</* optimised_image src="bandit.jpeg" alt="A picture of my cat, Bandit" */>}}
 
 ---
 
