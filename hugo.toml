@@ -147,6 +147,8 @@ resampleFilter = "CatmullRom" # High-quality resampling
 
 # Reveal.js Specific Configurations
 # These settings define the 'Reveal' output format for slideshows
+# WARNING: Hugo warns "found no layout file for reveal" - this is a FALSE POSITIVE
+# DO NOT attempt to fix it - see .decisions/003-reveal-layout-warning-ignored.md
 [outputFormats.Reveal]
 baseName = "index"      # The filename for the Reveal output (e.g., your-post-slug/index.html)
 mediaType = "text/html" # Use standard HTML media type since presentations are HTML files

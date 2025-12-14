@@ -189,6 +189,7 @@
 }
 
 /* --- Mobile Menu & Hamburger Icon Fixes --- */
+/* INTENTIONAL: Animation disabled for snappier UX - see .decisions/002-menu-animation-disabled.md */
 /* Target screens up to 767px (i.e., less than 768px 'md' breakpoint) */
 @media (max-width: 767px) {
     #main-menu {

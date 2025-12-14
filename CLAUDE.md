@@ -38,6 +38,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Pay close attention to artifacts like screenshots
 - Don't pretend to have capabilities you don't possess
 
+## Before Modifying: Check Decision Records
+
+**IMPORTANT:** Before changing overlay files, SCSS, TypeScript, or build configuration, check `.decisions/` for Architecture Decision Records (ADRs) explaining intentional choices.
+
+Things that look "broken" or "missing" may be intentional:
+- Missing features may have been deliberately removed
+- Warnings may be documented false positives
+- "Suboptimal" code patterns may exist for good reasons
+
+**Always check:** `.decisions/README.md` for an index of documented decisions.
+
+Changes that "fix" documented decisions will break things.
+
 ## Site Overview
 
 This is a Hugo-based static website for a personal blog/portfolio that generates content at https://spm1001.planetmodha.com. The site uses two themes: `hugo-theme-stack` (primary) and `reveal-hugo` (for presentations).
