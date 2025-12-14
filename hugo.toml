@@ -50,6 +50,7 @@ enabled = true # Enable image processing for cover/featured images
 enabled = true # Enable image processing for content images
 
 # Color Scheme Parameters
+# INTENTIONAL: Toggle disabled for brand consistency - see .decisions/004-dark-mode-toggle-disabled.md
 [params.colorScheme]
 toggle = false    # Disable dark mode toggle if not needed
 default = "light" # Default color scheme

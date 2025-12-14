@@ -1,4 +1,6 @@
-/* Custom image styles for spm1001.github.io */
+/* Custom image styles for spm1001.github.io
+ * NOTE: !important declarations are defensive but intentional - see .decisions/005-scss-important-declarations.md
+ */
 
 /* Homepage (Article List) Image Adjustments */
 .article-list article .article-image img {

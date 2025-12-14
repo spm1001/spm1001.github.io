@@ -1,4 +1,6 @@
-/* In your your-hugo-site/assets/scss/custom.scss */
+/* Custom SCSS overrides for hugo-theme-stack
+ * NOTE: !important declarations are intentional - see .decisions/005-scss-important-declarations.md
+ */
 @import 'custom-images';
 
 :root {

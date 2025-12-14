@@ -11,6 +11,8 @@ This directory contains ADRs documenting intentional design choices that might o
 | [001-vibrant-js-removed](001-vibrant-js-removed.md) | Dynamic accent colors disabled for performance | `layouts/partials/footer/components/script.html` |
 | [002-menu-animation-disabled](002-menu-animation-disabled.md) | Mobile menu has no slide animation (intentional) | `assets/scss/custom.scss`, `assets/ts/main.ts` |
 | [003-reveal-layout-warning-ignored](003-reveal-layout-warning-ignored.md) | "No layout for reveal" warning is FALSE POSITIVE - do not fix | `hugo.toml`, `layouts/_default/single.reveal.html` |
+| [004-dark-mode-toggle-disabled](004-dark-mode-toggle-disabled.md) | Dark/light toggle intentionally off (brand consistency) | `hugo.toml` |
+| [005-scss-important-declarations](005-scss-important-declarations.md) | !important declarations are necessary, not code smell | `assets/scss/custom.scss`, `assets/scss/custom-images.scss` |
 
 ## When to Add a New ADR
 
