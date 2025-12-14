@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curly Quotes Converter</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1 { color: #333; }
+    textarea {
+      width: 100%;
+      height: 200px;
+      padding: 1rem;
+      font-size: 1rem;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      resize: vertical;
+    }
+    textarea:focus { border-color: #007bff; outline: none; }
+    .buttons {
+      margin: 1rem 0;
+      display: flex;
+      gap: 0.5rem;
+    }
+    button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .primary { background: #007bff; color: white; }
+    .primary:hover { background: #0056b3; }
+    .secondary { background: #6c757d; color: white; }
+    .secondary:hover { background: #545b62; }
+    #output {
+      background: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      white-space: pre-wrap;
+      font-family: inherit;
+      min-height: 100px;
+    }
+    .info {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 2rem;
+    }
+    #machine-output { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Curly Quotes Converter</h1>
+  <p>Convert straight quotes to typographic curly quotes (" " to curly equivalents)</p>
+
+  <textarea id="input" placeholder="Paste your text here..."></textarea>
+
+  <div class="buttons">
+    <button class="primary" onclick="convert()">Convert</button>
+    <button class="secondary" onclick="copyOutput()">Copy Result</button>
+    <button class="secondary" onclick="clearAll()">Clear</button>
+  </div>
+
+  <div id="output"></div>
+
+  <!-- Machine-readable output for Claude -->
+  <div id="machine-output"></div>
+
+  <div class="info">
+    <p><strong>Conversions:</strong></p>
+    <ul>
+      <li>" becomes opening or closing double quote</li>
+      <li>' becomes opening or closing single quote / apostrophe</li>
+    </ul>
+  </div>
+
+  <script>
+    // Curly quote characters using Unicode escapes (safe for all JS contexts)
+    var OPEN_DOUBLE = "\u201C";   // "
+    var CLOSE_DOUBLE = "\u201D";  // "
+    var OPEN_SINGLE = "\u2018";   // '
+    var CLOSE_SINGLE = "\u2019";  // ' (also used for apostrophe)
+
+    // Get initial text from params (for programmatic use)
+    var params = window.TOOL_PARAMS || {};
+    var urlParams = new URLSearchParams(window.location.search);
+    var initialText = params.text || urlParams.get("text") || "";
+
+    if (initialText) {
+      document.getElementById("input").value = initialText;
+      convert();
+    }
+
+    function convertQuotes(text) {
+      var result = "";
+      var inDoubleQuote = false;
+      var inSingleQuote = false;
+
+      for (var i = 0; i < text.length; i++) {
+        var char = text[i];
+        var prevChar = i > 0 ? text[i - 1] : "";
+        var nextChar = i < text.length - 1 ? text[i + 1] : "";
+
+        if (char === '"') {
+          // Double quote
+          if (inDoubleQuote) {
+            result += CLOSE_DOUBLE;
+            inDoubleQuote = false;
+          } else {
+            result += OPEN_DOUBLE;
+            inDoubleQuote = true;
+          }
+        } else if (char === "'") {
+          // Check if it is an apostrophe (letter on both sides)
+          var isApostrophe = /[a-zA-Z]/.test(prevChar) && /[a-zA-Z]/.test(nextChar);
+
+          if (isApostrophe) {
+            result += CLOSE_SINGLE; // apostrophe uses right single quote
+          } else if (inSingleQuote) {
+            result += CLOSE_SINGLE;
+            inSingleQuote = false;
+          } else {
+            // Opening single quote if followed by alphanumeric
+            if (/[a-zA-Z0-9]/.test(nextChar)) {
+              result += OPEN_SINGLE;
+              inSingleQuote = true;
+            } else {
+              result += CLOSE_SINGLE; // default to closing
+            }
+          }
+        } else {
+          result += char;
+        }
+      }
+
+      return result;
+    }
+
+    function convert() {
+      var input = document.getElementById("input").value;
+      var output = convertQuotes(input);
+      document.getElementById("output").textContent = output;
+
+      // Also set machine-readable output
+      document.getElementById("machine-output").textContent = JSON.stringify({
+        original: input,
+        converted: output,
+        changes: countChanges(input, output)
+      });
+    }
+
+    function countChanges(original, converted) {
+      var count = 0;
+      for (var i = 0; i < original.length; i++) {
+        if (original[i] !== converted[i]) count++;
+      }
+      return count;
+    }
+
+    function copyOutput() {
+      var output = document.getElementById("output").textContent;
+      navigator.clipboard.writeText(output).then(function() {
+        alert("Copied to clipboard!");
+      });
+    }
+
+    function clearAll() {
+      document.getElementById("input").value = "";
+      document.getElementById("output").textContent = "";
+      document.getElementById("machine-output").textContent = "";
+    }
+  </script>
+</body>
+</html>
