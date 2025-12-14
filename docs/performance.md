@@ -19,6 +19,6 @@ For all other images that are not immediately visible (i.e., below the fold), co
 
 ## Image Generation and Build Speed
 
-The `optimised_image` shortcode now generates a more optimized set of image widths (640px, 1280px, 1920px) for AVIF, WebP, and fallback formats. This significantly reduces the number of image variations Hugo needs to process, leading to faster build times.
+The `optimised_image` shortcode generates responsive images at three breakpoints (400px, 800px, 1200px) in AVIF, WebP, and fallback formats. These widths are optimized for typical viewport sizes while keeping the number of image variations manageable for build performance.
 
 
