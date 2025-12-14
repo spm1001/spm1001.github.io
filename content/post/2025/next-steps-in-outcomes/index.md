@@ -6,6 +6,7 @@ summary: "Television's share of ad spend is below its share of advertiser value.
 description: "From my opening talk at FTVA Global 2025 on outcome measurement and the future of TV advertising"
 slug: next-steps-in-outcomes
 image: dystopian-ftva.png
+outputs: ["HTML", "Embed"]
 ---
 
 > This is an adapted version of my opening talk at the Future of TV Advertising Global conference in December 2025. The session was called "Next Steps in Outcomes" - and yes, I did promise to help the audience feel like Scrooge at the (end of) A Christmas Carol.

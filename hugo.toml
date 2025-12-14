@@ -17,6 +17,15 @@ theme = ["hugo-theme-stack", "reveal-hugo"]
 [pagination]
 pagerSize = 50
 
+# Output Formats Configuration
+# Define which output formats to generate for each page type
+[outputs]
+home = ["HTML"]          # Homepage only needs HTML
+page = ["HTML", "Embed"] # Posts get both HTML and Embed formats
+section = ["HTML"]       # Section pages only need HTML
+taxonomy = ["HTML"]      # Taxonomy pages only need HTML
+term = ["HTML"]          # Term pages only need HTML
+
 # Related Content Configuration
 # Use Hugo defaults but with lower threshold
 [related]
@@ -154,6 +163,15 @@ resampleFilter = "CatmullRom" # High-quality resampling
 baseName = "index"      # The filename for the Reveal output (e.g., your-post-slug/index.html)
 mediaType = "text/html" # Use standard HTML media type since presentations are HTML files
 isHTML = true           # Important for browser recognition
+
+# Embed Output Format
+# Clean, minimal HTML for embedding in LinkedIn articles
+# Generates /post/YYYY/slug/embed/ alongside regular post
+[outputFormats.Embed]
+baseName = "index"      # The filename for the Embed output
+mediaType = "text/html" # Standard HTML media type
+isHTML = true           # Important for browser recognition
+path = "embed"          # Creates /embed/ subdirectory
 
 # Performance Optimizations
 # These settings improve build times by caching processed resources
