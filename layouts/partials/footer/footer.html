@@ -1,4 +1,20 @@
-{{- $ThemeVersion := "3.30.0" -}}
+{{/*
+  OVERLAY: layouts/partials/footer/footer.html
+  UPSTREAM: themes/hugo-theme-stack/layouts/partials/footer/footer.html
+
+  PURPOSE: Minor formatting adjustments
+
+  CHANGES FROM UPSTREAM:
+  - Formatting/whitespace adjustments only
+  - ThemeVersion must be updated manually when theme submodule updates
+
+  SYNC NOTES:
+  - Low risk - minimal changes from upstream
+  - UPDATE $ThemeVersion when updating theme submodule
+
+  LAST SYNCED: v3.32.0
+*/}}
+{{- $ThemeVersion := "3.32.0" -}}
 <footer class="site-footer">
     <section class="copyright">
         &copy; {{ if and (.Site.Params.footer.since) (ne
