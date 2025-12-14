@@ -16,6 +16,8 @@ let Stack = {
     init: () => {
         /**
          * Bind menu event - custom implementation without animation
+         * INTENTIONAL: Theme's menu.ts has slide animation, but we use instant toggle.
+         * See .decisions/002-menu-animation-disabled.md - DO NOT "dedupe" by using theme's version.
          */
         const toggleMenu = document.getElementById('toggle-menu');
         const mainMenu = document.getElementById('main-menu');

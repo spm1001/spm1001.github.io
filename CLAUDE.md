@@ -40,16 +40,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Before Modifying: Check Decision Records
 
-**IMPORTANT:** Before changing overlay files, SCSS, TypeScript, or build configuration, check `.decisions/` for Architecture Decision Records (ADRs) explaining intentional choices.
+**IMPORTANT:** Before making ANY changes - even "obvious improvements" - check `.decisions/` for Architecture Decision Records (ADRs).
 
-Things that look "broken" or "missing" may be intentional:
-- Missing features may have been deliberately removed
-- Warnings may be documented false positives
-- "Suboptimal" code patterns may exist for good reasons
+This applies especially when you want to:
+- "Fix" something that looks broken or suboptimal
+- "Clean up" code that seems redundant or messy
+- "Restore" features that appear to be missing
+- "Deduplicate" code that exists in multiple places
+
+Things that look wrong are often intentional:
+- Missing features → deliberately removed (see ADR 001)
+- Duplicate code → intentional override of theme behavior (see ADR 002)
+- Build warnings → documented false positives (see ADR 003)
+- `!important` in CSS → necessary to override theme specificity
 
 **Always check:** `.decisions/README.md` for an index of documented decisions.
 
-Changes that "fix" documented decisions will break things.
+**Rule:** If an ADR exists for something, do not change it without explicit user approval.
 
 ## Site Overview
 
@@ -126,8 +133,16 @@ The site uses Hugo's built-in commands (no package.json present):
 - **Secondary theme**: `reveal-hugo` for presentation slides
 - **Dual output formats**: Regular HTML pages + Reveal.js presentations (see hugo.toml outputFormats)
 - Custom layouts in `/layouts/` override theme defaults using Hugo's overlay system
-- **CRITICAL**: Never modify files in `/themes/` directory - use Hugo's overlay system instead
 - Prefer minimal overlays to maintain theme compatibility during updates
+
+**NEVER MODIFY FILES IN `/themes/` DIRECTORY**
+
+This is inviolable. The themes are git submodules tracking upstream repos.
+- To customize behavior: create an overlay in `/layouts/`, `/assets/scss/`, or `/assets/ts/`
+- To fix a bug: report upstream or create a local overlay
+- To optimize: overlay the specific file, don't edit the theme
+
+Any changes to `/themes/` will be lost on submodule update and break the upgrade path.
 
 ### Custom Styling and Components
 - Custom SCSS implements CRT green accent color theme (`--accent-color: #00c000`)
