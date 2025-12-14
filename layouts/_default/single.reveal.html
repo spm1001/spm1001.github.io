@@ -1,3 +1,21 @@
+{{/*
+  CUSTOM LAYOUT: layouts/_default/single.reveal.html
+  NO UPSTREAM EQUIVALENT (custom for this site)
+
+  PURPOSE: Render Reveal.js presentations
+
+  USAGE: Add `outputs: ["Reveal"]` to post front matter to use this layout
+
+  LOADS:
+  - Reveal.js from /reveal-js/ (provided by reveal-hugo theme)
+  - Plugins: markdown, highlight, notes, zoom
+
+  RELATED:
+  - hugo.toml outputFormats.Reveal configuration
+  - themes/reveal-hugo provides the static assets
+
+  SEE: .decisions/003-reveal-layout-warning-ignored.md for the false positive warning
+*/}}
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 <head>

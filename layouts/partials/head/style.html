@@ -1,3 +1,20 @@
+{{/*
+  OVERLAY: layouts/partials/head/style.html
+  UPSTREAM: themes/hugo-theme-stack/layouts/partials/head/style.html
+
+  PURPOSE: Optimize CSS loading for better FCP
+
+  CHANGES FROM UPSTREAM:
+  - Inlines critical CSS in <style> tag
+  - Preloads full stylesheet with onload pattern for non-blocking load
+  - Provides <noscript> fallback
+
+  SYNC NOTES:
+  - Check if upstream adds new CSS optimizations in future versions
+  - This pattern is generally stable
+
+  LAST SYNCED: v3.32.0
+*/}}
 {{ $sass := resources.Get "scss/style.scss" }}
 {{ $style := $sass | toCSS | minify | resources.Fingerprint "sha256" }}
 

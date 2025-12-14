@@ -1,3 +1,25 @@
+{{/*
+  OVERLAY: layouts/partials/article/components/header.html
+  UPSTREAM: themes/hugo-theme-stack/layouts/partials/article/components/header.html
+
+  PURPOSE: LCP optimization with custom image processing
+
+  CHANGES FROM UPSTREAM:
+  1. Added IsFirstArticle context detection (for eager loading first image)
+  2. Integrated optimised_image_partial for AVIF/WebP responsive images
+  3. Added fetchpriority="high" for above-fold images
+  4. Uses loading="eager" for first article, "lazy" for rest
+
+  CALLED BY:
+  - layouts/partials/article-list/default.html (passes IsFirstArticle context)
+  - layouts/partials/article/article.html
+
+  SYNC NOTES:
+  - Heavily modified - compare carefully on theme updates
+  - Core $image variable and partialCached pattern should remain compatible
+
+  LAST SYNCED: v3.32.0
+*/}}
 <header class="article-header">
     {{- $context := . -}}
     {{- $isFirstArticle := false -}}

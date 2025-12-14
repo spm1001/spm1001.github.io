@@ -1,4 +1,17 @@
-{{/* This partial includes theme's original scripts but eliminates vibrant.js */}}
+{{/*
+  OVERLAY: layouts/partials/footer/components/script.html
+  UPSTREAM: themes/hugo-theme-stack/layouts/partials/footer/components/script.html
+
+  PURPOSE: Remove Vibrant.js for performance
+
+  CHANGES FROM UPSTREAM:
+  - Removed: {{- partial "helper/external" (dict "Context" . "Namespace" "Vibrant") -}}
+  - This eliminates the dynamic color extraction feature we don't use
+
+  SEE: .decisions/001-vibrant-js-removed.md
+
+  LAST SYNCED: v3.32.0
+*/}}
 
 {{- $opts := dict "minify" hugo.IsProduction -}}
 {{- $script := resources.Get "ts/main.ts" | js.Build $opts | fingerprint -}}
