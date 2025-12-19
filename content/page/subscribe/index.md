@@ -9,7 +9,7 @@ Get new posts delivered to your inbox. No spam, unsubscribe anytime.
 <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 <form action="https://app.kit.com/forms/8890024/subscriptions" method="post" data-sv-form="8890024" data-uid="cdd375a3d4" data-format="inline" data-version="5" class="subscribe-form seva-form formkit-form">
   <input type="email" name="email_address" placeholder="Your email address" required>
-  <button type="submit">Subscribe</button>
+  <button type="submit" data-element="submit">Subscribe</button>
 </form>
 
 <style>
