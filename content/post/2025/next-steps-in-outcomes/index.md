@@ -1,5 +1,5 @@
 ---
-title: "Next Steps in Outcomes: Why TV Must Learn to Speak Finance's Language"
+title: "Next Steps in Outcomes: Hitting A Moving Target"
 date: 2025-12-09
 categories: [We Need Our Own Otter Power]
 summary: "Television's share of ad spend is below its share of advertiser value. The platforms aren't standing still - they're rebuilding their ad stacks with LLM technology. Here's what the TV industry needs to do to survive."
