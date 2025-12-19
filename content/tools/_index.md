@@ -4,7 +4,7 @@ description: "Small utilities for working with text, data, and media"
 slug: "tools"
 menu:
     main:
-        weight: 2
+        weight: 3
         params:
             icon: link
 ---

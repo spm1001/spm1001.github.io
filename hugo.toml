@@ -113,6 +113,15 @@ weight = 40
 [menu.social.params]
 icon = "mail"
 
+[[menu.social]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 50
+[menu.social.params]
+icon = "search"
+newTab = false
+
 # GA4
 [services]
 [services.googleAnalytics]
