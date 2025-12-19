@@ -16,13 +16,13 @@ Get new posts delivered to your inbox. No spam, unsubscribe anytime.
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 400px;
+  max-width: 500px;
   margin: 2rem 0;
 }
 
 .subscribe-form input[type="email"] {
   padding: 0.875rem 1rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   border: 2px solid var(--card-separator-color, #444);
   border-radius: 8px;
   background: var(--card-background, #424242);
@@ -41,7 +41,7 @@ Get new posts delivered to your inbox. No spam, unsubscribe anytime.
 
 .subscribe-form button {
   padding: 0.875rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 600;
   border: none;
   border-radius: 8px;
