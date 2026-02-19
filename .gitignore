@@ -1,7 +1,5 @@
 # Environment
-.env
 .env.*
-.env.local
 
 # Hugo output
 public
@@ -12,7 +10,3 @@ hugo.log
 .hugo_build.lock
 .crush
 .claude
-
-*.sh
-*.txt
-mise-fetch/
