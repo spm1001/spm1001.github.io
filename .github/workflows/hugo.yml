@@ -48,14 +48,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Cache Hugo resources
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('content/**/*') }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources-
       - name: Cache Hugo modules
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugo-mod-${{ hashFiles('**/go.sum') }}
