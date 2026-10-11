@@ -86,7 +86,7 @@ And below this is a horizontal rule - the rules for these are finicky - need a r
 ---
 ## Sometimes pictures are nice
 Here is hopefully a picture
-{{< optimised_image src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg" alt="A picture of a turnip, used as a placeholder image for a first post." >}}
+{{< optimised_image src="turnip.jpg" alt="A picture of a turnip, used as a placeholder image for a first post." caption="Photo: [thebittenword.com](https://www.flickr.com/photos/galant/2622027467/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Turnip_2622027.jpg)" >}}
 
 What else? Not sure. 
 

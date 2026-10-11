@@ -6,6 +6,11 @@ on:
   push:
     branches: ["main"]
 
+  # Builds every PR to main without deploying, so a Dependabot bump (or a broken post)
+  # goes red on the PR, and dependabot-auto-merge.yml has a green to wait for.
+  pull_request:
+    branches: ["main"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,7 +23,8 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  # PR builds get their own group, so they never queue behind (or hold up) a deploy.
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 # Default to bash
@@ -46,6 +52,7 @@ jobs:
         run: git submodule update --init --recursive
       - name: Setup Pages
         id: pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Cache Hugo resources
         uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
@@ -80,12 +87,14 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
           echo "Hugo build completed at $(date)"
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: ./public
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
