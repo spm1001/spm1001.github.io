@@ -55,14 +55,14 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Cache Hugo resources
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('content/**/*') }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources-
       - name: Cache Hugo modules
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugo-mod-${{ hashFiles('**/go.sum') }}
